@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=kek
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-kek
+Description: Finite-state language processing tools for Kekchí
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
