@@ -1,0 +1,9 @@
+name = "Kekchí"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.kek"
+
+[windows]
+system_product_code = "5A343EE8-9067-4A3E-973B-D4A0A89C4670"
+msoffice_product_code = "DE7DBDE6-A14D-4C96-9933-0766DC25A840"
