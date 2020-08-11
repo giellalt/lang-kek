@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for Kekchí language
+! Divvun & Giellatekno - open source grammars for Qʼeqchiʼ language
 ! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -13,16 +13,16 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Kekchí morphological analyser                      !
+! !!            !!!Qʼeqchiʼ morphological analyser                      !
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Kekchí LANGUAGE.
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Qʼeqchiʼ LANGUAGE.
  
 
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! !!Analysis symbols
 !  ----------------
-!! The morphological analyses of wordforms for the Kekchí
+!! The morphological analyses of wordforms for the Qʼeqchiʼ
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
@@ -135,7 +135,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in Kekchí language start from the lexeme roots of basic
+!! The word forms in Qʼeqchiʼ language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 0   Nouns       ;
 0   Verbs       ;

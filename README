@@ -1,9 +1,9 @@
 .. -*- mode: rst -*-
 ========================================
- The Kekchí morphology and tools
+ The Qʼeqchiʼ morphology and tools
 ========================================
 
-This directory contains source files for the Kekchí language morphology
+This directory contains source files for the Qʼeqchiʼ language morphology
 and dictionary. The data and implementation are licenced under __LICENCE__
 licence also detailed in the LICENCE file of this directory. The authors named
 in the AUTHORS file are available to grant other licencing choices.
@@ -19,7 +19,7 @@ Documentation can be found here:
 Requirements
 ------------
 
-In order to compile and use Kekchí language morphology and dictionaries,
+In order to compile and use Qʼeqchiʼ language morphology and dictionaries,
 you need:
 
 * Xerox Finite-State Morphology tools, or
@@ -33,7 +33,7 @@ Optionally:
 Downloading
 -----------
 
-The Kekchí language sources can be acquired using `giella SVN
+The Qʼeqchiʼ language sources can be acquired using `giella SVN
 repository <https://giellalt.uit.no/infra/anonymous-svn.html>`_, from the
 language specific directory, after the core has been downloaded and initial
 setup has been performed.
