@@ -3,7 +3,7 @@ The Qʼeqchiʼ morphology and tools
 
 This repository contains finite state source files for the Qʼeqchiʼ language,
 for building morphological analysers, proofing tools
-and dictionaries. The data and implementation are licenced under __LICENCE__
+and dictionaries. The data and implementation are licenced under the __LGPLv3__
 licence, also detailed in the
 [LICENCE](https://github.com/giellalt/lang-kek/blob/develop/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
