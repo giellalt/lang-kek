@@ -1,8 +1,11 @@
-!! Nouns
-!  -----
-!! Nouns in the Qʼeqchiʼ language are things.
-
 LEXICON Nouns
-noun    Cases   ;
+jolom Noun ; !cabeza/head
+kik' Noun ; !sangre/blood
+b'aq Noun ; !hueso/bone
+uuq Noun ; !corte/tradicional fabric
+tz'ultul Noun ; !cerro/hill
+tib'aaq ; !carne de cerdo/pork
+uk'a' ; !bebida/drink
 
-! vim: set ft=xfst-lexc:
+LEXICON Noun
++
