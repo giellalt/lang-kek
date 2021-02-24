@@ -11,4 +11,9 @@ Alphabet
 Sets
 
  Vow = a aa e ee i ii o oo u uu ;
- Cns = b' ch ch' h j k k' l m n p q q' r s t t' tz tz' w x y ';
+ Cns = b' ch ch' h j k k' l m n p q q' r s t t' tz tz' w x y ' ;
+
+Rules
+
+"DELETE ME as soon as you have other rules"
+a:aa <=> k l m n o p q r s t _ n o t r e a l ;
