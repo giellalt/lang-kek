@@ -1,0 +1,9 @@
+LEXICON prefix
+! Possesive prefixes/ prefijos posesivos
+! preconsonantal/prevocalic / preconsonantal/prevocálico
+@U.POSS.1SN@:in@U.POSS.1SN@ Nouns ;
+@U.POSS.2SN@:aa@U.POSS.2SN@ Nouns ;
+@U.POSS.3SN@:x@U.POSS.3SN@ Nouns ;
+@U.POSS.1PL@:qa@U.POSS.1PL@ Nouns ;
+@U.POSS.2PL@:ee@U.POSS.2PL@ Nouns ;
+!!!!!FIXME add 3 person plural = prefix x- and suffix -eb'

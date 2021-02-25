@@ -4,12 +4,16 @@ Multichar_Symbols
 +N  ! Noun/Sustantivo
 +V  ! Verb/Verbo
 
-! Possesives/Posesivas
-+1POSS !First person possesive/Posesiva de primera persona
-+2POSS !Second person possesive/Posesiva de segunda persona
-+3POSS !Third person possessive/Posesiva de segunda persona
-
+! Possesive prefixes/ prefijos posesivos
+! preconsonantal/prevocalic / preconsonantal/prevocálico
+@U.POSS.1SN@ !First person singular possesive/Posesiva de primera persona singular
+@U.POSS.2SN@ !Second person singular possesive/Posesiva de segunda persona singular
+@U.POSS.3SN@ !Third person singular possessive/Posesiva de segunda persona singular
+@U.POSS.1PL@ !First person plural possessive/Posesiva de primera persona plural
+@U.POSS.2PL@ !Second person plural possessive/Posesiva de segunda persona plural
+!!!!!FIXME add 3 person plural = prefix x- and suffix -eb'
 
 LEXICON Root
-Nouns ; !sustantivos
-Verbs ; !verbos
+Nouns   ; !sustantivos
+Verbs   ; !verbos
+prefix  ; !prefijos 

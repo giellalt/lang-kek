@@ -1,3 +1,13 @@
 LEXICON Verbs
-k'anjelak +V ; !to work/trabajar
-k'atok +V ; !to burn/quemar
+!!!!FIXME -k is an optional suffix, verb roots do not include this, suffix becomes -q in future tense.
+k'anjelak     V; !to work/trabajar
+k'atok        V; !to burn/quemar
+mesunk        V; !to sweep/barrer
+wark          V; !to sleep/dormir
+atink         V; !to bathe/bañarse
+kamk          V; !to die/morir
+b'eek         V; !to walk/caminar
+xajok         V; !to dance/bailar
+
+LEXICON V
+# ;
