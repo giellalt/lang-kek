@@ -1,5 +1,4 @@
-LEXICON prefix
-! Possesive prefixes/ prefijos posesivos
+LEXICON prefix !!!!!FIXME differentiate between prevocalic and preconsonantal prefixes
 ! preconsonantal/prevocalic / preconsonantal/prevocálico
 @U.POSS.1SN@:in@U.POSS.1SN@ Nouns ;
 @U.POSS.2SN@:aa@U.POSS.2SN@ Nouns ;
