@@ -1,8 +1,14 @@
-LEXICON prefix !!!!!FIXME differentiate between prevocalic and preconsonantal prefixes
-! preconsonantal/prevocalic / preconsonantal/prevocálico
-@U.POSS.1SN@:in@U.POSS.1SN@ Nouns ;
-@U.POSS.2SN@:aa@U.POSS.2SN@ Nouns ;
-@U.POSS.3SN@:x@U.POSS.3SN@ Nouns ;
-@U.POSS.1PL@:qa@U.POSS.1PL@ Nouns ;
-@U.POSS.2PL@:ee@U.POSS.2PL@ Nouns ;
-!!!!!FIXME add 3 person plural = prefix x- and suffix -eb'
+LEXICON prefix
++POSS: POSS ;
+      Noun_pfx ;
+
+LEXICON POSS !Possessive Prefixes
++1SN:in Noun_pfx ;
++2SN:aa Noun_pfx ;
++3SN:x  Noun_pfx ;
++1PL:qa Noun_pfx ; 
++2PL:ee Noun_pfx ;
+        Noun_pfx ;
+
+LEXICON Noun_pfx !Noun Prefixes
++N: Nouns;

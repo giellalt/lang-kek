@@ -1,22 +1,18 @@
 LEXICON Nouns
-jolom     N; !cabeza/head
-kik'      N; !sangre/blood
-b'aq      N; !hueso/bone
-uuq       N; !corte/tradicional fabric
-tz'ultul  N; !cerro/hill
-tib'aaq   N; !carne de cerdo/pork
-uk'a'     N; !bebida/drink
-chahim    N; !star/estrella
-ch'o      N; !mouse/ratón
-ha'       N; !water/agua
-kenq'     N; !bean/frijol
-la        N; !poison ivy/chichicaste
-peepem    N; !butterfly/mariposa
-q'uq'     N; !quetzal
-saak'     N; !grasshopper/saltamontes
-tzuul     N; !hill/cerro
-tz'in     N; !cassava/yuca
-
-LEXICON N
-#;
-
+jolom     # ; !cabeza/head
+kik'      # ; !sangre/blood
+b'aq      # ; !hueso/bone
+uuq       # ; !corte/tradicional fabric
+tz'ultul  # ; !cerro/hill
+tib'aaq   # ; !carne de cerdo/pork
+uk'a'     # ; !bebida/drink
+chahim    # ; !star/estrella
+ch'o      # ; !mouse/ratón
+ha'       # ; !water/agua
+kenq'     # ; !bean/frijol
+la        # ; !poison ivy/chichicaste
+peepem    # ; !butterfly/mariposa
+q'uq'     # ; !quetzal
+saak'     # ; !grasshopper/saltamontes
+tzuul     # ; !hill/cerro
+tz'in     # ; !cassava/yuca

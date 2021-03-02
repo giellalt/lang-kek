@@ -4,11 +4,12 @@ Multichar_Symbols
 +N  ! Noun/Sustantivo
     +POSS
     -POSS !unpossessed
-    +1
-    +2
-    +3
-    +SN
-    +PL
+    +1SN
+    +1PL
+    +2SN
+    +2PL
+    +3SN
+    +3PL
 
 +V  ! Verb/Verbo
 
