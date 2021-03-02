@@ -3,12 +3,11 @@ LEXICON prefix
       Noun_pfx ;
 
 LEXICON POSS !Possessive Prefixes
-+1SN:in Noun_pfx ;
-+2SN:aa Noun_pfx ;
-+3SN:x  Noun_pfx ;
-+1PL:qa Noun_pfx ; 
-+2PL:ee Noun_pfx ;
-        Noun_pfx ;
++1SN@U.POSS.1SN@:@U.POSS.1SN@in Noun_pfx ;
++2SN@U.POSS.2SN@:@U.POSS.2SN@aa Noun_pfx ;
++3SN@U.POSS.3SN@:@U.POSS.3SN@x  Noun_pfx ;
++1PL@U.POSS.1PL@:@U.POSS.1PL@qa Noun_pfx ; 
++2PL@U.POSS.2PL@:@U.POSS.2PL@ee Noun_pfx ;
 
 LEXICON Noun_pfx !Noun Prefixes
 +N: Nouns;
