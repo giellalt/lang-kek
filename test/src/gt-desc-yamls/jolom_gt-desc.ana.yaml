@@ -1,0 +1,17 @@
+Config:
+hfst:
+  Gen: ../../../src/generator-gt-desc.hfst
+  Morph: ../../../src/analyser-gt-desc.hfst
+xerox:
+  Gen: ../../../src/generator-gt-desc.xfst
+  Morph: ../../../src/analyser-gt-desc.xfst
+  App: lookup
+
+Tests:
+  Noun - jolom - ok : # test for possessive forms of noun jolom
+    jolom+N: jolom
+    jolom+N+POSS+1SN: injolom
+    jolom+N+POSS+2SN: aajolom
+    jolom+N+POSS+3SN: xjolom
+    jolom+N+POSS+1PL: qajolom
+    jolom+N+POSS+2PL: eejolom

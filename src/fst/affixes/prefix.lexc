@@ -1,13 +1,17 @@
-LEXICON prefix
-+POSS: POSS ;
-      Noun_pfx ;
+LEXICON POSS_prefix
+!Possessive Prefixes
+@U.POSS.1SN@:@U.POSS.1SN@in Nouns ;
+@U.POSS.2SN@:@U.POSS.2SN@aa Nouns ;
+@U.POSS.3SN@:@U.POSS.3SN@x  Nouns ;
+@U.POSS.1PL@:@U.POSS.1PL@qa Nouns ; 
+@U.POSS.2PL@:@U.POSS.2PL@ee Nouns ;
+@U.POSS.NON@:@U.POSS.NON@   Nouns ;
+!FIXME add 3PL with prefix x- and suffix -eb'
 
-LEXICON POSS !Possessive Prefixes
-+1SN@U.POSS.1SN@:@U.POSS.1SN@in Noun_pfx ;
-+2SN@U.POSS.2SN@:@U.POSS.2SN@aa Noun_pfx ;
-+3SN@U.POSS.3SN@:@U.POSS.3SN@x  Noun_pfx ;
-+1PL@U.POSS.1PL@:@U.POSS.1PL@qa Noun_pfx ; 
-+2PL@U.POSS.2PL@:@U.POSS.2PL@ee Noun_pfx ;
-
-LEXICON Noun_pfx !Noun Prefixes
-+N: Nouns;
+LEXICON N
+@U.POSS.NON@+N:@U.POSS.NON@ # ;
+@U.POSS.1SN@+N+POSS+1SN:@U.POSS.1SN@ # ; 
+@U.POSS.2SN@+N+POSS+2SN:@U.POSS.2SN@ # ;
+@U.POSS.3SN@+N+POSS+3SN:@U.POSS.3SN@ # ;
+@U.POSS.1PL@+N+POSS+1PL:@U.POSS.1PL@ # ;
+@U.POSS.2PL@+N+POSS+2PL:@U.POSS.2PL@ # ;

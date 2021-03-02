@@ -21,7 +21,8 @@ Multichar_Symbols
 @U.POSS.2PL@ !Posesiva de segunda persona plural
 !!!!!FIXME add 3 person plural = prefix x- and suffix -eb'
 
+@U.POSS.NON@
+
 LEXICON Root
-Nouns   ; !sustantivos
 Verbs   ; !verbos
-prefix  ; !prefijos 
+POSS_prefix  ; !prefijos 
