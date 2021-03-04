@@ -20,9 +20,17 @@ tz'in     N ; !cassava/yuca
 
 ! Test data:
 !!€gt-desc: jolom #jolom possessives check
-!!€ +Njolom: jolom
-!!€ +POSS+1SN+Njolom: injolom
-!!€ +POSS+2SN+Njolom: aajolom
-!!€ +POSS+3SN+Njolom: xjolom
-!!€ +POSS+1PL+Njolom: qajolom
-!!€ +POSS+2PL+Njolom: eejolom
+!!€ jolom+N+SN: jolom
+!!€ jolom+N+PL: jolomeb'
+!!€ jolom+N+POSS.1SN+SN: injolom
+!!€ jolom+N+POSS.1SN+PL: injolomeb'
+!!€ jolom+N+POSS.2SN+SN: aajolom
+!!€ jolom+N+POSS.2SN+PL: aajolomeb'
+!!€ jolom+N+POSS.3SN+SN: xjolom
+!!€ jolom+N+POSS.3SN+PL: xjolomeb'
+!!€ jolom+N+POSS.1PL+SN: qajolom
+!!€ jolom+N+POSS.1PL+PL: qajolomeb'
+!!€ jolom+N+POSS.2PL+SN: eejolom
+!!€ jolom+N+POSS.2PL+PL: eejolomeb'
+!!€ jolom+N+POSS.3PL+SN: xjolomeb'
+!!€ jolom+N+POSS.3PL+PL: xjolomeb'

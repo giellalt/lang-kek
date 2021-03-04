@@ -2,26 +2,27 @@ Multichar_Symbols
 
 ! Part of Speech/Parte del discurso
 +N  ! Noun/Sustantivo
-    +POSS
     -POSS !unpossessed
-    +1SN
-    +1PL
-    +2SN
-    +2PL
-    +3SN
-    +3PL
+    +POSS.1SN
+    +POSS.1PL
+    +POSS.2SN
+    +POSS.2PL
+    +POSS.3SN
+    +POSS.3PL
+    +SN
+    +PL
 
 +V  ! Verb/Verbo
 
 ! Possesive prefixes/prefijos posesivos
 @U.POSS.1SN@ !Posesiva de primera persona singular
 @U.POSS.2SN@ !Posesiva de segunda persona singular
-@U.POSS.3SN@ !Posesiva de segunda persona singular
+@U.POSS.3SN@ !Posesiva de tercera persona singular
 @U.POSS.1PL@ !Posesiva de primera persona plural
 @U.POSS.2PL@ !Posesiva de segunda persona plural
+@U.POSS.3PL@ !Posesiva de tercera persona plural
+@U.POSS.NON@ !Unpossessed form/forma no poseída
 !!!!!FIXME add 3 person plural = prefix x- and suffix -eb'
-
-@U.POSS.NON@
 
 LEXICON Root
 Verbs   ; !verbos
