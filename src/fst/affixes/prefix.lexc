@@ -6,10 +6,11 @@ LEXICON POSS_prefix
 @U.POSS.1PL@:@U.POSS.1PL@qa Nouns ; 
 @U.POSS.2PL@:@U.POSS.2PL@ee Nouns ;
 @U.POSS.3PL@:@U.POSS.3PL@x  Nouns ;
+@U.POSS.NON@                Nouns ;
 !FIXME add 3PL with prefix x- and suffix -eb'
 
 LEXICON N
-@U.POSS.NON@+N:@U.POSS.NON@ # ;
+@U.POSS.NON@+N:@U.POSS.NON@ PL_suffix ;
 @U.POSS.1SN@+N+POSS.1SN:@U.POSS.1SN@ PL_suffix ; 
 @U.POSS.2SN@+N+POSS.2SN:@U.POSS.2SN@ PL_suffix ;
 @U.POSS.3SN@+N+POSS.3SN:@U.POSS.3SN@ PL_suffix ;
