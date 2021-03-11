@@ -14,6 +14,25 @@ Multichar_Symbols
 
 +V  ! Verb/Verbo
 
++Det !determiner/determinante
+    +Masc
+
++Conj !conjunction/conjunción
+
++Adv !adverb/adverbio
+
++Pro !pronouns/pronombres
+    +1SN
+    +1PL
+    +2SN
+    +2PL
+    +3SN
+    +3PL
+
++Int !interrogative
+
++Adj !adjetivos
+
 ! Possesive prefixes/prefijos posesivos
 @U.POSS.1SN@ !Posesiva de primera persona singular
 @U.POSS.2SN@ !Posesiva de segunda persona singular
@@ -22,8 +41,15 @@ Multichar_Symbols
 @U.POSS.2PL@ !Posesiva de segunda persona plural
 @U.POSS.3PL@ !Posesiva de tercera persona plural
 @U.POSS.NON@ !Unpossessed form/forma no poseída
-!!!!!FIXME add 3 person plural = prefix x- and suffix -eb'
+
 
 LEXICON Root
 Verbs   ; !verbos
 POSS_prefix  ; !prefijos 
+Determiner ; !determinantes
+Conjunction ; !conjunciones
+Adverb ; !adverbios
+Preposition ; !preposiciones
+Pronoun ; !pronombres
+Interrogative ;
+Adjective ; !adjetivos
