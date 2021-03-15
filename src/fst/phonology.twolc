@@ -6,6 +6,14 @@ Alphabet
  a aa b' ch ch' e ee h i ii j k k' l m n o oo p q q' r s t t' tz tz' u uu w x y '
 
  A Aa B' Ch Ch' E Ee H I Ii J K K' L M N O Oo P Q Q' R S T T' Tz Tz' U Uu W X Y '
+
+ %{POSS.1SN%}
+ %{POSS.2SN%}
+ %{POSS.3SN%}
+ %{POSS.1PL%}
+ %{POSS.2PL%}
+ %{POSS.3PL%}
+
  ;
 
 Sets
@@ -15,5 +23,38 @@ Sets
 
 Rules
 
-"DELETE ME as soon as you have other rules"
-a:aa <=> k l m n o p q r s t _ n o t r e a l ;
+"First Person possessive singular prevocalic form"
+%{POSS.1SN%}:w <=> _Vow ; 
+
+"First person possessive singular preconsonantal form"
+%{POSS.1SN%}:%i%n <=> _Cns ;
+
+"Second person possessive singular prevocalic form"
+%{POSS.2SN%}:aaw <=> _Vow ;
+
+"Second person possessive singular preconsonantal form"
+%{POSS.2SN%}:aa <=> _Cns ;
+
+"Third person possessive singular prevocalic form"
+%{POSS.3SN%}:r <=> _Vow ;
+
+"Third person possessive singular preconsonantal form"
+%{POSS.3SN%}:x <=> _Cns ;
+
+"First person possessive plural prevocalic form"
+%{POSS.1PL%}:q <=> _Vow ;
+
+"First person possessive plural preconsonantal form"
+%{POSS.1PL%}:qa <=> _Cns ;
+
+"Second person possessive plural prevocalic form"
+%{POSS.2PL%}:eer <=> _Vow ;
+
+"Second person possessive plural preconsonantal form"
+%{POSS.2PL%}:ee <=> _Cns ;
+
+"Third person possessive plural prevocalic form"
+%{POSS.3PL%}:r <=> _Vow ;
+
+"Third person possessive plural preconsonantal form"
+%{POSS.3PL%}:x <=> _Cns ;

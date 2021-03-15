@@ -42,6 +42,14 @@ Multichar_Symbols
 @U.POSS.3PL@ !Posesiva de tercera persona plural
 @U.POSS.NON@ !Unpossessed form/forma no poseída
 
+!archiphonemes for possessive prefixes.
+ %{POSS.1SN%}
+ %{POSS.2SN%}
+ %{POSS.3SN%}
+ %{POSS.1PL%}
+ %{POSS.2PL%}
+ %{POSS.3PL%}
+
 
 LEXICON Root
 Verbs   ; !verbos
