@@ -13,6 +13,9 @@ Multichar_Symbols
     +PL
 
 +V  ! Verb/Verbo
+    +RECPST !pasado reciente
+    +REMPST !pasado lejano
+    +INF    !infinitivo
 
 +Det !determiner/determinante
     +Masc
@@ -41,6 +44,11 @@ Multichar_Symbols
 @U.POSS.2PL@ !Posesiva de segunda persona plural
 @U.POSS.3PL@ !Posesiva de tercera persona plural
 @U.POSS.NON@ !Unpossessed form/forma no poseída
+
+! tense prefixes
+@U.tense.RECPST@ !Pasado reciente
+@U.tense.REMPST@ !Pasado lejano
+@U.tense.INF@ !infinitivo
 
 !archiphonemes for possessive prefixes.
  %{POSS.1SN%}
