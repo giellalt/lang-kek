@@ -8,6 +8,28 @@ LEXICON POSS_prefix
 @U.POSS.3PL@:@U.POSS.3PL@%{POSS.3PL%} Nouns ;
 @U.POSS.NON@                          Nouns ;
 
+!LEXICON Verb_prefix
+!@U.tense.RECPST@:@U.tense.RECPST@x    Verbs ;
+!@U.tense.REMPST@:@U.tense.REMPST@k    Verbs ;
+!@U.tense.INF@:@U.tense.INF@           Verbs ;
+
+!LEXICON Object_prefix
+@U.OBJ.1SN@:@U.OBJ.1SN@in   Verbs ;
+@U.OBJ.1PL@:@U.OBJ.1PL@oo   Verbs ;
+@U.OBJ.2SN@:@U.OBJ.2SN@at   Verbs ;
+@U.OBJ.2PL@:@U.OBJ.2PL@ex   Verbs ;
+@U.OBJ.3SN@:@U.OBJ.3SN@     Verbs ;
+@U.OBJ.3PL@:@U.OBJ.3PL@e'   Verbs ;
+@U.OBJ.INTR@:@U.OBJ.INTR@   Verbs ;
+
+LEXICON Subject_prefix
+@U.SBJ.1SN@:@U.SBJ.1SN@%{SBJ.1SN%}  Verbs ;
+@U.SBJ.2SN@:@U.SBJ.2SN@%{SBJ.2SN%}  Verbs ;
+@U.SBJ.3SN@:@U.SBJ.3SN@%{SBJ.3SN%}  Verbs ;
+@U.SBJ.1PL@:@U.SBJ.1PL@%{SBJ.1PL%}  Verbs ;
+@U.SBJ.2PL@:@U.SBJ.2PL@%{SBJ.2PL%}  Verbs ;
+@U.SBJ.3PL@:@U.SBJ.3PL@%{SBJ.3PL%}  Verbs ;
+
 LEXICON N
 @U.POSS.NON@+N:@U.POSS.NON@ PL_suffix ;
 @U.POSS.1SN@+N+POSS.1SN:@U.POSS.1SN@ PL_suffix ; 
@@ -17,4 +39,8 @@ LEXICON N
 @U.POSS.2PL@+N+POSS.2PL:@U.POSS.2PL@ PL_suffix ;
 @U.POSS.3PL@+N+POSS.3PL:@U.POSS.3PL@ POSS_suffix ;
 
+LEXICON SBJ_pfx
+@U.SBJ.1SN@+V+1PL.SBJ:@U.SBJ.1SN@ OBJ_pfx;
 
+LEXICON OBJ_pfx
+@U.OBJ.2SN@+2SN.OBJ

@@ -14,6 +14,13 @@ Alphabet
  %{POSS.2PL%}
  %{POSS.3PL%}
 
+ %{SBJ.1SN%}
+ %{SBJ.2SN%}
+ %{SBJ.3SN%}
+ %{SBJ.1PL%}
+ %{SBJ.2PL%}
+ %{SBJ.3PL%}
+
  ;
 
 Sets

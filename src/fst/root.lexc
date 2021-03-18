@@ -15,6 +15,9 @@ Multichar_Symbols
 +V  ! Verb/Verbo
     +RECPST !pasado reciente
     +REMPST !pasado lejano
+    +1SN.SBJ !sujeto singular de primera persona
+    +1SN.OBJ !objeto singular primera persona
+    +2SN.OBJ !objeto singular de segunda persona
     +INF    !infinitivo
 
 +Det !determiner/determinante
@@ -50,18 +53,45 @@ Multichar_Symbols
 @U.tense.REMPST@ !Pasado lejano
 @U.tense.INF@ !infinitivo
 
+!Object prefixes
+@U.OBJ.1SN@ !Objeto primera persona singular
+@U.OBJ.1PL@ !Objeto primera persona plural
+@U.OBJ.2SN@ !Objeto segunda persona singular
+@U.OBJ.2PL@ !Objeto segunda persona plural
+@U.OBJ.3SN@ !Objeto tercera persona singular
+@U.OBJ.3PL@ !Objeto tercera person plural
+@U.OBJ.INTR@ !Flag for intransitive verbs
+
+!Subject prefixes
+@U.SBJ.1SN@ !Sujeto primera persona singular
+@U.SBJ.1PL@ !Sujeto primera persona plural
+@U.SBJ.2SN@ !Sujeto segunda persona singular
+@U.SBJ.2PL@ !Sujeto segunda persona plural
+@U.SBJ.3SN@ !Sujeto tercera persona singular
+@U.SBJ.3PL@ !Sujeto tercera person plural
+
 !archiphonemes for possessive prefixes.
- %{POSS.1SN%}
- %{POSS.2SN%}
- %{POSS.3SN%}
- %{POSS.1PL%}
- %{POSS.2PL%}
- %{POSS.3PL%}
+%{POSS.1SN%}
+%{POSS.2SN%}
+%{POSS.3SN%}
+%{POSS.1PL%}
+%{POSS.2PL%}
+%{POSS.3PL%}
+
+!archiphonemes for possessive prefixes.
+%{SBJ.1SN%}
+%{SBJ.2SN%}
+%{SBJ.3SN%}
+%{SBJ.1PL%}
+%{SBJ.2PL%}
+%{SBJ.3PL%}
 
 
 LEXICON Root
-Verbs   ; !verbos
-POSS_prefix  ; !prefijos 
+POSS_prefix  ; !prefijos
+!Verb_prefix ; !prefijos de verbos
+!Object_prefix ; !prefijos de objeto
+Subject_prefix ;
 Determiner ; !determinantes
 Conjunction ; !conjunciones
 Adverb ; !adverbios

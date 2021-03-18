@@ -1,22 +1,20 @@
 LEXICON Verbs
 !!!!FIXME -k is an optional suffix, verb roots do not include this, suffix becomes -q in future tense.
-k'anjelak     V; !to work/trabajar
-k'atok        V; !to burn/quemar
-mesunk        V; !to sweep/barrer
-wark          V; !to sleep/dormir
-atink         V; !to bathe/bañarse
-kamk          V; !to die/morir
-b'eek         V; !to walk/caminar
-xajok         V; !to dance/bailar
-awk           V; !to plant/sembrar
-uk'ak         V; !to drink/beber
-tz'apok       V; !to close/cerrar
-elk           V; !to leave/salir
-b'aanunk      V; !to do/hacer
-k'ayink       V; !to sell/vender
-tzakank       V; !to eat/comer
-paab'ank      V; !to obey/obedecer
-chunub'ank    V; !to sit/sentar
+k'anjela     V; !to work/trabajar
+k'ato        V; !to burn/quemar
+mesun        V; !to sweep/barrer
+war          V; !to sleep/dormir
+atin         V; !to bathe/bañarse
+kam          V; !to die/morir
+b'ee         V; !to walk/caminar
+xajo         V; !to dance/bailar
+aw           V; !to plant/sembrar
+uk'a         V; !to drink/beber
+tz'apo       V; !to close/cerrar
+el           V; !to leave/salir
+b'aanun      V; !to do/hacer
+k'ayin       V; !to sell/vender
+tzakan       V; !to eat/comer
+paab'an      V; !to obey/obedecer
+chunub'an    V; !to sit/sentar
 
-LEXICON V
-# ;
