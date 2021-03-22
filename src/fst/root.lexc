@@ -78,7 +78,7 @@ Multichar_Symbols
 %{POSS.2PL%}
 %{POSS.3PL%}
 
-!archiphonemes for possessive prefixes.
+!archiphonemes for intransitive subject prefixes.
 %{SBJ.1SN%}
 %{SBJ.2SN%}
 %{SBJ.3SN%}
@@ -89,9 +89,11 @@ Multichar_Symbols
 
 LEXICON Root
 POSS_prefix  ; !prefijos
-!Verb_prefix ; !prefijos de verbos
-!Object_prefix ; !prefijos de objeto
-Subject_prefix ;
+Verb_prefix ; !prefijos de verbos
+Object_prefix ; !prefijos de objeto
+Subject_TR ; !Sujetos de transitivos
+Subject_INTR ; !Sujetos de intransitivos
+Verbs ; !verbos
 Determiner ; !determinantes
 Conjunction ; !conjunciones
 Adverb ; !adverbios
