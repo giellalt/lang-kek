@@ -1,5 +1,4 @@
 LEXICON POSS_prefix
-!Possessive Prefixes
 @U.POSS.1SN@:@U.POSS.1SN@%{POSS.1SN%} Nouns ;
 @U.POSS.2SN@:@U.POSS.2SN@%{POSS.2SN%} Nouns ;
 @U.POSS.3SN@:@U.POSS.3SN@%{POSS.3SN%} Nouns ;
@@ -18,53 +17,48 @@ LEXICON N
 @U.POSS.3PL@+N+POSS.3PL:@U.POSS.3PL@ POSS_suffix ;
 
 LEXICON V
-+V+TR: Transitive ; 
-+V+INT: Intransitive ;
-+V+INF: # ;
+@U.SBJ.1SN@+V+TR+1SN.SBJ:@U.SBJ.1SN@            OBJ ;
+@U.SBJ.2SN@+V+TR+2SN.SBJ:@U.SBJ.2SN@            OBJ ;
+@U.SBJ.3SN@+V+TR+3SN.SBJ:@U.SBJ.3SN@            OBJ ;
+@U.SBJ.1PL@+V+TR+1PL.SBJ:@U.SBJ.1PL@            OBJ ;
+@U.SBJ.2PL@+V+TR+2PL.SBJ:@U.SBJ.2PL@            OBJ ;
+@U.SBJ.3PL@+V+TR+3PL.SBJ:@U.SBJ.3PL@            OBJ ;
+@U.INTSBJ.1SN@+V+INT+1SN.SBJ:@U.INTSBJ.1SN@     Tense ;
+@U.INTSBJ.2SN@+V+INT+2SN.SBJ:@U.INTSBJ.2SN@     Tense ;
+@U.INTSBJ.3SN@+V+INT+3SN.SBJ:@U.INTSBJ.3SN@     Tense ;
+@U.INTSBJ.1PL@+V+INT+1PL.SBJ:@U.INTSBJ.1PL@     Tense ;
+@U.INTSBJ.2PL@+V+INT+2PL.SBJ:@U.INTSBJ.2PL@     Tense ;
+@U.INTSBJ.3PL@+V+INT+3PL.SBJ:@U.INTSBJ.3PL@     Tense ;
+@U.INTSBJ.INF@+V+INF:@U.INTSBJ.INF@             # ;
 
 LEXICON Verb_prefix
-@U.tense.RECPST@:@U.tense.RECPST@x   Tense ;
-@U.tense.REMPST@:@U.tense.REMPST@k   Tense ;
+@U.tense.RECPST@:@U.tense.RECPST@x   OBJ ;
+@U.tense.REMPST@:@U.tense.REMPST@k   OBJ ;
 
 LEXICON Object_prefix
-@U.OBJ.1SN@:@U.OBJ.1SN@in   OBJ ;
-@U.OBJ.1PL@:@U.OBJ.1PL@oo   OBJ ;
-@U.OBJ.2SN@:@U.OBJ.2SN@at   OBJ ;
-@U.OBJ.2PL@:@U.OBJ.2PL@ex   OBJ ;
-@U.OBJ.3SN@:@U.OBJ.3SN@     OBJ ;
-@U.OBJ.3PL@:@U.OBJ.3PL@e'   OBJ ;
+@U.OBJ.1SN@:@U.OBJ.1SN@in   V ;
+@U.OBJ.1PL@:@U.OBJ.1PL@oo   V ;
+@U.OBJ.2SN@:@U.OBJ.2SN@at   V ;
+@U.OBJ.2PL@:@U.OBJ.2PL@ex   V ;
+@U.OBJ.3SN@:@U.OBJ.3SN@     V ;
+@U.OBJ.3PL@:@U.OBJ.3PL@e'   V ;
 
 LEXICON Subject_TR
-@U.SBJ.1SN@:@U.SBJ.1SN@in  Transitive ;
-@U.SBJ.2SN@:@U.SBJ.2SN@aa  Transitive ;
-@U.SBJ.3SN@:@U.SBJ.3SN@    Transitive ;
-@U.SBJ.1PL@:@U.SBJ.1PL@oo  Transitive ;
-@U.SBJ.2PL@:@U.SBJ.2PL@ex  Transitive ;
-@U.SBJ.3PL@:@U.SBJ.3PL@e'  Transitive ;
+@U.SBJ.1SN@:@U.SBJ.1SN@in  Verbs ;
+@U.SBJ.2SN@:@U.SBJ.2SN@aa  Verbs ;
+@U.SBJ.3SN@:@U.SBJ.3SN@    Verbs ;
+@U.SBJ.1PL@:@U.SBJ.1PL@oo  Verbs ;
+@U.SBJ.2PL@:@U.SBJ.2PL@ex  Verbs ;
+@U.SBJ.3PL@:@U.SBJ.3PL@e'  Verbs ;
 
 LEXICON Subject_INTR
-@U.INTSBJ.1SN@:@U.INTSBJ.1SN@%{SBJ.1SN%} Intransitive ;
-@U.INTSBJ.2SN@:@U.INTSBJ.2SN@%{SBJ.2SN%} Intransitive ;
-@U.INTSBJ.3SN@:@U.INTSBJ.3SN@%{SBJ.3SN%} Intransitive ;
-@U.INTSBJ.1PL@:@U.INTSBJ.1PL@%{SBJ.1PL%} Intransitive ;
-@U.INTSBJ.2PL@:@U.INTSBJ.2PL@%{SBJ.2PL%} Intransitive ;
-@U.INTSBJ.3PL@:@U.INTSBJ.3PL@%{SBJ.3PL%} Intransitive ;
-
-LEXICON Intransitive
-@U.INTSBJ.1SN@+1SN.SBJ:@U.INTSBJ.1SN@ Tense ;
-@U.INTSBJ.2SN@+2SN.SBJ:@U.INTSBJ.2SN@ Tense ;
-@U.INTSBJ.3SN@+3SN.SBJ:@U.INTSBJ.3SN@ Tense ;
-@U.INTSBJ.1PL@+1PL.SBJ:@U.INTSBJ.1PL@ Tense ;
-@U.INTSBJ.2PL@+2PL.SBJ:@U.INTSBJ.2PL@ Tense ;
-@U.INTSBJ.3PL@+3PL.SBJ:@U.INTSBJ.3PL@ Tense ;
-
-LEXICON Transitive
-@U.SBJ.1SN@+1SN.SBJ:@U.SBJ.1SN@  OBJ ;
-@U.SBJ.2SN@+2SN.SBJ:@U.SBJ.2SN@  OBJ ;
-@U.SBJ.3SN@+3SN.SBJ:@U.SBJ.3SN@  OBJ ;
-@U.SBJ.1PL@+1PL.SBJ:@U.SBJ.1PL@  OBJ ;
-@U.SBJ.2PL@+2PL.SBJ:@U.SBJ.2PL@  OBJ ;
-@U.SBJ.3PL@+3PL.SBJ:@U.SBJ.3PL@  OBJ ;
+@U.INTSBJ.1SN@:@U.INTSBJ.1SN@%{SBJ.1SN%} Verbs ;
+@U.INTSBJ.2SN@:@U.INTSBJ.2SN@%{SBJ.2SN%} Verbs ;
+@U.INTSBJ.3SN@:@U.INTSBJ.3SN@%{SBJ.3SN%} Verbs ;
+@U.INTSBJ.1PL@:@U.INTSBJ.1PL@%{SBJ.1PL%} Verbs ;
+@U.INTSBJ.2PL@:@U.INTSBJ.2PL@%{SBJ.2PL%} Verbs ;
+@U.INTSBJ.3PL@:@U.INTSBJ.3PL@%{SBJ.3PL%} Verbs ;
+@U.INTSBJ.INF@                           Verbs ;
 
 LEXICON OBJ
 @U.OBJ.1SN@+1SN.OBJ:@U.OBJ.1SN@   Tense ;

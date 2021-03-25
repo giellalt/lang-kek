@@ -1,24 +1,24 @@
 LEXICON Verbs
 !!!!FIXME -k is an optional suffix, verb roots do not include this, suffix becomes -q in future tense.
-k'anjela     V; !to work/trabajar
-k'ato        V; !to burn/quemar
-mesun        V; !to sweep/barrer
-war          V; !to sleep/dormir
-atin         V; !to bathe/bañarse
-kam          V; !to die/morir
-b'ee         V; !to walk/caminar
-xajo         V; !to dance/bailar
-aw           V; !to plant/sembrar
-uk'a         V; !to drink/beber
-tz'apo       V; !to close/cerrar
-el           V; !to leaVe/salir
-b'aanun      V; !to do/hacer
-k'ayin       V; !to sell/Vender
-tzakan       V; !to eat/comer
-paab'an      V; !to obey/obedecer
-chunub'an    V; !to sit/sentar
-wan          V; !FIXME irregular auxiliary verb
-yoo          V; !FIXME irregular auxiliary verb
-ajlan        V; !count/contar
+k'anjela     V ; !to work/trabajar
+k'ato        V ; !to burn/quemar
+mesun        V ; !to sweep/barrer
+war          V ; !to sleep/dormir
+atin         V ; !to bathe/bañarse
+kam          V ; !to die/morir
+b'ee         V ; !to walk/caminar
+xajo         V ; !to dance/bailar
+aw           V ; !to plant/sembrar
+uk'a         V ; !to drink/beber
+tz'apo       V ; !to close/cerrar
+el           V ; !to leaVe/salir
+b'aanun      V ; !to do/hacer
+k'ayin       V ; !to sell/Vender
+tzakan       V ; !to eat/comer
+paab'an      V ; !to obey/obedecer
+chunub'an    V ; !to sit/sentar
+wan          # ; !FIXME irregular auxiliary verb
+yoo          # ; !FIXME irregular auxiliary verb
+ajlan        V ; !count/contar
 
 

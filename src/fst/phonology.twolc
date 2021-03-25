@@ -34,7 +34,7 @@ Rules
 %{POSS.1SN%}:w <=> _Vow ; 
 
 "First person possessive singular preconsonantal form"
-%{POSS.1SN%}:%i%n <=> _Cns ;
+%{POSS.1SN%}:%in <=> _Cns ;
 
 "Second person possessive singular prevocalic form"
 %{POSS.2SN%}:aaw <=> _Vow ;

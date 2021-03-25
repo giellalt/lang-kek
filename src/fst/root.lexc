@@ -19,9 +19,12 @@ Multichar_Symbols
     +1SN.OBJ !objeto singular primera persona
     +2SN.OBJ !objeto singular de segunda persona
     +INF    !infinitivo
+    +TR !transitivo
+    +INT !intransitivo
 
 +Det !determiner/determinante
     +Masc
+    +Fem
 
 +Conj !conjunction/conjunción
 
@@ -51,7 +54,6 @@ Multichar_Symbols
 ! tense prefixes
 @U.tense.RECPST@ !Pasado reciente
 @U.tense.REMPST@ !Pasado lejano
-@U.tense.INF@ !infinitivo
 
 !Object prefixes
 @U.OBJ.1SN@ !Objeto primera persona singular
@@ -60,7 +62,6 @@ Multichar_Symbols
 @U.OBJ.2PL@ !Objeto segunda persona plural
 @U.OBJ.3SN@ !Objeto tercera persona singular
 @U.OBJ.3PL@ !Objeto tercera person plural
-@U.OBJ.INTR@ !Flag for intransitive verbs
 
 !Subject prefixes
 @U.SBJ.1SN@ !Sujeto primera persona singular
@@ -69,6 +70,15 @@ Multichar_Symbols
 @U.SBJ.2PL@ !Sujeto segunda persona plural
 @U.SBJ.3SN@ !Sujeto tercera persona singular
 @U.SBJ.3PL@ !Sujeto tercera person plural
+
+!Intransitive Subject Prefixes
+@U.INTSBJ.1SN@
+@U.INTSBJ.2SN@
+@U.INTSBJ.3SN@
+@U.INTSBJ.1PL@
+@U.INTSBJ.2PL@
+@U.INTSBJ.3PL@
+@U.INTSBJ.INF@
 
 !archiphonemes for possessive prefixes.
 %{POSS.1SN%}
@@ -93,7 +103,6 @@ Verb_prefix ; !prefijos de verbos
 Object_prefix ; !prefijos de objeto
 Subject_TR ; !Sujetos de transitivos
 Subject_INTR ; !Sujetos de intransitivos
-Verbs ; !verbos
 Determiner ; !determinantes
 Conjunction ; !conjunciones
 Adverb ; !adverbios
@@ -101,3 +110,5 @@ Preposition ; !preposiciones
 Pronoun ; !pronombres
 Interrogative ;
 Adjective ; !adjetivos
+
+

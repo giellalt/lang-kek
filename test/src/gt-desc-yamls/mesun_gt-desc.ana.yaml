@@ -1,0 +1,14 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+  Verb - mesun - ok : # test for verb inflection of verb mesun
+    mesun+V+REMPST+TR+2SN.OBJ+1SN.SBJ: xatinmesun
+
+
