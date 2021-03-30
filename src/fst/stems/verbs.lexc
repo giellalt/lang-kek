@@ -17,8 +17,9 @@ k'ayin       V ; !to sell/Vender
 tzakan       V ; !to eat/comer
 paab'an      V ; !to obey/obedecer
 chunub'an    V ; !to sit/sentar
-wan          # ; !FIXME irregular auxiliary verb
-yoo          # ; !FIXME irregular auxiliary verb
 ajlan        V ; !count/contar
 
+LEXICON Suffix_Verbs
+wan          # ; !FIXME irregular auxiliary verb
+yoo          # ; !FIXME irregular auxiliary verb
 

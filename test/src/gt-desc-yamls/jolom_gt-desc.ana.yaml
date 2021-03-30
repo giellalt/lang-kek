@@ -21,6 +21,5 @@ Tests:
     jolom+N+POSS.1PL+PL: qajolomeb'
     jolom+N+POSS.2PL+SN: eejolom
     jolom+N+POSS.2PL+PL: eejolomeb'
-    jolom+N+POSS.3PL+SN: xjolomeb'
-    jolom+N+POSS.3PL+PL: xjolomeb'
+    jolom+N+POSS.3PL: xjolomeb'
     

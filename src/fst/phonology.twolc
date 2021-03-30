@@ -16,10 +16,8 @@ Alphabet
 
  %{SBJ.1SN%}
  %{SBJ.2SN%}
- %{SBJ.3SN%}
  %{SBJ.1PL%}
  %{SBJ.2PL%}
- %{SBJ.3PL%}
 
  ;
 
@@ -65,3 +63,22 @@ Rules
 
 "Third person possessive plural preconsonantal form"
 %{POSS.3PL%}:x <=> _Cns ;
+
+"First person singular transitive subject preconsonantal form"
+%{SBJ.1SN%}:%in <=> _Cns ;
+
+"First person singular transitive subject prevocalic form"
+%{SBJ.1SN%}:w <=> _Vow ;
+
+"Second person singular transitive subject preconsonantal form"
+%{SBJ.2SN%}:at <=> _Cns ;
+
+"Second person singular transitive subject prevocalic form"
+%{SBJ.2SN%}:aaw <=> _Vow ;
+
+! "First person plural transitive subject preconsonantal form"
+! %{SBJ.1PL%}:oo ; !fixme figure out what prevocalic form is.
+
+! "Second person plural transitive subject preconsonantal form"
+! %{SBJ.2PL%}:ex ; !fixme figure out what prevocalic form is.
+

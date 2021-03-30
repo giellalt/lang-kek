@@ -1,7 +1,9 @@
 LEXICON POSS_suffix
-+SN:eb' #;
-+PL:eb' #;
+:eb' #;
 
 LEXICON PL_suffix
 +SN:    #;
 +PL:eb' #;
+
+LEXICON PL_SBJ
+:eb' #;

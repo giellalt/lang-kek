@@ -42,7 +42,7 @@ LEXICON transitive_subject
 @U.SBJ.3SN@+3SN.SBJ:@U.SBJ.3SN@              # ;
 @U.SBJ.1PL@+1PL.SBJ:@U.SBJ.1PL@              # ;
 @U.SBJ.2PL@+2PL.SBJ:@U.SBJ.2PL@              # ; 
-@U.SBJ.3PL@+3PL.SBJ:@U.SBJ.3PL@              # ;
+@U.SBJ.3PL@+3PL.SBJ:@U.SBJ.3PL@              PL_SBJ ;
 
 LEXICON intransitive_tags
 @U.SBJ.INT1SN@+1SN.SBJ:@U.SBJ.INT1SN@     # ;
@@ -50,7 +50,7 @@ LEXICON intransitive_tags
 @U.SBJ.INT3SN@+3SN.SBJ:@U.SBJ.INT3SN@     # ;
 @U.SBJ.INT1PL@+1PL.SBJ:@U.SBJ.INT1PL@     # ;
 @U.SBJ.INT2PL@+2PL.SBJ:@U.SBJ.INT2PL@     # ;
-@U.SBJ.INT3PL@+3PL.SBJ:@U.SBJ.INT3PL@     # ;
+@U.SBJ.INT3PL@+3PL.SBJ:@U.SBJ.INT3PL@     PL_SBJ ;
 
 LEXICON Verb_prefix
 @U.tense.RECPST@:@U.tense.RECPST@x   Obj_Subprefix ;
@@ -70,18 +70,18 @@ LEXICON Object_prefix
 @U.OBJ.3PL@:@U.OBJ.3PL@e'   sub_trans ;
 
 LEXICON sub_trans
-@U.SBJ.1SN@:@U.SBJ.1SN@in  Verbs ;
-@U.SBJ.2SN@:@U.SBJ.2SN@aa  Verbs ;
-@U.SBJ.3SN@:@U.SBJ.3SN@    Verbs ;
-@U.SBJ.1PL@:@U.SBJ.1PL@oo  Verbs ;
-@U.SBJ.2PL@:@U.SBJ.2PL@ex  Verbs ;
-@U.SBJ.3PL@:@U.SBJ.3PL@e'  Verbs ;
+@U.SBJ.1SN@:@U.SBJ.1SN@%{SBJ.1SN%}  Verbs ;
+@U.SBJ.2SN@:@U.SBJ.2SN@%{SBJ.2SN%}  Verbs ;
+@U.SBJ.3SN@:@U.SBJ.3SN@             Verbs ;
+@U.SBJ.1PL@:@U.SBJ.1PL@%{SBJ.1PL%}  Verbs ;
+@U.SBJ.2PL@:@U.SBJ.2PL@%{SBJ.2PL%}  Verbs ;
+@U.SBJ.3PL@:@U.SBJ.3PL@             Verbs ;
 
 LEXICON Intransitive_Subject
-@U.SBJ.INT1SN@:@U.SBJ.INT1SN@%{SBJ.1SN%} Verbs ;
-@U.SBJ.INT2SN@:@U.SBJ.INT2SN@%{SBJ.2SN%} Verbs ;
-@U.SBJ.INT3SN@:@U.SBJ.INT3SN@%{SBJ.3SN%} Verbs ;
-@U.SBJ.INT1PL@:@U.SBJ.INT1PL@%{SBJ.1PL%} Verbs ;
-@U.SBJ.INT2PL@:@U.SBJ.INT2PL@%{SBJ.2PL%} Verbs ;
-@U.SBJ.INT3PL@:@U.SBJ.INT3PL@%{SBJ.3PL%} Verbs ;
+@U.SBJ.INT1SN@:@U.SBJ.INT1SN@in Verbs ;
+@U.SBJ.INT2SN@:@U.SBJ.INT2SN@at Verbs ;
+@U.SBJ.INT3SN@:@U.SBJ.INT3SN@   Verbs ;
+@U.SBJ.INT1PL@:@U.SBJ.INT1PL@oo Verbs ;
+@U.SBJ.INT2PL@:@U.SBJ.INT2PL@ex Verbs ;
+@U.SBJ.INT3PL@:@U.SBJ.INT3PL@e' Verbs ;
 
