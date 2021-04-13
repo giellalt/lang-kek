@@ -15,6 +15,9 @@ Multichar_Symbols
 +V  ! Verb/Verbo
     +RECPST !pasado reciente
     +REMPST !pasado lejano
+    +PRS !tiempo presente
+    +IMM
+    +FUT
     +1SN.SBJ !sujeto singular de primera persona
     +1SN.OBJ !objeto singular primera persona
     +2SN.OBJ !objeto singular de segunda persona
@@ -66,6 +69,9 @@ Multichar_Symbols
 ! tense prefixes
 @U.tense.RECPST@ !Pasado reciente
 @U.tense.REMPST@ !Pasado lejano
+@U.tense.PRS@ !tiempo presente
+@U.tense.IMM@ !aspecto potencial inmediato
+@U.tense.FUT@ !Remote future/potencial lejano 
 @U.tense.INF@
 
 !Object prefixes
@@ -85,12 +91,12 @@ Multichar_Symbols
 @U.SBJ.3PL@ !Sujeto tercera person plural
 
 !Intransitive Subject Prefixes
-@U.SBJ.INT1SN@
-@U.SBJ.INT2SN@
-@U.SBJ.INT3SN@
-@U.SBJ.INT1PL@
-@U.SBJ.INT2PL@
-@U.SBJ.INT3PL@
+@U.INTSBJ.1SN@
+@U.INTSBJ.2SN@
+@U.INTSBJ.3SN@
+@U.INTSBJ.1PL@
+@U.INTSBJ.2PL@
+@U.INTSBJ.3PL@
 
 !archiphonemes for possessive prefixes.
 %{POSS.1SN%}
@@ -100,7 +106,7 @@ Multichar_Symbols
 %{POSS.2PL%}
 %{POSS.3PL%}
 
-!archiphonemes for intransitive subject prefixes.
+!archiphonemes for transitive subject prefixes.
 %{SBJ.1SN%}
 %{SBJ.2SN%}
 %{SBJ.3SN%}
@@ -119,5 +125,6 @@ Preposition ; !preposiciones
 Pronoun ; !pronombres
 Interrogative ;
 Adjective ; !adjetivos
+Suffix_Verbs ; !verbos con sufijo
 
 

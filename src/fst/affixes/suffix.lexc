@@ -7,3 +7,7 @@ LEXICON PL_suffix
 
 LEXICON PL_SBJ
 :eb' #;
+
+LEXICON Intransitive_suffix
+:k #; 
+!@U.INTSBJ.3PL@:@U.INTSBJ.3PL@k PL_SBJ;
