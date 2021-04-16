@@ -18,22 +18,21 @@ Multichar_Symbols
     +PRS !tiempo presente
     +IMM
     +FUT
-    +1SN.SBJ !sujeto singular de primera persona
-    +1SN.OBJ !objeto singular primera persona
-    +2SN.OBJ !objeto singular de segunda persona
-    +1PL.OBJ
-    +1PL.SBJ
-    +2PL.OBJ
-    +2PL.SBJ
-    +2SN.SBJ
-    +3PL.SBJ
-    +3PL.OBJ
-    +3SN.OBJ
-    +3SN.SBJ
-
     +INF    !infinitivo
-    +TR !transitivo
-    +INT !intransitivo
+
+    +ABS.1SN
+    +ABS.1PL
+    +ABS.2SN
+    +ABS.2PL
+    +ABS.3SN
+    +ABS.3PL
+
+    +ERG.1SN
+    +ERG.1PL
+    +ERG.2SN
+    +ERG.2PL
+    +ERG.3SN
+    +ERG.3PL
 
 +Det !determiner/determinante
     +Masc
@@ -66,37 +65,27 @@ Multichar_Symbols
 @U.POSS.3PL@ !Posesiva de tercera persona plural
 @U.POSS.NON@ !Unpossessed form/forma no poseída
 
-! tense prefixes
-@U.tense.RECPST@ !Pasado reciente
-@U.tense.REMPST@ !Pasado lejano
-@U.tense.PRS@ !tiempo presente
-@U.tense.IMM@ !aspecto potencial inmediato
-@U.tense.FUT@ !Remote future/potencial lejano 
+!tense prefixes
+@U.tense.RECPST@
 @U.tense.INF@
 
-!Object prefixes
-@U.OBJ.1SN@ !Objeto primera persona singular
-@U.OBJ.1PL@ !Objeto primera persona plural
-@U.OBJ.2SN@ !Objeto segunda persona singular
-@U.OBJ.2PL@ !Objeto segunda persona plural
-@U.OBJ.3SN@ !Objeto tercera persona singular
-@U.OBJ.3PL@ !Objeto tercera person plural
+!Absolutive prefixes
+@U.ABS.1SN@
+@U.ABS.1PL@
+@U.ABS.2SN@
+@U.ABS.2PL@
+@U.ABS.3SN@
+@U.ABS.3PL@
 
-!Subject prefixes
-@U.SBJ.1SN@ !Sujeto primera persona singular
-@U.SBJ.1PL@ !Sujeto primera persona plural
-@U.SBJ.2SN@ !Sujeto segunda persona singular
-@U.SBJ.2PL@ !Sujeto segunda persona plural
-@U.SBJ.3SN@ !Sujeto tercera persona singular
-@U.SBJ.3PL@ !Sujeto tercera person plural
+!Ergative prefixes
+@U.ERG.1SN@
+@U.ERG.1PL@
+@U.ERG.2SN@
+@U.ERG.2PL@
+@U.ERG.3SN@
+@U.ERG.3PL@
+@U.ERG.INT@
 
-!Intransitive Subject Prefixes
-@U.INTSBJ.1SN@
-@U.INTSBJ.2SN@
-@U.INTSBJ.3SN@
-@U.INTSBJ.1PL@
-@U.INTSBJ.2PL@
-@U.INTSBJ.3PL@
 
 !archiphonemes for possessive prefixes.
 %{POSS.1SN%}
@@ -107,17 +96,17 @@ Multichar_Symbols
 %{POSS.3PL%}
 
 !archiphonemes for transitive subject prefixes.
-%{SBJ.1SN%}
-%{SBJ.2SN%}
-%{SBJ.3SN%}
-%{SBJ.1PL%}
-%{SBJ.2PL%}
-%{SBJ.3PL%}
+%{ERG.1SN%}
+%{ERG.2SN%}
+%{ERG.3SN%}
+%{ERG.1PL%}
+%{ERG.2PL%}
+%{ERG.3PL%}
 
 
 LEXICON Root
 POSS_prefix  ; !prefijos
-Verb_prefix ; !prefijos de verbos
+Tense ;
 Determiner ; !determinantes
 Conjunction ; !conjunciones
 Adverb ; !adverbios

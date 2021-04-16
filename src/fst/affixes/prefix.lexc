@@ -7,6 +7,27 @@ LEXICON POSS_prefix
 @U.POSS.3PL@:@U.POSS.3PL@%{POSS.3PL%} Nouns ;
 @U.POSS.NON@:                         Nouns ;
 
+LEXICON Tense
+@U.tense.RECPST@:@U.tense.RECPST@x Set_B;
+@U.tense.INF@ Verbs;
+
+LEXICON Set_B
+@U.ABS.1SN@:@U.ABS.1SN@in Set_A;
+@U.ABS.1PL@:@U.ABS.1PL@oo Set_A;
+@U.ABS.2SN@:@U.ABS.2SN@at Set_A;
+@U.ABS.2PL@:@U.ABS.2PL@ex Set_A;
+@U.ABS.3SN@:@U.ABS.3SN@   Set_A;
+@U.ABS.3PL@:@U.ABS.3PL@e' Set_A;
+
+LEXICON Set_A
+@U.ERG.1SN@:@U.ERG.1SN@%{ERG.1SN%} Verbs;
+@U.ERG.1PL@:@U.ERG.1PL@%{ERG.1PL%} Verbs;
+@U.ERG.2SN@:@U.ERG.2SN@%{ERG.2SN%} Verbs;
+@U.ERG.2PL@:@U.ERG.2PL@%{ERG.2PL%} Verbs;
+@U.ERG.3SN@:@U.ERG.3SN@%{ERG.3SN%} Verbs;
+@U.ERG.3PL@:@U.ERG.3PL@%{ERG.3PL%} Verbs;
+@U.ERG.INT@ Verbs;
+
 LEXICON N
 @U.POSS.NON@+N:@U.POSS.NON@ PL_suffix ;
 @U.POSS.1SN@+N+POSS.1SN:@U.POSS.1SN@ PL_suffix ; 
@@ -17,77 +38,21 @@ LEXICON N
 @U.POSS.3PL@+N+POSS.3PL:@U.POSS.3PL@ POSS_suffix ;
 
 LEXICON V
-+V:                                             tense_tags ;
++V:                                             Tense_tags ;
 
-LEXICON tense_tags
-@U.tense.RECPST@+RECPST:@U.tense.RECPST@        transitivity_tags ;
-@U.tense.REMPST@+REMPST:@U.tense.RECPST@        transitivity_tags ;
-@U.tense.PRS@+PRS:@U.tense.PRS@                 transitivity_tags ;
-@U.tense.IMM@+IMM:@U.tense.IMM@                 transitivity_tags ;
-@U.tense.FUT@+FUT:@U.tense.FUT@                 transitivity_tags ;
-@U.tense.INF@+INF:@U.tense.INF@                 Intransitive_suffix ;
+LEXICON Tense_tags
+@U.tense.RECPST@+RECPST:@U.tense.RECPST@ Absolutive_tags;
+@U.tense.INF@+INF:@U.tense.INF@ #;
 
-LEXICON transitivity_tags
-+TR:                                            transitive_tags ;
-+INT:                                           intransitive_tags ;
+LEXICON Absolutive_tags
+@U.ABS.1SN@+ABS.1SN:@U.ABS.1SN@ Ergative_tags;
+@U.ABS.1PL@+ABS.1PL:@U.ABS.1PL@ Ergative_tags;
+@U.ABS.2SN@+ABS.2SN:@U.ABS.2SN@ Ergative_tags;
+@U.ABS.2PL@+ABS.2PL:@U.ABS.2PL@ Ergative_tags;
+@U.ABS.3SN@+ABS.3SN:@U.ABS.3SN@ Ergative_tags;
+@U.ABS.3PL@+ABS.3PL:@U.ABS.3PL@ Ergative_tags;
 
-LEXICON transitive_tags
-@U.OBJ.1SN@+1SN.OBJ:@U.OBJ.1SN@              transitive_subject ;
-@U.OBJ.2SN@+2SN.OBJ:@U.OBJ.2SN@              transitive_subject ;
-@U.OBJ.3SN@+3SN.OBJ:@U.OBJ.3SN@              transitive_subject ;
-@U.OBJ.1PL@+1PL.OBJ:@U.OBJ.1PL@              transitive_subject ;
-@U.OBJ.2PL@+2PL.OBJ:@U.OBJ.2PL@              transitive_subject ; 
-@U.OBJ.3PL@+3PL.OBJ:@U.OBJ.3PL@              transitive_subject ;
-
-LEXICON transitive_subject
-@U.SBJ.1SN@+1SN.SBJ:@U.SBJ.1SN@              # ;
-@U.SBJ.2SN@+2SN.SBJ:@U.SBJ.2SN@              # ;
-@U.SBJ.3SN@+3SN.SBJ:@U.SBJ.3SN@              # ;
-@U.SBJ.1PL@+1PL.SBJ:@U.SBJ.1PL@              # ;
-@U.SBJ.2PL@+2PL.SBJ:@U.SBJ.2PL@              # ; 
-@U.SBJ.3PL@+3PL.SBJ:@U.SBJ.3PL@              PL_SBJ ;
-
-LEXICON intransitive_tags
-@U.INTSBJ.1SN@+1SN.SBJ:@U.INTSBJ.1SN@     Intransitive_suffix ;
-@U.INTSBJ.2SN@+2SN.SBJ:@U.INTSBJ.2SN@     Intransitive_suffix ;
-@U.INTSBJ.3SN@+3SN.SBJ:@U.INTSBJ.3SN@     Intransitive_suffix ;
-@U.INTSBJ.1PL@+1PL.SBJ:@U.INTSBJ.1PL@     Intransitive_suffix ;
-@U.INTSBJ.2PL@+2PL.SBJ:@U.INTSBJ.2PL@     Intransitive_suffix ;
-@U.INTSBJ.3PL@+3PL.SBJ:@U.SBJ.INT3PL@     Intransitive_suffix ;
-
-LEXICON Verb_prefix
-@U.tense.RECPST@:@U.tense.RECPST@x   Obj_Subprefix ;
-@U.tense.REMPST@:@U.tense.REMPST@k   Obj_Subprefix ;
-@U.tense.PRS@:@U.tense.PRS@nak       Obj_Subprefix ;
-@U.tense.IMM@:@U.tense.IMM@t         Obj_Subprefix ;
-@U.tense.FUT@:@U.tense.FUT@ch        Obj_Subprefix ;
-@U.tense.INF@                        Verbs ;
-
-LEXICON Obj_Subprefix
-Object_prefix ;
-Intransitive_Subject;
-
-LEXICON Object_prefix
-@U.OBJ.1SN@:@U.OBJ.1SN@in   sub_trans ;
-@U.OBJ.1PL@:@U.OBJ.1PL@oo   sub_trans ;
-@U.OBJ.2SN@:@U.OBJ.2SN@at   sub_trans ;
-@U.OBJ.2PL@:@U.OBJ.2PL@ex   sub_trans ;
-@U.OBJ.3SN@:                sub_trans ;
-@U.OBJ.3PL@:@U.OBJ.3PL@e'   sub_trans ;
-
-LEXICON sub_trans
-@U.SBJ.1SN@:@U.SBJ.1SN@%{SBJ.1SN%}  Verbs ;
-@U.SBJ.2SN@:@U.SBJ.2SN@%{SBJ.2SN%}  Verbs ;
-@U.SBJ.3SN@:                        Verbs ;
-@U.SBJ.1PL@:@U.SBJ.1PL@%{SBJ.1PL%}  Verbs ;
-@U.SBJ.2PL@:@U.SBJ.2PL@%{SBJ.2PL%}  Verbs ;
-@U.SBJ.3PL@:                        Verbs ;
-
-LEXICON Intransitive_Subject
-@U.INTSBJ.1SN@:@U.INTSBJ.1SN@in Verbs ;
-@U.INTSBJ.2SN@:@U.INTSBJ.2SN@at Verbs ;
-@U.INTSBJ.3SN@:                 Verbs ;
-@U.INTSBJ.1PL@:@U.INTSBJ.1PL@oo Verbs ;
-@U.INTSBJ.2PL@:@U.INTSBJ.2PL@ex Verbs ;
-@U.INTSBJ.3PL@:@U.INTSBJ.3PL@e' Verbs ;
+LEXICON Ergative_tags
+@U.ERG.2SN@+ERG.2SN:@U.ERG.2SN@ #;
+@U.ERG.INT@:@U.ERG.INT@ #;
 
