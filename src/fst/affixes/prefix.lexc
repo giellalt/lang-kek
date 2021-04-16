@@ -1,9 +1,9 @@
 LEXICON POSS_prefix
-@U.POSS.1SN@:@U.POSS.1SN@%{POSS.1SN%} Nouns ;
-@U.POSS.2SN@:@U.POSS.2SN@%{POSS.2SN%} Nouns ;
+@U.POSS.1SN@:@U.POSS.1SN@%{POSS.1SN%}%{POSS.1SN%} Nouns ;
+@U.POSS.2SN@:@U.POSS.2SN@aa%{POSS.2SN%} Nouns ;
 @U.POSS.3SN@:@U.POSS.3SN@%{POSS.3SN%} Nouns ;
-@U.POSS.1PL@:@U.POSS.1PL@%{POSS.1PL%} Nouns ; 
-@U.POSS.2PL@:@U.POSS.2PL@%{POSS.2PL%} Nouns ;
+@U.POSS.1PL@:@U.POSS.1PL@q%{POSS.1PL%} Nouns ; 
+@U.POSS.2PL@:@U.POSS.2PL@ee%{POSS.2PL%} Nouns ;
 @U.POSS.3PL@:@U.POSS.3PL@%{POSS.3PL%} Nouns ;
 @U.POSS.NON@:                         Nouns ;
 

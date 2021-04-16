@@ -3,82 +3,63 @@
 !! =================================== !
 
 Alphabet
- a aa b' ch ch' e ee h i ii j k k' l m n o oo p q q' r s t t' tz tz' u uu w x y '
+ a b c e h i j k l m n o p q r s t u w x y z '
 
- A Aa B' Ch Ch' E Ee H I Ii J K K' L M N O Oo P Q Q' R S T T' Tz Tz' U Uu W X Y '
+ A B C E H I J K L M N O P Q R S T U W X Y Z '
 
- %{POSS.1SN%}
- %{POSS.2SN%}
- %{POSS.3SN%}
- %{POSS.1PL%}
- %{POSS.2PL%}
- %{POSS.3PL%}
+ %{POSS.1SN%}:0
+ %{POSS.2SN%}:0
+ %{POSS.3SN%}:0
+ %{POSS.1PL%}:0
+ %{POSS.2PL%}:0
+ %{POSS.3PL%}:0
 
- %{SBJ.1SN%}
- %{SBJ.2SN%}
- %{SBJ.1PL%}
- %{SBJ.2PL%}
+%{ERG.1SN%}
+%{ERG.2SN%}
+%{ERG.3SN%}
+%{ERG.1PL%}
+%{ERG.2PL%}
+%{ERG.3PL%}
 
  ;
 
 Sets
 
- Vow = a aa e ee i ii o oo u uu ;
- Cns = b' ch ch' h j k k' l m n p q q' r s t t' tz tz' w x y ' ;
+ Vow = a e i o u ;
+ Cns = b c h j k l m n p q r s t w x y z ' ;
 
 Rules
 
+! "DELETE ME as soon as you have other rules"
+! a:aa <=> k l m n o p q r s t _ n o t r e a l ;
+
 "First Person possessive singular prevocalic form"
-%{POSS.1SN%}:w <=> _Vow ; 
+%{POSS.1SN%}:w <=> .#. _ %{POSS.1SN%}: Vow ; 
 
 "First person possessive singular preconsonantal form"
-%{POSS.1SN%}:%in <=> _Cns ;
+%{POSS.1SN%}:i <=> .#. _ %{POSS.1SN%}: Cns ;
+
+"First person possessive singular preconsonantal form"
+%{POSS.1SN%}:n <=> .#. %{POSS.1SN%}: _ Cns ;
 
 "Second person possessive singular prevocalic form"
-%{POSS.2SN%}:aaw <=> _Vow ;
-
-"Second person possessive singular preconsonantal form"
-%{POSS.2SN%}:aa <=> _Cns ;
+%{POSS.2SN%}:w <=> .#. a: a: _ Vow ;
 
 "Third person possessive singular prevocalic form"
-%{POSS.3SN%}:r <=> _Vow ;
+%{POSS.3SN%}:r <=> .#. _ Vow ;
 
 "Third person possessive singular preconsonantal form"
-%{POSS.3SN%}:x <=> _Cns ;
-
-"First person possessive plural prevocalic form"
-%{POSS.1PL%}:q <=> _Vow ;
+%{POSS.3SN%}:x <=> .#. _ Cns ;
 
 "First person possessive plural preconsonantal form"
-%{POSS.1PL%}:qa <=> _Cns ;
+%{POSS.1PL%}:a <=> .#. q: _ Cns ;
 
 "Second person possessive plural prevocalic form"
-%{POSS.2PL%}:eer <=> _Vow ;
-
-"Second person possessive plural preconsonantal form"
-%{POSS.2PL%}:ee <=> _Cns ;
+%{POSS.2PL%}:r <=> .#. e: e: _ Vow ;
 
 "Third person possessive plural prevocalic form"
-%{POSS.3PL%}:r <=> _Vow ;
+%{POSS.3PL%}:r <=> .#. _ Vow ;
 
 "Third person possessive plural preconsonantal form"
-%{POSS.3PL%}:x <=> _Cns ;
-
-! "First person singular transitive subject preconsonantal form"
-! %{SBJ.1SN%}:%in <=> _Cns ;
-
-! "First person singular transitive subject prevocalic form"
-! %{SBJ.1SN%}:w <=> _Vow ;
-
-! "Second person singular transitive subject preconsonantal form"
-! %{SBJ.2SN%}:at <=> _Cns ;
-
-! "Second person singular transitive subject prevocalic form"
-! %{SBJ.2SN%}:aaw <=> _Vow ;
-
-! "First person plural transitive subject preconsonantal form"
-! %{SBJ.1PL%}:oo ; !fixme figure out what prevocalic form is.
-
-! "Second person plural transitive subject preconsonantal form"
-! %{SBJ.2PL%}:ex ; !fixme figure out what prevocalic form is.
+%{POSS.3PL%}:x <=> .#. _ Cns ;
 
