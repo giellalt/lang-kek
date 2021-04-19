@@ -15,7 +15,7 @@ Multichar_Symbols
 +V  ! Verb/Verbo
     +RECPST !pasado reciente
     +REMPST !pasado lejano
-    +PRS !tiempo presente
+    +PRS.HAB !tiempo presente
     +IMM
     +FUT
     +INF    !infinitivo
@@ -68,6 +68,7 @@ Multichar_Symbols
 !tense prefixes
 @U.tense.RECPST@
 @U.tense.FUT@
+@U.tense.PRSHAB@
 @U.tense.INF@
 
 !Absolutive prefixes
@@ -99,6 +100,8 @@ Multichar_Symbols
 %{FUT%} !Future Tense Archiphoneme
 
 %{ERG.3PL%} !Third person plural ergative archiphoneme
+
+%{HAB%} !Present habitual archiphoneme
 
 
 LEXICON Root

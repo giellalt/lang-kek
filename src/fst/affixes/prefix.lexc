@@ -9,7 +9,8 @@ LEXICON POSS_prefix
 
 LEXICON Tense
 @U.tense.RECPST@:@U.tense.RECPST@x Set_B;
-@U.tense.FUT@:t%{FUT%}%{FUT%} Set_B;
+@U.tense.FUT@:@U.tense.FUT@t%{FUT%}%{FUT%} Set_B;
+@U.tense.PRSHAB@:@U.tense.PRSHAB@na%{HAB%} Set_B;
 @U.tense.INF@ Verbs;
 
 LEXICON Set_B
@@ -44,6 +45,7 @@ LEXICON V
 LEXICON Tense_tags
 @U.tense.RECPST@+RECPST:@U.tense.RECPST@ Absolutive_tags;
 @U.tense.FUT@+FUT:@U.tense.RECPST@ Absolutive_tags;
+@U.tense.PRSHAB@+PRS.HAB:@U.tense.PRSHAB@ Absolutive_tags;
 @U.tense.INF@+INF:@U.tense.INF@ #;
 
 LEXICON Absolutive_tags

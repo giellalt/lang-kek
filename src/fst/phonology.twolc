@@ -18,6 +18,8 @@ Alphabet
 
 %{FUT%}:0
 
+%{HAB%}:0
+
  ;
 
 Sets
@@ -27,9 +29,7 @@ Sets
 
 Rules
 
-! "DELETE ME as soon as you have other rules"
-! a:aa <=> k l m n o p q r s t _ n o t r e a l ;
-
+!Rules for possessive and ergative prefixes
 "First Person possessive singular prevocalic form"
 %{POSS.1SN%}:w <=> _ %{POSS.1SN%}: Vow ; 
 
@@ -66,6 +66,7 @@ Rules
 "Third person ergative plural prevocalic form"
 %{ERG.3PL%}:r <=> ': _ Vow ;
 
+!Rules for future tense
 "Future tense before 1SN ergative prevocalic prefix Rule 1"
 %{FUT%}:i <=> t: _ %{FUT%}: %{POSS.1SN%}: %{POSS.1SN%}: Vow ;
 
@@ -89,3 +90,49 @@ Rules
 
 "Future tense before 1PL ergative preconsonantal prefix"
 %{FUT%}:a <=> t: _ %{FUT%}: q: %{POSS.1PL%}: Cns ;
+
+!Rules for Present habitual tense
+"Present habitual before 1SN absolutive prefix"
+a:0 <=> n: _ %{HAB%}: i: n: ;
+
+"Present habitual before 1SN ergative preconsonantal prefix"
+a:0 <=> n: _ %{HAB%}: %{POSS.1SN%}: %{POSS.1SN%}: Cns ;
+
+"Present habitual before 1SN ergative prevocalic prefix Rule 1"
+a:i <=> n: _ %{HAB%}: %{POSS.1SN%}: %{POSS.1SN%}: Vow ;
+
+"Present habitual before 1SN ergative prevocalic prefix Rule 2"
+%{HAB%}:n <=> n: a:i _ %{POSS.1SN%}: %{POSS.1SN%}: Vow ;
+
+"Present habitual before 2SN absolutive prefix"
+%{HAB%}:k <=> a: _ a: t: ;
+
+"Present habitual before 2SN ergative prefixes Rule 1"
+%{HAB%}:k <=> a: _ a: a: %{POSS.2SN%}: ;
+
+"Present habitual before 2SN ergative prefixes Rule 2"
+a:0 <=> n: a: %{HAB%}: a: _ %{POSS.2SN%}: ; 
+
+"Present habitual before 1PL absolutive prefix Rule 1"
+a:o <=> n: _ %{HAB%}: o: o: ;
+
+"Present habitual before 1PL absolutive prefix Rule 2"
+%{HAB%}:k <=> n: a:o _ o: o: ;
+
+"Present habitual before 2PL absolutive prefix Rule 1"
+a:e <=> n: _ %{HAB%}: e: x: ;
+
+"Present habitual before 2PL absolutive prefix Rule 2"
+%{HAB%}:k <=> n: a: _ e: x: ;
+
+"Present habitual before 2PL ergative prefix Rule 1"
+a:e <=> n: _ %{HAB%}: e: e: ;
+
+"Present habitual before 2PL ergative prefix Rule 2"
+%{HAB%}:k <=> n: a: _ e: e: ;
+
+"Present habitual before 3PL ergative and absolutive prefixes Rule 1"
+a:e <=> n: _ %{HAB%}: e: ': ;
+
+"Present habitual before 3PL ergative prefixes Rule 2"
+%{HAB%}:k <=> n: a: _ e: ': ;
