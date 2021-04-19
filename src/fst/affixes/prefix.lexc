@@ -5,12 +5,13 @@ LEXICON POSS_prefix
 @U.POSS.1PL@:@U.POSS.1PL@q%{POSS.1PL%} Nouns ; 
 @U.POSS.2PL@:@U.POSS.2PL@ee%{POSS.2PL%} Nouns ;
 @U.POSS.3PL@:@U.POSS.3PL@%{POSS.3PL%} Nouns ;
-@U.POSS.NON@:                         Nouns ;
+@U.POSS.NON@                         Nouns ;
 
 LEXICON Tense
 @U.tense.RECPST@:@U.tense.RECPST@x%{RECPST%} Set_B;
 @U.tense.FUT@:@U.tense.FUT@t%{FUT%}%{FUT%} Set_B;
 @U.tense.PRSHAB@:@U.tense.PRSHAB@na%{HAB%} Set_B;
+@U.tense.REMPST@:@U.tense.REMPST@k%{REMPST%} Set_B;
 @U.tense.INF@ Verbs;
 
 LEXICON Set_B
@@ -46,6 +47,7 @@ LEXICON Tense_tags
 @U.tense.RECPST@+RECPST:@U.tense.RECPST@ Absolutive_tags;
 @U.tense.FUT@+FUT:@U.tense.RECPST@ Absolutive_tags;
 @U.tense.PRSHAB@+PRS.HAB:@U.tense.PRSHAB@ Absolutive_tags;
+@U.tense.REMPST@+REMPST:@U.tense.REMPST@ Absolutive_tags;
 @U.tense.INF@+INF:@U.tense.INF@ #;
 
 LEXICON Absolutive_tags

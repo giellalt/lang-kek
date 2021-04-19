@@ -13,14 +13,11 @@ Alphabet
  %{POSS.1PL%}:0
  %{POSS.2PL%}:0
  %{POSS.3PL%}:0
-
-%{ERG.3PL%}:0
-
-%{RECPST%}:0
-
-%{FUT%}:0
-
-%{HAB%}:0
+ %{ERG.3PL%}:0
+ %{RECPST%}:0
+ %{FUT%}:0
+ %{HAB%}:0
+ %{REMPST%}:0
 
  ;
 
@@ -142,3 +139,20 @@ a:e <=> n: _ %{HAB%}: e: ': ;
 
 "Present habitual before 3PL ergative prefixes Rule 2"
 %{HAB%}:k <=> n: a: _ e: ': ;
+
+!Rules for remote past tense
+
+"Remote past before prefixes beginning in a consonant"
+%{REMPST%}:i <=> k: _ Cns ;
+
+"Remote past shorten aa to a in 2SN ergative prefixes"
+a:0 <=> k: %{REMPST%}: _ a: %{POSS.2SN%}: ;
+
+"Remote past shorten ee to e in 2PL ergative prevocalic prefixes"
+e:0 <=> k: %{REMPST%}: _ e: %{POSS.2PL%}: Vow ;
+
+"Remote past before 1SN ergative prevocalic prefixes"
+%{REMPST%}:i <=> k: _ %{POSS.1SN%}: %{POSS.1SN%}: Vow ;
+
+"Remote past before 3SN ergative prefixes"
+%{REMPST%}:i <=> k: _ %{POSS.3SN%}: ;
