@@ -9,6 +9,14 @@ LEXICON PL_SBJ
 :eb' #;
 
 LEXICON Intransitive_suffix
-:k #; 
+:k #; !fixme non future suffix determined by verb class
+:q #; !fixme future suffix 
 
+LEXICON Verb_suffixes
++1SN:in  #;
++1PL:oo  #;
++2SN:at  #;
++2PL:ex  #;
++3SN:    #;
++3PL:eb' #; 
 

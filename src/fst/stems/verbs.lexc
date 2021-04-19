@@ -22,6 +22,6 @@ xi           V ; !to go/ir
 il           V ; !to see/ver
 
 LEXICON Suffix_Verbs
-wank          # ; !FIXME auxiliary verb inflects with suffixes
-yook          # ; !FIXME auxiliary verb inflects with suffixes
+wank          Verb_suffixes ;
+yook          Verb_suffixes ; 
 
