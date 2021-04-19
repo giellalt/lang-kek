@@ -16,6 +16,8 @@ Alphabet
 
 %{ERG.3PL%}:0
 
+%{RECPST%}:0
+
 %{FUT%}:0
 
 %{HAB%}:0
@@ -65,6 +67,10 @@ Rules
 
 "Third person ergative plural prevocalic form"
 %{ERG.3PL%}:r <=> ': _ Vow ;
+
+!Rules for Recent Past tense
+"Recent past before 3SN ergative preconsonantal prefix"
+%{RECPST%}:i <=> x: _ %{POSS.3SN%}: Cns ;
 
 !Rules for future tense
 "Future tense before 1SN ergative prevocalic prefix Rule 1"

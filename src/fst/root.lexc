@@ -97,6 +97,8 @@ Multichar_Symbols
 %{POSS.2PL%}
 %{POSS.3PL%}
 
+%{RECPST%} !Recent past tense archiphoneme 
+
 %{FUT%} !Future Tense Archiphoneme
 
 %{ERG.3PL%} !Third person plural ergative archiphoneme
