@@ -14,12 +14,9 @@ Alphabet
  %{POSS.2PL%}:0
  %{POSS.3PL%}:0
 
-%{ERG.1SN%}
-%{ERG.2SN%}
-%{ERG.3SN%}
-%{ERG.1PL%}
-%{ERG.2PL%}
-%{ERG.3PL%}
+%{ERG.3PL%}:0
+
+%{FUT%}:0
 
  ;
 
@@ -34,32 +31,61 @@ Rules
 ! a:aa <=> k l m n o p q r s t _ n o t r e a l ;
 
 "First Person possessive singular prevocalic form"
-%{POSS.1SN%}:w <=> .#. _ %{POSS.1SN%}: Vow ; 
+%{POSS.1SN%}:w <=> _ %{POSS.1SN%}: Vow ; 
 
-"First person possessive singular preconsonantal form"
-%{POSS.1SN%}:i <=> .#. _ %{POSS.1SN%}: Cns ;
+"First person possessive singular preconsonantal form Rule 1"
+%{POSS.1SN%}:i <=> _ %{POSS.1SN%}: Cns ;
 
-"First person possessive singular preconsonantal form"
-%{POSS.1SN%}:n <=> .#. %{POSS.1SN%}: _ Cns ;
+"First person possessive singular preconsonantal form Rule 2"
+%{POSS.1SN%}:n <=> %{POSS.1SN%}: _ Cns ;
 
 "Second person possessive singular prevocalic form"
-%{POSS.2SN%}:w <=> .#. a: a: _ Vow ;
+%{POSS.2SN%}:w <=> a: a: _ Vow ;
 
 "Third person possessive singular prevocalic form"
-%{POSS.3SN%}:r <=> .#. _ Vow ;
+%{POSS.3SN%}:r <=> _ Vow ;
 
 "Third person possessive singular preconsonantal form"
-%{POSS.3SN%}:x <=> .#. _ Cns ;
+%{POSS.3SN%}:x <=> _ Cns ;
 
 "First person possessive plural preconsonantal form"
-%{POSS.1PL%}:a <=> .#. q: _ Cns ;
+%{POSS.1PL%}:a <=> q: _ Cns ;
 
 "Second person possessive plural prevocalic form"
-%{POSS.2PL%}:r <=> .#. e: e: _ Vow ;
+%{POSS.2PL%}:r <=> e: e: _ Vow ;
 
 "Third person possessive plural prevocalic form"
-%{POSS.3PL%}:r <=> .#. _ Vow ;
+%{POSS.3PL%}:r <=> _ Vow ;
 
 "Third person possessive plural preconsonantal form"
-%{POSS.3PL%}:x <=> .#. _ Cns ;
+%{POSS.3PL%}:x <=> _ Cns ;
 
+"Third person ergative plural preconsonantal form"
+%{ERG.3PL%}:x <=> ': _ Cns ;
+
+"Third person ergative plural prevocalic form"
+%{ERG.3PL%}:r <=> ': _ Vow ;
+
+"Future tense before 1SN ergative prevocalic prefix Rule 1"
+%{FUT%}:i <=> t: _ %{FUT%}: %{POSS.1SN%}: %{POSS.1SN%}: Vow ;
+
+"Future tense before 1SN ergative prevocalic prefix Rule 2"
+%{FUT%}:n <=> %{FUT%}: _ %{POSS.1SN%}: %{POSS.1SN%}: Vow ;
+
+"Future tense before 1PL ergative prevocalic prefix Rule 1"
+%{FUT%}:a <=> t: _ %{FUT%}: q: %{POSS.1PL%}: Vow ;
+
+"Future tense before 1PL ergative prevocalic prefix Rule 2"
+%{FUT%}:a <=> %{FUT%}: _ q: %{POSS.1PL%}: Vow ;
+
+"Future tense before 3SN ergative prevocalic prefix Rule 1"
+%{FUT%}:a <=> t: _ %{FUT%}: %{POSS.3SN%}: Vow ;
+
+"Future tense before 3SN ergative prevocalic prefix Rule 2"
+%{FUT%}:a <=> %{FUT%}: _ %{POSS.3SN%}: Vow ;
+
+"Future tense before 3SN ergative preconsonantal prefix"
+%{FUT%}:i <=> t: _ %{FUT%}: %{POSS.3SN%}: Cns ;
+
+"Future tense before 1PL ergative preconsonantal prefix"
+%{FUT%}:a <=> t: _ %{FUT%}: q: %{POSS.1PL%}: Cns ;

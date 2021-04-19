@@ -67,6 +67,7 @@ Multichar_Symbols
 
 !tense prefixes
 @U.tense.RECPST@
+@U.tense.FUT@
 @U.tense.INF@
 
 !Absolutive prefixes
@@ -95,13 +96,9 @@ Multichar_Symbols
 %{POSS.2PL%}
 %{POSS.3PL%}
 
-!archiphonemes for transitive subject prefixes.
-%{ERG.1SN%}
-%{ERG.2SN%}
-%{ERG.3SN%}
-%{ERG.1PL%}
-%{ERG.2PL%}
-%{ERG.3PL%}
+%{FUT%} !Future Tense Archiphoneme
+
+%{ERG.3PL%} !Third person plural ergative archiphoneme
 
 
 LEXICON Root

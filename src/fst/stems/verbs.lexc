@@ -18,8 +18,10 @@ tzakan       V ; !to eat/comer
 paab'an      V ; !to obey/obedecer
 chunub'an    V ; !to sit/sentar
 ajlan        V ; !count/contar
+xi           V ; !to go/ir
+il           V ; !to see/ver
 
 LEXICON Suffix_Verbs
-wan          # ; !FIXME auxiliary verb inflects with suffixes
-yoo          # ; !FIXME auxiliary verb inflects with suffixes
+wank          # ; !FIXME auxiliary verb inflects with suffixes
+yook          # ; !FIXME auxiliary verb inflects with suffixes
 
