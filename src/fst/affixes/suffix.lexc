@@ -10,10 +10,10 @@ LEXICON Intransitive_suffix
 :q #; !fixme future suffix 
 
 LEXICON Verb_suffixes
-+1SN:in  #;
-+1PL:oo  #;
-+2SN:at  #;
-+2PL:ex  #;
-+3SN:    #;
-+3PL:eb' #; 
++V+1SN:in  #;
++V+1PL:oo  #;
++V+2SN:at  #;
++V+2PL:ex  #;
++V+3SN:    #;
++V+3PL:eb' #; 
 
