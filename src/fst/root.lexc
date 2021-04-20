@@ -78,6 +78,12 @@ Multichar_Symbols
 @U.ABS.2PL@
 @U.ABS.3SN@
 @U.ABS.3PL@
+@D.ABS.1SN@
+@D.ABS.1PL@
+@D.ABS.2SN@
+@D.ABS.2PL@
+@D.ABS.3SN@
+@D.ABS.3PL@
 
 !Ergative prefixes
 @U.ERG.1SN@
@@ -106,6 +112,8 @@ Multichar_Symbols
 %{HAB%} !Present habitual archiphoneme
 
 %{REMPST%} !Remote past archiphoneme
+
+%{K%}
 
 LEXICON Root
 POSS_prefix  ; !prefijos

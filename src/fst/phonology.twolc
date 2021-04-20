@@ -18,6 +18,7 @@ Alphabet
  %{FUT%}:0
  %{HAB%}:0
  %{REMPST%}:0
+ %{K%}:k
 
  ;
 
@@ -93,6 +94,9 @@ Rules
 
 "Future tense before 1PL ergative preconsonantal prefix"
 %{FUT%}:a <=> t: _ %{FUT%}: q: %{POSS.1PL%}: Cns ;
+
+"Future and nonfuture suffix"
+%{K%}:q <=> .#. t: %{FUT%}: %{FUT%}: ?+ _ ;
 
 !Rules for Present habitual tense
 "Present habitual before 1SN absolutive prefix"

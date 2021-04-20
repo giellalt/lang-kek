@@ -1,25 +1,29 @@
 LEXICON Verbs
 !!!!FIXME -k is an optional suffix, verb roots do not include this, suffix becomes -q in future tense.
-k'anjela     V ; !to work/trabajar
-k'ato        V ; !to burn/quemar
-mesun        V ; !to sweep/barrer
-war          V ; !to sleep/dormir
-atin         V ; !to bathe/bañarse
-kam          V ; !to die/morir
-b'ee         V ; !to walk/caminar
-xajo         V ; !to dance/bailar
-aw           V ; !to plant/sembrar
+k'anjela     V_K ; !to work/trabajar
+k'ato        V_K ; !to burn/quemar
+mesun        V_K ; !to sweep/barrer
+war          V_K ; !to sleep/dormir
+atin         V_K ; !to bathe/bañarse
+kam          V_K ; !to die/morir
+b'ee         V_K ; !to walk/caminar
+xajo         V_K ; !to dance/bailar
+aw           V_K ; !to plant/sembrar
 uk'a         V ; !to drink/beber
-tz'apo       V ; !to close/cerrar
-el           V ; !to leaVe/salir
-b'aanun      V ; !to do/hacer
-k'ayin       V ; !to sell/Vender
-tzakan       V ; !to eat/comer
-paab'an      V ; !to obey/obedecer
-chunub'an    V ; !to sit/sentar
-ajlan        V ; !count/contar
-xi           V ; !to go/ir
+tz'apo       V_K ; !to close/cerrar
+el           V_K ; !to leaVe/salir
+b'aanun      V_K ; !to do/hacer
+k'ayin       V_K ; !to sell/Vender
+tzakan       V_K ; !to eat/comer
+paab'an      V_K ; !to obey/obedecer
+chunub'an    V_K ; !to sit/sentar
+ajlan        V_K ; !count/contar
+xi           V_K ; !to go/ir
 il           V ; !to see/ver
+
+LEXICON V_K
+:%{K%} V ;
+
 
 LEXICON Suffix_Verbs
 wank          Verb_suffixes ;
