@@ -1,6 +1,10 @@
 The Qʼeqchiʼ morphology and tools
 ==========================================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-kek)](https://github.com/giellalt/lang-kek/issues)
+[![Build Status](https://github.com/giellalt/lang-kek/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-kek/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-kek)](https://raw.githubusercontent.com/giellalt/lang-kek/develop/LICENSE)
+
 This repository contains finite state source files for the Qʼeqchiʼ language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under the __LGPLv3__
@@ -8,9 +12,6 @@ licence, also detailed in the
 [LICENCE](https://github.com/giellalt/lang-kek/blob/develop/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-kek)](https://github.com/giellalt/lang-kek/issues)
- [![Build Status](https://github.com/giellalt/lang-kek/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-kek/actions)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-kek)
 for the Qʼeqchiʼ language by using the [Divvun Installer](http://divvun.no)
