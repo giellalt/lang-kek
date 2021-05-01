@@ -1,3 +1,6 @@
+=================================== !
+The Qʼeqchiʼ morphophonological/twolc rules file !
+=================================== !
 
 
 
@@ -24,7 +27,83 @@
 
 
 
-There was no content!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
 
 
 
