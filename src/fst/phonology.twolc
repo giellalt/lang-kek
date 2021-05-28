@@ -1,10 +1,12 @@
-!! =================================== !
-!! The Qʼeqchiʼ morphophonological/twolc rules file !
-!! =================================== !
+!    =================================== !
+!! # The Qʼeqchiʼ morphophonological/twolc rules file 
+!    =================================== !
 
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kek/blob/main/src/fst/phonology.twolc) 
+
+!! ## Alphabet, sets
 Alphabet
  a b c e h i j k l m n o p q r s t u w x y z '
-
  A B C E H I J K L M N O P Q R S T U W X Y Z '
 
  %{POSS.1SN%}:0
@@ -27,9 +29,11 @@ Sets
  Vow = a e i o u ;
  Cns = b c h j k l m n p q r s t w x y z ' ;
 
+!! ## Rules
 Rules
 
-!Rules for possessive and ergative prefixes
+!! ### Rules for possessive and ergative prefixes
+
 "First Person possessive singular prevocalic form"
 %{POSS.1SN%}:w <=> _ %{POSS.1SN%}: Vow ; 
 
