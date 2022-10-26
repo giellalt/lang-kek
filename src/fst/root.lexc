@@ -1,37 +1,41 @@
 Multichar_Symbols
 
+!TODO not sure if we should use Liepzig Glossing conventions or Giella's standard
 ! Part of Speech/Parte del discurso
 +N  ! Noun/Sustantivo
-    -POSS !unpossessed
-    +POSS.1SN
-    +POSS.1PL
-    +POSS.2SN
-    +POSS.2PL
-    +POSS.3SN
-    +POSS.3PL
-    +SN
-    +PL
+    +NonPoss !Unpossessed
+    !TODO not sure how to tag these, possessive prefixes are the same as Set A verbal affixes
+    +Poss.Sg1
+    +Poss.Pl1
+    +Poss.Sg2
+    +Poss.Pl2
+    +Poss.Sg3
+    +Poss.Pl3
+    +Sg
+    +Pl
 
 +V  ! Verb/Verbo
+    +Root !To mark Lemmas
     +RECPST !pasado reciente
+    !TODO not sure if I should call this remote past or narrative past
     +REMPST !pasado lejano
-    +PRS.HAB !tiempo presente
-    +FUT !tiempo futuro
-    +INF    !infinitivo
+    +Prs !tiempo presente
+    +Fut !tiempo futuro
+    +Inf    !infinitivo
 
-    +ABS.1SN
-    +ABS.1PL
-    +ABS.2SN
-    +ABS.2PL
-    +ABS.3SN
-    +ABS.3PL
+    +Abs.Sg1
+    +Abs.Pl1
+    +Abs.Sg2
+    +Abs.Pl2
+    +Abs.Sg3
+    +Abs.Pl3
 
-    +ERG.1SN
-    +ERG.1PL
-    +ERG.2SN
-    +ERG.2PL
-    +ERG.3SN
-    +ERG.3PL
+    +Erg.Sg1
+    +Erg.Pl1
+    +Erg.Sg2
+    +Erg.Pl2
+    +Erg.Sg3
+    +Erg.Pl3
 
 +Det !determiner/determinante
     +Masc
@@ -42,12 +46,12 @@ Multichar_Symbols
 +Adv !adverb/adverbio
 
 +Pro !pronouns/pronombres
-    +1SN
-    +1PL
-    +2SN
-    +2PL
-    +3SN
-    +3PL
+    +Sg1
+    +Pl1
+    +Sg2
+    +Pl2
+    +Sg3
+    +Pl3
 
 +Int !interrogative
 
@@ -56,58 +60,58 @@ Multichar_Symbols
 +Prep
 
 ! Possesive prefixes/prefijos posesivos
-@U.POSS.1SN@ !Posesiva de primera persona singular
-@U.POSS.2SN@ !Posesiva de segunda persona singular
-@U.POSS.3SN@ !Posesiva de tercera persona singular
-@U.POSS.1PL@ !Posesiva de primera persona plural
-@U.POSS.2PL@ !Posesiva de segunda persona plural
-@U.POSS.3PL@ !Posesiva de tercera persona plural
+@U.Poss.Sg1@ !Posesiva de primera persona singular
+@U.Poss.Sg2@ !Posesiva de segunda persona singular
+@U.Poss.Sg3@ !Posesiva de tercera persona singular
+@U.Poss.Pl1@ !Posesiva de primera persona plural
+@U.Poss.Pl2@ !Posesiva de segunda persona plural
+@U.Poss.Pl3@ !Posesiva de tercera persona plural
 @U.POSS.NON@ !Unpossessed form/forma no poseída
 
 !tense prefixes
 @U.tense.RECPST@
-@U.tense.FUT@
+@U.tense.Fut@
 @U.tense.PRSHAB@
 @U.tense.REMPST@
-@U.tense.INF@
+@U.tense.Inf@
 
 !Absolutive prefixes
-@U.ABS.1SN@
-@U.ABS.1PL@
-@U.ABS.2SN@
-@U.ABS.2PL@
-@U.ABS.3SN@
-@U.ABS.3PL@
-@D.ABS.1SN@
-@D.ABS.1PL@
-@D.ABS.2SN@
-@D.ABS.2PL@
-@D.ABS.3SN@
-@D.ABS.3PL@
+@U.Abs.Sg1@
+@U.Abs.Pl1@
+@U.Abs.Sg2@
+@U.Abs.Pl2@
+@U.Abs.Sg3@
+@U.Abs.Pl3@
+@D.Abs.Sg1@
+@D.Abs.Pl1@
+@D.Abs.Sg2@
+@D.Abs.Pl2@
+@D.Abs.Sg3@
+@D.Abs.Pl3@
 
 !Ergative prefixes
-@U.ERG.1SN@
-@U.ERG.1PL@
-@U.ERG.2SN@
-@U.ERG.2PL@
-@U.ERG.3SN@
-@U.ERG.3PL@
-@U.ERG.INT@
+@U.Erg.Sg1@
+@U.Erg.Pl1@
+@U.Erg.Sg2@
+@U.Erg.Pl2@
+@U.Erg.Sg3@
+@U.Erg.Pl3@
+@U.Erg.INT@
 
 
 !archiphonemes for possessive prefixes.
-%{POSS.1SN%}
-%{POSS.2SN%}
-%{POSS.3SN%}
-%{POSS.1PL%}
-%{POSS.2PL%}
-%{POSS.3PL%}
+%{Poss.Sg1%}
+%{Poss.Sg2%}
+%{Poss.Sg3%}
+%{Poss.Pl1%}
+%{Poss.Pl2%}
+%{Poss.Pl3%}
 
 %{RECPST%} !Recent past tense archiphoneme 
 
-%{FUT%} !Future Tense Archiphoneme
+%{Fut%} !Future Tense Archiphoneme
 
-%{ERG.3PL%} !Third person plural ergative archiphoneme
+%{Erg.Pl3%} !Third person plural ergative archiphoneme
 
 %{HAB%} !Present habitual archiphoneme
 

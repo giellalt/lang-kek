@@ -1,10 +1,13 @@
+LEXICON Adj
++A: # ;
+
 LEXICON Adjective
-ink'a'+Adj:ink'a' # ;!no
-yaal+Adj:yaal # ;!true/verdadero
-xb'een+Adj:xb'een # ;!first/primero
-tento+Adj:tento # ; !important/importante
-yaal+Adj:yaal # ; !true/verdadera/o
-ak'+Adj:ak' # ; !new/nuevo/a
-nim+Adj:nim # ; !big/grande
-tiik+Adj:tiik # ; !smooth/straight
+ink'a' Adj ;!no
+yaal Adj ;!true/verdadero
+xb'een Adj ; !first/primero
+tento Adj ; !important/importante
+yaal Adj ; !true/verdadera/o
+ak' Adj ; !new/nuevo/a
+nim Adj ; !big/grande
+tiik Adj ; !smooth/straight
 

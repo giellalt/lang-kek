@@ -2,18 +2,18 @@ LEXICON POSS_suffix
 :eb' #;
 
 LEXICON PL_suffix
-+SN:    #;
-+PL:eb' #;
++Sg:    #;
++Pl:eb' #;
 
 LEXICON Intransitive_suffix
 :k #; !fixme non future suffix determined by verb class
 :q #; !fixme future suffix 
 
 LEXICON Verb_suffixes
-+V+1SN:in  #;
-+V+1PL:oo  #;
-+V+2SN:at  #;
-+V+2PL:ex  #;
-+V+3SN:    #;
-+V+3PL:eb' #; 
++V+Sg1:in  #;
++V+Pl1:oo  #;
++V+Sg2:at  #;
++V+Pl2:ex  #;
++V+Sg3:    #;
++V+Pl3:eb' #; 
 

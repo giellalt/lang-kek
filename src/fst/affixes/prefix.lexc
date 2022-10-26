@@ -1,69 +1,70 @@
 LEXICON POSS_prefix
-@U.POSS.1SN@:@U.POSS.1SN@%{POSS.1SN%}%{POSS.1SN%} Nouns ;
-@U.POSS.2SN@:@U.POSS.2SN@aa%{POSS.2SN%} Nouns ;
-@U.POSS.3SN@:@U.POSS.3SN@%{POSS.3SN%} Nouns ;
-@U.POSS.1PL@:@U.POSS.1PL@q%{POSS.1PL%} Nouns ; 
-@U.POSS.2PL@:@U.POSS.2PL@ee%{POSS.2PL%} Nouns ;
-@U.POSS.3PL@:@U.POSS.3PL@%{POSS.3PL%} Nouns ;
+@U.Poss.Sg1@:@U.Poss.Sg1@%{Poss.Sg1%}%{Poss.Sg1%} Nouns ;
+@U.Poss.Sg2@:@U.Poss.Sg2@aa%{Poss.Sg2%} Nouns ;
+@U.Poss.Sg3@:@U.Poss.Sg3@%{Poss.Sg3%} Nouns ;
+@U.Poss.Pl1@:@U.Poss.Pl1@q%{Poss.Pl1%} Nouns ; 
+@U.Poss.Pl2@:@U.Poss.Pl2@ee%{Poss.Pl2%} Nouns ;
+@U.Poss.Pl3@:@U.Poss.Pl3@%{Poss.Pl3%} Nouns ;
 @U.POSS.NON@                         Nouns ;
 
 LEXICON Tense
 @U.tense.RECPST@:@U.tense.RECPST@x%{RECPST%} Set_B;
-@U.tense.FUT@:@U.tense.FUT@t%{FUT%}%{FUT%} Set_B;
+@U.tense.Fut@:@U.tense.Fut@t%{Fut%}%{Fut%} Set_B;
 @U.tense.PRSHAB@:@U.tense.PRSHAB@na%{HAB%} Set_B;
 @U.tense.REMPST@:@U.tense.REMPST@k%{REMPST%} Set_B;
-@U.tense.INF@ Verbs;
+@U.tense.Inf@ Verbs;
 
 LEXICON Set_B
-@U.ABS.1SN@:@U.ABS.1SN@in Set_A;
-@U.ABS.1PL@:@U.ABS.1PL@oo Set_A;
-@U.ABS.2SN@:@U.ABS.2SN@at Set_A;
-@U.ABS.2PL@:@U.ABS.2PL@ex Set_A;
-@U.ABS.3SN@:@U.ABS.3SN@   Set_A;
-@U.ABS.3PL@:@U.ABS.3PL@e' Set_A;
+@U.Abs.Sg1@:@U.Abs.Sg1@in Set_A;
+@U.Abs.Pl1@:@U.Abs.Pl1@oo Set_A;
+@U.Abs.Sg2@:@U.Abs.Sg2@at Set_A;
+@U.Abs.Pl2@:@U.Abs.Pl2@ex Set_A;
+@U.Abs.Sg3@:@U.Abs.Sg3@   Set_A;
+@U.Abs.Pl3@:@U.Abs.Pl3@e' Set_A;
 
 LEXICON Set_A
-@U.ERG.1SN@@D.ABS.1SN@:@U.ERG.1SN@@D.ABS.1SN@%{POSS.1SN%}%{POSS.1SN%} Verbs;
-@U.ERG.1PL@@D.ABS.1PL@:@U.ERG.1PL@@D.ABS.1PL@q%{POSS.1PL%} Verbs;
-@U.ERG.2SN@@D.ABS.2SN@:@U.ERG.2SN@@D.ABS.2SN@aa%{POSS.2SN%} Verbs;
-@U.ERG.2PL@@D.ABS.2PL@:@U.ERG.2PL@@D.ABS.2PL@ee%{POSS.2PL%} Verbs;
-@U.ERG.3SN@:@U.ERG.3SN@%{POSS.3SN%} Verbs;
-@U.ERG.3PL@@D.ABS.3PL@:@U.ERG.3PL@@D.ABS.3PL@e'%{ERG.3PL%} Verbs;
-@U.ERG.INT@ Verbs;
+@U.Erg.Sg1@@D.Abs.Sg1@:@U.Erg.Sg1@@D.Abs.Sg1@%{Poss.Sg1%}%{Poss.Sg1%} Verbs;
+@U.Erg.Pl1@@D.Abs.Pl1@:@U.Erg.Pl1@@D.Abs.Pl1@q%{Poss.Pl1%} Verbs;
+@U.Erg.Sg2@@D.Abs.Sg2@:@U.Erg.Sg2@@D.Abs.Sg2@aa%{Poss.Sg2%} Verbs;
+@U.Erg.Pl2@@D.Abs.Pl2@:@U.Erg.Pl2@@D.Abs.Pl2@ee%{Poss.Pl2%} Verbs;
+@U.Erg.Sg3@:@U.Erg.Sg3@%{Poss.Sg3%} Verbs;
+@U.Erg.Pl3@@D.Abs.Pl3@:@U.Erg.Pl3@@D.Abs.Pl3@e'%{Erg.Pl3%} Verbs;
+@U.Erg.INT@ Verbs;
 
 LEXICON N
 @U.POSS.NON@+N:@U.POSS.NON@ PL_suffix ;
-@U.POSS.1SN@+N+POSS.1SN:@U.POSS.1SN@ PL_suffix ; 
-@U.POSS.2SN@+N+POSS.2SN:@U.POSS.2SN@ PL_suffix ;
-@U.POSS.3SN@+N+POSS.3SN:@U.POSS.3SN@ PL_suffix ;
-@U.POSS.1PL@+N+POSS.1PL:@U.POSS.1PL@ PL_suffix ;
-@U.POSS.2PL@+N+POSS.2PL:@U.POSS.2PL@ PL_suffix ;
-@U.POSS.3PL@+N+POSS.3PL:@U.POSS.3PL@ POSS_suffix ;
+@U.Poss.Sg1@+N+Poss.Sg1:@U.Poss.Sg1@ PL_suffix ; 
+@U.Poss.Sg2@+N+Poss.Sg2:@U.Poss.Sg2@ PL_suffix ;
+@U.Poss.Sg3@+N+Poss.Sg3:@U.Poss.Sg3@ PL_suffix ;
+@U.Poss.Pl1@+N+Poss.Pl1:@U.Poss.Pl1@ PL_suffix ;
+@U.Poss.Pl2@+N+Poss.Pl2:@U.Poss.Pl2@ PL_suffix ;
+@U.Poss.Pl3@+N+Poss.Pl3:@U.Poss.Pl3@ POSS_suffix ;
 
 LEXICON V
 +V:                                             Tense_tags ;
++V+Root: # ; !TO remove in constraint grammar, treat roots as Lemmas
 
 LEXICON Tense_tags
 @U.tense.RECPST@+RECPST:@U.tense.RECPST@ Absolutive_tags;
-@U.tense.FUT@+FUT:@U.tense.RECPST@ Absolutive_tags;
-@U.tense.PRSHAB@+PRS.HAB:@U.tense.PRSHAB@ Absolutive_tags;
+@U.tense.Fut@+Fut:@U.tense.RECPST@ Absolutive_tags;
+@U.tense.PRSHAB@+Prs:@U.tense.PRSHAB@ Absolutive_tags;
 @U.tense.REMPST@+REMPST:@U.tense.REMPST@ Absolutive_tags;
-@U.tense.INF@+INF:@U.tense.INF@ #;
+@U.tense.Inf@+Inf:@U.tense.Inf@ #;
 
 LEXICON Absolutive_tags
-@U.ABS.1SN@+ABS.1SN:@U.ABS.1SN@ Ergative_tags;
-@U.ABS.1PL@+ABS.1PL:@U.ABS.1PL@ Ergative_tags;
-@U.ABS.2SN@+ABS.2SN:@U.ABS.2SN@ Ergative_tags;
-@U.ABS.2PL@+ABS.2PL:@U.ABS.2PL@ Ergative_tags;
-@U.ABS.3SN@+ABS.3SN:@U.ABS.3SN@ Ergative_tags;
-@U.ABS.3PL@+ABS.3PL:@U.ABS.3PL@ Ergative_tags;
+@U.Abs.Sg1@+Abs.Sg1:@U.Abs.Sg1@ Ergative_tags;
+@U.Abs.Pl1@+Abs.Pl1:@U.Abs.Pl1@ Ergative_tags;
+@U.Abs.Sg2@+Abs.Sg2:@U.Abs.Sg2@ Ergative_tags;
+@U.Abs.Pl2@+Abs.Pl2:@U.Abs.Pl2@ Ergative_tags;
+@U.Abs.Sg3@+Abs.Sg3:@U.Abs.Sg3@ Ergative_tags;
+@U.Abs.Pl3@+Abs.Pl3:@U.Abs.Pl3@ Ergative_tags;
 
 LEXICON Ergative_tags
-@U.ERG.1SN@+ERG.1SN:@U.ERG.1SN@ #;
-@U.ERG.1PL@+ERG.1PL:@U.ERG.1PL@ #;
-@U.ERG.2SN@+ERG.2SN:@U.ERG.2SN@ #;
-@U.ERG.2PL@+ERG.2PL:@U.ERG.2PL@ #;
-@U.ERG.3SN@+ERG.3SN:@U.ERG.3SN@ #;
-@U.ERG.3PL@+ERG.3PL:@U.ERG.3PL@ #;
-@U.ERG.INT@:@U.ERG.INT@ #;
+@U.Erg.Sg1@+Erg.Sg1:@U.Erg.Sg1@ #;
+@U.Erg.Pl1@+Erg.Pl1:@U.Erg.Pl1@ #;
+@U.Erg.Sg2@+Erg.Sg2:@U.Erg.Sg2@ #;
+@U.Erg.Pl2@+Erg.Pl2:@U.Erg.Pl2@ #;
+@U.Erg.Sg3@+Erg.Sg3:@U.Erg.Sg3@ #;
+@U.Erg.Pl3@+Erg.Pl3:@U.Erg.Pl3@ #;
+@U.Erg.INT@:@U.Erg.INT@ #;
 

@@ -23,7 +23,7 @@ il           V ; !to see/ver
 
 LEXICON V_K
 :%{K%} V ;
-
++V+Root: # ; !TO remove in constraint grammar, treat roots as Lemmas
 
 LEXICON Suffix_Verbs
 wank          Verb_suffixes ;

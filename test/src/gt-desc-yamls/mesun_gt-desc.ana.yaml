@@ -10,10 +10,10 @@ Config:
 Tests:
   Verb - mesun - ok : # test for verb inflection of verb mesun
     mesun+V+INF: mesun
-    mesun+V+RECPST+ABS.1SN: xinmesun
-    mesun+V+RECPST+ABS.1PL: xoomesun
-    mesun+V+RECPST+ABS.2SN: xatmesun
-    mesun+V+RECPST+ABS.2PL: xexmesun
-    mesun+V+RECPST+ABS.3SN: xmesun
-    mesun+V+RECPST+ABS.3PL: xe'mesun
-    mesun+V+RECPST+ABS.2SN+ERG.2SN: xataamesun
+    mesun+V+RECPST+Abs.Sg1: xinmesun
+    mesun+V+RECPST+Abs.Pl1: xoomesun
+    mesun+V+RECPST+Abs.Sg2: xatmesun
+    mesun+V+RECPST+Abs.Pl2: xexmesun
+    mesun+V+RECPST+Abs.Sg3: xmesun
+    mesun+V+RECPST+Abs.Pl3: xe'mesun
+    mesun+V+RECPST+Abs.Sg2+Erg.Sg2: xataamesun
