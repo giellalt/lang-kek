@@ -26,6 +26,6 @@ LEXICON V_K
 +V+Root: # ; !TO remove in constraint grammar, treat roots as Lemmas
 
 LEXICON Suffix_Verbs
-wank          Verb_suffixes ;
-yook          Verb_suffixes ; 
+wan          Future_nonFuture;
+yoo         Future_nonFuture; 
 

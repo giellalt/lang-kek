@@ -6,8 +6,13 @@ LEXICON PL_suffix
 +Pl:eb' #;
 
 LEXICON Intransitive_suffix
-:k #; !fixme non future suffix determined by verb class
-:q #; !fixme future suffix 
+:k #;
+:q #;
+
+LEXICON Future_nonFuture
++Prs:k Verb_suffixes;
++Fut:q Verb_suffixes;
++v+3Sg: #;
 
 LEXICON Verb_suffixes
 +V+Sg1:in  #;
