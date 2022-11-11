@@ -20,10 +20,11 @@ chunub'an    V_K ; !to sit/sentar
 ajlan        V_K ; !count/contar
 xi           V_K ; !to go/ir
 il           V ; !to see/ver
+wa'a         V_K;
 
 LEXICON V_K
 :%{K%} V ;
-+V+Root: # ; !TO remove in constraint grammar, treat roots as Lemmas
+@U.verb.root@+V+Root:@U.verb.root@ # ; !TO remove in constraint grammar, treat roots as Lemmas
 
 LEXICON Suffix_Verbs
 wan          Future_nonFuture;

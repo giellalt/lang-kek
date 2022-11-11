@@ -13,6 +13,7 @@ LEXICON Tense
 @U.tense.PRSHAB@:@U.tense.PRSHAB@na%{HAB%} Set_B;
 @U.tense.REMPST@:@U.tense.REMPST@k%{REMPST%} Set_B;
 @U.tense.Inf@ Verbs;
+@U.verb.root@ Verbs;
 
 LEXICON Set_B
 @U.Abs.Sg1@:@U.Abs.Sg1@in Set_A;
@@ -41,7 +42,7 @@ LEXICON N
 @U.Poss.Pl3@+N+Poss.Pl3:@U.Poss.Pl3@ POSS_suffix ;
 
 LEXICON V
-+V:                                             Tense_tags ;
++V:                                             Tense_tags;
 +V+Root: # ; !TO remove in constraint grammar, treat roots as Lemmas
 
 LEXICON Tense_tags

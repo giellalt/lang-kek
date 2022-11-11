@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+  Verb - intransitive verb - ok :     # Test for intransitive verb inflection
+    wa'a+V+Prs+SetB.Sg1:  ninwa'ak	  # yo como/I eat
+    wa'a+V+Prs+SetB.Sg2:  nakatwa'ak  # tú comes/you(singular) eat
+    wa'a+V+Prs+SetB.Sg3:  nawa'ak     # él come/he/she eats
+    wa'a+V+Prs+SetB.Pl1:  nokowa'ak   # comemos/we eat
+    wa'a+V+Prs+SetB.Pl2:  nekexwa'ak	# ustedes comen/you(plural) eat
+    wa'a+V+Prs+SetB.Pl3:  neke'wa'ak	# ellos comen/they eat
+
+    wa'a+V+Fut+SetB.Sg1:  tinwa'aq    # yo comeré/I will eat
+    wa'a+V+Fut+SetB.Sg2:  tatwa'aq    # tú comerás/you(singular) will eat
+    wa'a+V+Fut+SetB.Sg3:  taawa'aq    # él comerá/he/she eats
+    wa'a+V+Fut+SetB.Pl1:  toowa'aq    # comeremos/we will eat
+    wa'a+V+Fut+SetB.Pl2:  texwa'aq    # ustedes comerán/you(plural) will eat
+    wa'a+V+Fut+SetB.Pl3:  te'wa'aq    # ellos comerán/they will eat
+
+    wa'a+V+Pst+SetB.Sg1:  xinwa'ak	  # yo comí/I ate
+    wa'a+V+Pst+SetB.Sg2:  xatwa'ak  	# tú comiste/you(singular) ate
+    wa'a+V+Pst+SetB.Sg3:  xwa'ak	  	# él comió/he/she ate
+    wa'a+V+Pst+SetB.Pl1:  xoowa'ak	  # nosotros comimos/we ate
+    wa'a+V+Pst+SetB.Pl2:  xexwa'ak  	# ustedes comieron/you(plural) ate
+    wa'a+V+Pst+SetB.Pl3:  xe'wa'ak	  # ellos comieron
+
+    wa'a+V+NarPst+SetB.Sg1:	kinwa'ak	# yo comí
+    wa'a+V+NarPst+SetB.Sg2: katwa'ak	# tú comiste
+    wa'a+V+NarPst+SetB.Sg3: kiwa'ak	  # él comió
+    wa'a+V+NarPst+SetB.Pl1: koowa'ak	# nosotros comimos
+		wa'a+V+NarPst+SetB.Pl2: kexwa'ak	# ustedes comieron
+		wa'a+V+NarPst+SetB.Pl3: ke'wa'ak	# ellos comieron

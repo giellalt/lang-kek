@@ -8,7 +8,7 @@ Config:
     App: lookup
 
 Tests:
-  Verb - Bringhurst ch 9 - ok : # test for verb inflection of verb mesun
+  Verb - Bringhurst ch 9 - ok : 
     il+V+Prs+SetB.Sg3+SetA.Sg2: nakawil   	# you see him
     il+V+Prs+SetB.Pl3+SetA.Sg2: nakawileb'	# you see them
     sik+V+Fut+SetB.Sg3+SetA.Sg3: tixsik'	# he will look for him

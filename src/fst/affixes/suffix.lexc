@@ -10,9 +10,10 @@ LEXICON Intransitive_suffix
 :q #;
 
 LEXICON Future_nonFuture
-+Prs:k Verb_suffixes;
-+Fut:q Verb_suffixes;
-+v+3Sg: #;
+!TODO nonfuture suffix
++V+Prs:k Verb_suffixes;
+++Fut:q Verb_suffixes;
++V+3Sg: #;
 
 LEXICON Verb_suffixes
 +V+Sg1:in  #;
@@ -21,4 +22,3 @@ LEXICON Verb_suffixes
 +V+Pl2:ex  #;
 +V+Sg3:    #;
 +V+Pl3:eb' #; 
-
