@@ -4,21 +4,3 @@ LEXICON POSS_suffix
 LEXICON PL_suffix
 +Sg:    #;
 +Pl:eb' #;
-
-LEXICON Intransitive_suffix
-:k #;
-:q #;
-
-LEXICON Future_nonFuture
-!TODO nonfuture suffix
-+V+Prs:k Verb_suffixes;
-++Fut:q Verb_suffixes;
-+V+3Sg: #;
-
-LEXICON Verb_suffixes
-+V+Sg1:in  #;
-+V+Pl1:oo  #;
-+V+Sg2:at  #;
-+V+Pl2:ex  #;
-+V+Sg3:    #;
-+V+Pl3:eb' #; 

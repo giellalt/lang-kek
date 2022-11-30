@@ -1,0 +1,86 @@
+LEXICON Tense
+@U.tense.PRSHAB@:@U.tense.PRSHAB@na%< Set_B ;
+@U.tense.RECPST@:@U.tense.RECPST@x%< Set_B ;
+@U.tense.Fut@:@U.tense.Fut@t%< Set_B ;
+@U.tense.3Sgi@@U.tense.REMPST@:@U.tense.3Sgi@@U.tense.REMPST@k%< Set_B ;
+@U.tense.3Sgi@@U.tense.Imp@:@U.tense.3Sgi@@U.tense.Imp@ch%< Set_B ;
+@U.tense.3Sgi@@U.tense.NegImp@:@U.tense.3Sgi@@U.tense.NegImp@m%< Set_B ;
+
+@U.tense.Inf@ Verbs;
+@U.verb.root@ Verbs;
+
+LEXICON Set_B
+@U.Abs.Sg1@:@U.Abs.Sg1@in%< Set_B_2 ;
+@U.Abs.Pl1@:@U.Abs.Pl1@koo%< Set_B_2 ;
+@U.Abs.Sg2@:@U.Abs.Sg2@kat%< Set_B_2 ;
+@U.Abs.Pl2@:@U.Abs.Pl2@kex%< Set_B_2 ;
+@D.tense.3Sgi@@D.tense.Fut@@U.Abs.Sg3@:@D.tense.3Sgi@@D.tense.Fut@@U.Abs.Sg3@%<   Set_B_2 ;
+@U.tense.Fut@@U.Abs.Sg3@:@U.tense.Fut@@U.Abs.Sg3@aa%< Set_B_2 ;
+@U.tense.3Sgi@@U.Abs.Sg3@:@U.tense.3Sgi@@U.Abs.Sg3@i%< Set_B_2 ;
+@U.Abs.Pl3@:@U.Abs.Pl3@ke'%< Set_B_2 ;
+
+LEXICON Set_B_2
+Set_A ;
+intransitive_roots ;
+
+LEXICON Set_A
+@U.Erg.Sg1@@D.Abs.Sg1@:@U.Erg.Sg1@@D.Abs.Sg1@%{Poss.Sg1%}%{Poss.Sg1%} Verbs;
+@U.Erg.Pl1@@D.Abs.Pl1@:@U.Erg.Pl1@@D.Abs.Pl1@q%{Poss.Pl1%} Verbs;
+@U.Erg.Sg2@@D.Abs.Sg2@:@U.Erg.Sg2@@D.Abs.Sg2@aa%{Poss.Sg2%} Verbs;
+@U.Erg.Pl2@@D.Abs.Pl2@:@U.Erg.Pl2@@D.Abs.Pl2@ee%{Poss.Pl2%} Verbs;
+@U.Erg.Sg3@:@U.Erg.Sg3@%{Poss.Sg3%} Verbs;
+@U.Erg.Pl3@@D.Abs.Pl3@:@U.Erg.Pl3@@D.Abs.Pl3@e'%{Erg.Pl3%} Verbs;
+@U.Erg.INT@ Verbs;
+
+LEXICON V
++V:                                             Tense_tags;
+@U.verb.root@+V+Root:@U.verb.root@ # ; !TO remove in constraint grammar, treat roots as Lemmas
+
+LEXICON Tense_tags
+@U.tense.RECPST@+RECPST:@U.tense.RECPST@ Absolutive_tags;
+@U.tense.Fut@+Fut:@U.tense.RECPST@ Absolutive_tags;
+@U.tense.PRSHAB@+Prs:@U.tense.PRSHAB@ Absolutive_tags;
+@U.tense.REMPST@+REMPST:@U.tense.REMPST@ Absolutive_tags;
+@U.tense.Inf@+Inf:@U.tense.Inf@ #;
+
+LEXICON Absolutive_tags !TODO set B Absolutive Set A ergative
+@U.Abs.Sg1@+SetB.Sg1:@U.Abs.Sg1@ Ergative_tags;
+@U.Abs.Pl1@+SetB.Pl1:@U.Abs.Pl1@ Ergative_tags;
+@U.Abs.Sg2@+SetB.Sg2:@U.Abs.Sg2@ Ergative_tags;
+@U.Abs.Pl2@+SetB.Pl2:@U.Abs.Pl2@ Ergative_tags;
+@U.Abs.Sg3@+SetB.Sg3:@U.Abs.Sg3@ Ergative_tags;
+@U.Abs.Pl3@+SetB.Pl3:@U.Abs.Pl3@ Ergative_tags;
+
+LEXICON Ergative_tags
+@U.Erg.Sg1@+SetA.Sg1:@U.Erg.Sg1@ #;
+@U.Erg.Pl1@+SetA.Pl1:@U.Erg.Pl1@ #;
+@U.Erg.Sg2@+SetA.Sg2:@U.Erg.Sg2@ #;
+@U.Erg.Pl2@+SetA.Pl2:@U.Erg.Pl2@ #;
+@U.Erg.Sg3@+SetA.Sg3:@U.Erg.Sg3@ #;
+@U.Erg.Pl3@+SetA.Pl3:@U.Erg.Pl3@ #;
+@U.Erg.INT@:@U.Erg.INT@ #;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Suffixes!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Intransitive_suffix
+:%>k #;
+:%>q #;
+
+LEXICON Future_nonFuture
+!TODO nonfuture suffix
++V+Prs:k Verb_suffixes;
+++Fut:q Verb_suffixes;
++V+3Sg: #;
+
+LEXICON Verb_suffixes
++V+Sg1:in  #;
++V+Pl1:oo  #;
++V+Sg2:at  #;
++V+Pl2:ex  #;
++V+Sg3:    #;
++V+Pl3:eb' #; 
+
+LEXICON V_K
+:%{K%} V ;
+
+

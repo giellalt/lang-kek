@@ -68,12 +68,20 @@ Multichar_Symbols
 @U.Poss.Pl3@ !Posesiva de tercera persona plural
 @U.POSS.NON@ !Unpossessed form/forma no poseída
 
+
+@U.verb.root@
+
 !tense prefixes
 @U.tense.RECPST@
 @U.tense.Fut@
+@D.tense.Fut@ !disallow aa when not future tense
+@D.tense.3Sgi@ !disallow i when not narrative past tense
+@U.tense.3Sgi@ !allow i when narrative past, imperative, negative imperative
 @U.tense.PRSHAB@
 @U.tense.REMPST@
 @U.tense.Inf@
+@U.tense.Imp@
+@U.tense.NegImp@
 
 !Absolutive prefixes
 @U.Abs.Sg1@

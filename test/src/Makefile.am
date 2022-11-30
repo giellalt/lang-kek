@@ -30,7 +30,8 @@ endif # WANT_MORPHOLOGY
 # This is for yaml tests requiring ONLY a generator
 if WANT_GENERATION
 TESTS+=run-gt-norm-genyaml-testcases.sh \
-       run-gt-desc-genyaml-testcases.sh
+       run-gt-desc-genyaml-testcases.sh \
+       run-lexicon-yaml-testcases.sh
 endif # WANT_GENERATION
 
 # This is for yaml tests to be run when building fst's tailored to the needs of
@@ -49,7 +50,8 @@ XFAIL_TESTS=run-dict-gt-norm-genyaml-testcases.sh \
             run-gt-desc-yaml-testcases.sh \
             run-gt-norm-anayaml-testcases.sh \
             run-gt-norm-genyaml-testcases.sh \
-            run-lexc-testcases.sh
+            run-lexc-testcases.sh \
+            run-gt-desc-anayaml-testcases.sh
 
 ####### Other targets: ###########
 clean-local:
