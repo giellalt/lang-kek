@@ -21,4 +21,10 @@ yaml_file_subdir=lexicon-yamls
 ####### Include/source helper script from dir above - DO NOT CHANGE: ########
 # Relative path from test script to test runner:
 testrunner="../run-yaml-testcases.sh"
+
+# Make symlink of lexicon.hfst in the src directory
+pushd ../../src/
+ln -s fst/lexicon.hfst generator-lexicon.hfst
+popd
+
 source $testrunner $transducer $yaml_file_subdir $halftest
