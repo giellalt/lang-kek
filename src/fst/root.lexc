@@ -23,6 +23,17 @@ Multichar_Symbols
     +Fut !tiempo futuro
     +Inf    !infinitivo
 
+    +Imp
+    +NarPst
+    +NegImp
+    +Pst
+    +SetB.Pl1
+    +SetB.Pl2
+    +SetB.Pl3
+    +SetB.Sg1
+    +SetB.Sg2
+    +SetB.Sg3
+
     +Abs.Sg1
     +Abs.Pl1
     +Abs.Sg2
@@ -75,8 +86,8 @@ Multichar_Symbols
 @U.tense.RECPST@
 @U.tense.Fut@
 @D.tense.Fut@ !disallow aa when not future tense
-@D.tense.3Sgi@ !disallow i when not narrative past tense
-@U.tense.3Sgi@ !allow i when narrative past, imperative, negative imperative
+@D.tense.Sg3i@ !disallow i when not narrative past tense
+@U.tense.Sg3i@ !allow i when narrative past, imperative, negative imperative
 @U.tense.PRSHAB@
 @U.tense.REMPST@
 @U.tense.Inf@

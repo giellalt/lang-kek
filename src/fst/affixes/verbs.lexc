@@ -2,9 +2,9 @@ LEXICON Tense
 @U.tense.PRSHAB@:@U.tense.PRSHAB@na%< Set_B ;
 @U.tense.RECPST@:@U.tense.RECPST@x%< Set_B ;
 @U.tense.Fut@:@U.tense.Fut@t%< Set_B ;
-@U.tense.3Sgi@@U.tense.REMPST@:@U.tense.3Sgi@@U.tense.REMPST@k%< Set_B ;
-@U.tense.3Sgi@@U.tense.Imp@:@U.tense.3Sgi@@U.tense.Imp@ch%< Set_B ;
-@U.tense.3Sgi@@U.tense.NegImp@:@U.tense.3Sgi@@U.tense.NegImp@m%< Set_B ;
+@U.tense.Sg3i@@U.tense.REMPST@:@U.tense.Sg3i@@U.tense.REMPST@k%< Set_B ;
+@U.tense.Sg3i@@U.tense.Imp@:@U.tense.Sg3i@@U.tense.Imp@ch%< Set_B ;
+@U.tense.Sg3i@@U.tense.NegImp@:@U.tense.Sg3i@@U.tense.NegImp@m%< Set_B ;
 
 @U.tense.Inf@ Verbs;
 @U.verb.root@ Verbs;
@@ -14,9 +14,9 @@ LEXICON Set_B
 @U.Abs.Pl1@:@U.Abs.Pl1@koo%< Set_B_2 ;
 @U.Abs.Sg2@:@U.Abs.Sg2@kat%< Set_B_2 ;
 @U.Abs.Pl2@:@U.Abs.Pl2@kex%< Set_B_2 ;
-@D.tense.3Sgi@@D.tense.Fut@@U.Abs.Sg3@:@D.tense.3Sgi@@D.tense.Fut@@U.Abs.Sg3@%<   Set_B_2 ;
+@D.tense.Sg3i@@D.tense.Fut@@U.Abs.Sg3@:@D.tense.Sg3i@@D.tense.Fut@@U.Abs.Sg3@%<   Set_B_2 ;
 @U.tense.Fut@@U.Abs.Sg3@:@U.tense.Fut@@U.Abs.Sg3@aa%< Set_B_2 ;
-@U.tense.3Sgi@@U.Abs.Sg3@:@U.tense.3Sgi@@U.Abs.Sg3@i%< Set_B_2 ;
+@U.tense.Sg3i@@U.Abs.Sg3@:@U.tense.Sg3i@@U.Abs.Sg3@i%< Set_B_2 ;
 @U.Abs.Pl3@:@U.Abs.Pl3@ke'%< Set_B_2 ;
 
 LEXICON Set_B_2
@@ -43,6 +43,25 @@ LEXICON Tense_tags
 @U.tense.REMPST@+REMPST:@U.tense.REMPST@ Absolutive_tags;
 @U.tense.Inf@+Inf:@U.tense.Inf@ #;
 
+LEXICON Intransitive_tense_tags
+@U.tense.PRSHAB@+Prs:@U.tense.PRSHAB@ Set_B_tags ;
+@U.tense.RECPST@+Pst:@U.tense.RECPST@ Set_B_tags ;
+@U.tense.Fut@+Fut:@U.tense.Fut@ Set_B_tags ;
+@U.tense.Sg3i@@U.tense.REMPST@+NarPst:@U.tense.Sg3i@@U.tense.REMPST@ Set_B_tags ;
+@U.tense.Sg3i@@U.tense.Imp@+Imp:@U.tense.Sg3i@@U.tense.Imp@ Set_B_tags ;
+@U.tense.Sg3i@@U.tense.NegImp@+NegImp:@U.tense.Sg3i@@U.tense.NegImp@ Set_B_tags ;
+
+LEXICON Set_B_tags
+@U.Abs.Sg1@+SetB.Sg1:@U.Abs.Sg1@ #;
+@U.Abs.Pl1@+SetB.Pl1:@U.Abs.Pl1@ #;
+@U.Abs.Sg2@+SetB.Sg2:@U.Abs.Sg2@ #;
+@U.Abs.Pl2@+SetB.Pl2:@U.Abs.Pl2@ #;
+@D.tense.Sg3i@@D.tense.Fut@@U.Abs.Sg3@+SetB.Sg3:@D.tense.Sg3i@@D.tense.Fut@@U.Abs.Sg3@ #;
+@U.tense.Fut@@U.Abs.Sg3@+SetB.Sg3:@U.tense.Fut@@U.Abs.Sg3@ #;
+@U.tense.Sg3i@@U.Abs.Sg3@+SetB.Sg3:@U.tense.Sg3i@@U.Abs.Sg3@ #;
+@U.Abs.Pl3@+SetB.Pl3:@U.Abs.Pl3@ #;
+
+
 LEXICON Absolutive_tags !TODO set B Absolutive Set A ergative
 @U.Abs.Sg1@+SetB.Sg1:@U.Abs.Sg1@ Ergative_tags;
 @U.Abs.Pl1@+SetB.Pl1:@U.Abs.Pl1@ Ergative_tags;
@@ -63,14 +82,14 @@ LEXICON Ergative_tags
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Suffixes!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON Intransitive_suffix
-:%>k #;
-:%>q #;
++V+IV:%>k Intransitive_tense_tags;
++V+IV:%>q Intransitive_tense_tags;
 
 LEXICON Future_nonFuture
 !TODO nonfuture suffix
 +V+Prs:k Verb_suffixes;
 ++Fut:q Verb_suffixes;
-+V+3Sg: #;
++V+Sg3: #;
 
 LEXICON Verb_suffixes
 +V+Sg1:in  #;

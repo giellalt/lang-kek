@@ -42,16 +42,16 @@ Tests:
     wa'a+V+IV+NarPst+SetB.Pl2: k<ex<wa'a>k    # ustedes comieron/ you(plural) ate
     wa'a+V+IV+NarPst+SetB.Pl3: k<e'<wa'a>k    # ellos comieron/ they ate
     #ImperatiV+IVe TODO figure out what's going on here
-    wa'a+V+IV+Imp+SetB.Sn1:  ch<in<wa'a>q      # que coma yo
-    wa'a+V+IV+Imp+SetB.Sn2:  ch<kat<wa'a>q     # que comas tú
-    wa'a+V+IV+Imp+SetB.Sn3:  ch<i<wa'a>q      # que coma él
+    wa'a+V+IV+Imp+SetB.Sg1:  ch<in<wa'a>q      # que coma yo
+    wa'a+V+IV+Imp+SetB.Sg2:  ch<kat<wa'a>q     # que comas tú
+    wa'a+V+IV+Imp+SetB.Sg3:  ch<i<wa'a>q      # que coma él
     wa'a+V+IV+Imp+SetB.Pl1:  ch<koo<wa'a>q     # que comamos
     wa'a+V+IV+Imp+SetB.Pl2:  ch<kex<wa'a>q     # que coman ustedes
     wa'a+V+IV+Imp+SetB.Pl3:  ch<ke'<wa'a>q     # que coman ellos
     #NegatiV+IVe imperatiV+IVe
-    wa'a+V+IV+NegImp+SetB.Sn1:  m<in<wa'a>k  # que no coma yo
-    wa'a+V+IV+NegImp+SetB.Sn2:  m<kat<wa'a>k  # que no comas tú
-    wa'a+V+IV+NegImp+SetB.Sn3:  m<i<wa'a>k   # que no coma él
+    wa'a+V+IV+NegImp+SetB.Sg1:  m<in<wa'a>k  # que no coma yo
+    wa'a+V+IV+NegImp+SetB.Sg2:  m<kat<wa'a>k  # que no comas tú
+    wa'a+V+IV+NegImp+SetB.Sg3:  m<i<wa'a>k   # que no coma él
     wa'a+V+IV+NegImp+SetB.Pl1:  m<koo<wa'a>k  # que no comamos
     wa'a+V+IV+NegImp+SetB.Pl2:  m<kexwa'a>k  # que no coman ustedes
     wa'a+V+IV+NegImp+SetB.Pl2:  m<ke'<wa'a>k  # que no coman ellos
