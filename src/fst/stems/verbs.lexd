@@ -1,0 +1,17 @@
+PATTERNS
+Intransitive_Verbs
+
+LEXICON Intransitive_Stems
+wa'a
+
+LEXICON Set_B
+<SetB.Sg1>:in\<
+<SetB.Sg2>:at\<
+<SetB.Sg3>:\<
+<SetB.Pl1>:oo\<
+<SetB.Pl2>:ex\<
+<SetB.Pl3>:e'\<
+
+PATTERN Intransitive_Verbs
+[:x\<] :Set_B Intransitive_Stems [<V><IV><Pst>:] Set_B: [:>k]
+
