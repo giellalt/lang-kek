@@ -200,6 +200,11 @@ gt_CONFIG_FILES
 ##### BEGIN: Add language-specific list of files to ######
 ########## be processed by autoconf below here: ##########
 
+AC_PATH_PROG([LEXD], [lexd], [no])
+AS_IF([test "x${LEXD}" == xno],
+        [AC_MSG_ERROR([LexD is missing, please install!])
+    ])
+
 ############ END: Language-specific scripts. #############
 
 # This must be near the end of all configure.ac files:

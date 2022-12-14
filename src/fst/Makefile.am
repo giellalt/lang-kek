@@ -25,41 +25,23 @@ endif
 
 ####### Morphology source file defs: ########
 
-# Set this to name of lexc file containing Multichar_Symbols and LEXICON Root
-GT_LEXC_ROOT=$(srcdir)/root.lexc
+GT_LEXD_ROOT=$(srcdir)/root.lexd
 
-# Set this to the names of all regular lexc source files:
-GT_LEXC_SRCS_L1_L2=\
-			 affixes/verbs.lexc	 	 \
-			 affixes/nouns.lexc \
-			 stems/nouns.lexc         \
-			 stems/verbs.lexc		   \
-			 stems/adjectives.lexc		\
-			 stems/adverbs.lexc			 \
-			 stems/conjunctions.lexc	  \
-			 stems/determiners.lexc		   \
-			 stems/interrogatives.lexc		\
-			 stems/prepositions.lexc		 \
-			 stems/pronouns.lexc			  \
-			 affixes/suffix.lexc		
+LEXD_FILES=\
+		stems/verbs.lexd
 
-# If you are building an error-detecting L2 analyser, specify the lexc files
-# that differ between the regular L1 and the L2 analysers below, in L1 and
-# L2 respectively. L2 files must end in "*-L2.lexc". See SME for an example.
-L1=
+lexicon.tmp.lexd: $(GT_LEXD_ROOT) $(LEXD_FILES)
+	$(AM_V_GEN)cat $^ > $@
 
-L2=
+lexicon.tmp.att: lexicon.tmp.lexd
+	$(AM_V_LEXD)$(LEXD) -f $< $@
 
-GT_LEXC_SRCS=\
-			$(GT_LEXC_SRCS_L1_L2) \
-			$(L1)
-
-GT_LEXC_L2_SRCS=\
-			$(GT_LEXC_SRCS_L1_L2) \
-			$(L2)
-
-# Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=
+lexicon.tmp.hfst: lexicon.tmp.att
+	$(AM_V_GEN)cat $< \
+		| sed -E 's/\t<(@[A-Z]\.LEX\.[A-Za-z0-9]+@)>\t/\t\1\t/g' \
+		| sed -E 's/\t<([^\t]+)>\t/\t+\1\t/g' \
+		| $(HFST_TXT2FST) $(HFST_FORMAT) -o $@
+# first sed is <X> → +X
 
 # change handling of shared lexical data here:
 if HAVE_SHARED_COMMON
