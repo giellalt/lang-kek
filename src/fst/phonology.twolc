@@ -32,7 +32,11 @@ Sets
 !! ## Rules
 Rules
 
-!! ### Rules for possessive and ergative prefixes
+! ! !!Rules for present habitual conjugations
+! "Present habitual"
+! %{A%}:a <=> n _ %{K%}%%< ;
+
+! ### Rules for possessive and ergative prefixes
 
 "First Person possessive singular prevocalic form"
 %{Poss.Sg1%}:w <=> _ %{Poss.Sg1%}: Vow ; 
