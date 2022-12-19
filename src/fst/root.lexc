@@ -16,9 +16,7 @@ Multichar_Symbols
 
 +V  ! Verb/Verbo
     +Root !To mark Lemmas
-    +RECPST !pasado reciente
-    !TODO not sure if I should call this remote past or narrative past
-    +REMPST !pasado lejano
+    +RemPst !pasado lejano
     +Prs !tiempo presente
     +Fut !tiempo futuro
     +Inf    !infinitivo
