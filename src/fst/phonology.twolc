@@ -22,6 +22,7 @@ Alphabet
 !  %{REMPST%}:0
 %{K%}:k
 %{A%}:a
+%{FutA%}:0
 
  ;
 
@@ -38,10 +39,13 @@ Rules
 %{A%}:Vx <=> n _ %{K%}: %< Vy ;
         where Vy in ( a e i o u %< )
               Vx in ( a e 0 o u a ) 
-        matched;
+        matched ;
 
 "Present habitual k deletion"
 %{K%}:0 <=> %{A%}: _ %< [ i | %< ] ;
+
+"Future irrealis 3rd person a elongation"
+%{FutA%}:aa <=> t _ %< %< ;
 
 ! ! ### Rules for possessive and ergative prefixes
 
