@@ -10,17 +10,17 @@ LEXICON Set_B
 <SetB.Pl3>:e'\<
 
 PATTERN Intransitive_Verbs
-[:n\{A\}\{K\}\<] :Set_B Intransitive_Stems [<V><IV><Prs>:] Set_B: [:>k]
+[:n{A}{K}\<] :Set_B Intransitive_Stems [<V><IV><Prs>:] Set_B: [:>k]
 
 [:x\<] :Set_B Intransitive_Stems [<V><IV><Pst>:] Set_B: [:>k]
 
-[:t\<] :Set_B Intransitive_Stems [<V><IV><Fut>:] Set_B: [:>q]
+[:t{A}{A}\<] :Set_B Intransitive_Stems [<V><IV><Fut>:] Set_B: [:>q]
 
-[:k\{I\}\<] :Set_B Intransitive_Stems [<V><IV><NarPst>:] Set_B: [:>k]
+[:k{I}\<] :Set_B Intransitive_Stems [<V><IV><NarPst>:] Set_B: [:>k]
 
-[:ch\{I\}\<] :Set_B Intransitive_Stems [<V><IV><Imp>:] Set_B: [:>q]
+[:ch{I}\<] :Set_B Intransitive_Stems [<V><IV><Imp>:] Set_B: [:>q]
 
-[:m\{I\}\<] :Set_B Intransitive_Stems [<V><IV><Neg.Imp>:] Set_B: [:>k]
+[:m{I}\<] :Set_B Intransitive_Stems [<V><IV><NegImp>:] Set_B: [:>k]
 
 Intransitive_Stems [<V><IV><Inf>:] [:>k]
 

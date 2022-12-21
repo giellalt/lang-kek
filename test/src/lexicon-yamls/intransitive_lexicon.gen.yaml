@@ -21,22 +21,19 @@ Tests:
     wa'a+V+IV+Prs+SetB.Pl2:  n{A}{K}<ex<wa'a>k  # ustedes comen/you(plural) eat
     wa'a+V+IV+Prs+SetB.Pl3:  n{A}{K}<e'<wa'a>k  # ellos comen/they eat
     #Future Tense
-    wa'a+V+IV+Fut+SetB.Sg1:  t<in<wa'a>q      # yo comeré/I will eat
-    wa'a+V+IV+Fut+SetB.Sg2:  t<at<wa'a>q      # tú comerás/you(singular) will eat
-    wa'a+V+IV+Fut+SetB.Sg3:  t<aa<wa'a>q      # él comerá/he/she eats #TODO why is third person singular different in future tense
-    wa'a+V+IV+Fut+SetB.Pl1:  t<oo<wa'a>q      # comeremos/we will eat 
-    wa'a+V+IV+Fut+SetB.Pl2:  t<ex<wa'a>q      # ustedes comerán/you(plural) will eat
-    wa'a+V+IV+Fut+SetB.Pl3:  t<e'<wa'a>q      # ellos comerán/they will eat
+    wa'a+V+IV+Fut+SetB.Sg1:  t{A}{A}<in<wa'a>q      # yo comeré/I will eat
+    wa'a+V+IV+Fut+SetB.Sg2:  t{A}{A}<at<wa'a>q      # tú comerás/you(singular) will eat
+    wa'a+V+IV+Fut+SetB.Sg3:  t{A}{A}<<wa'a>q      # él comerá/he/she eats #TODO why is third person singular different in future tense
+    wa'a+V+IV+Fut+SetB.Pl1:  t{A}{A}<oo<wa'a>q      # comeremos/we will eat 
+    wa'a+V+IV+Fut+SetB.Pl2:  t{A}{A}<ex<wa'a>q      # ustedes comerán/you(plural) will eat
+    wa'a+V+IV+Fut+SetB.Pl3:  t{A}{A}<e'<wa'a>q      # ellos comerán/they will eat
     #Past Tense
     wa'a+V+IV+Pst+SetB.Sg1:  x<in<wa'a>k      # yo comí/I ate
-    wa'a+V+IV+Pst+SetB.Sg2:  x<at<wa'a>k      # tú comiste/you(singular) ate
-    wa'a+V+IV+Pst+SetB.Sg3:  x<<wa'a>k        # él comió/he/she ate
-    wa'a+V+IV+Pst+SetB.Pl1:  x<oo<wa'a>k      # nosotros comimos/we ate
-    wa'a+V+IV+Pst+SetB.Pl2:  x<ex<wa'a>k      # ustedes comieron/you(plural) ate
-    wa'a+V+IV+Pst+SetB.Pl3:  x<e'<wa'a>k      # ellos comieron/ they ate
-    #NarratiV+IVe Past tense
-    wa'a+V+IV+NarPst+SetB.Sg1: k{I}<in<wa'a>k    # yo comí/I ate
-    wa'a+V+IV+NarPst+SetB.Sg2: k{I}<at<wa'a>k    # tú comiste/ you(singular) ate
+    wa'a+V+IV+Pst+SetB.Sg2:  x<at<wa'a>k
+    wa'a+V+IV+Pst+SetB.Sg3:  x<<wa'a>k
+    wa'a+V+IV+Pst+SetB.Pl1:  x<oo<wa'a>k    # nosotros comimos/ we ate
+    
+    # tú comiste/ you(singular) ate
     wa'a+V+IV+NarPst+SetB.Sg3: k{I}<<wa'a>k      # él comió/he/she ate
     wa'a+V+IV+NarPst+SetB.Pl1: k{I}<oo<wa'a>k    # nosotros comimos/ we ate
     wa'a+V+IV+NarPst+SetB.Pl2: k{I}<ex<wa'a>k    # ustedes comieron/ you(plural) ate
@@ -49,7 +46,7 @@ Tests:
     wa'a+V+IV+Imp+SetB.Pl2:  ch{I}<ex<wa'a>q     # que coman ustedes
     wa'a+V+IV+Imp+SetB.Pl3:  ch{I}<e'<wa'a>q     # que coman ellos
     #NegatiV+IVe imperatiV+IVe
-    wa'a+V+IV+Neg.Imp+SetB.Sg1:  m{I}<in<wa'a>k  # que no coma yo
+    wa'a+V+IV+NegImp+SetB.Sg1:  m{I}<in<wa'a>k  # que no coma yo
     wa'a+V+IV+NegImp+SetB.Sg2:  m{I}<at<wa'a>k  # que no comas tú
     wa'a+V+IV+NegImp+SetB.Sg3:  m{I}<<wa'a>k   # que no coma él
     wa'a+V+IV+NegImp+SetB.Pl1:  m{I}<oo<wa'a>k  # que no comamos
