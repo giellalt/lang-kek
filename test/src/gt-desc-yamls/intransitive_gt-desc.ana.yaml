@@ -42,18 +42,18 @@ Tests:
     wa'a+V+IV+NarPst+SetB.Pl2: kexwa'ak    # ustedes comieron/ you(plural) ate
     wa'a+V+IV+NarPst+SetB.Pl3: ke'wa'ak    # ellos comieron/ they ate
     #ImperatiV+IVe TODO figure out what's going on here
-    wa'a+V+IV+Imp+SetB.Sn1:  chinwa'aq      # que coma yo
-    wa'a+V+IV+Imp+SetB.Sn2:  chatwa'aq     # que comas tú
-    wa'a+V+IV+Imp+SetB.Sn3:  chiwa'aq      # que coma él
+    wa'a+V+IV+Imp+SetB.Sg1:  chinwa'aq      # que coma yo
+    wa'a+V+IV+Imp+SetB.Sg2:  chatwa'aq     # que comas tú
+    wa'a+V+IV+Imp+SetB.Sg3:  chiwa'aq      # que coma él
     wa'a+V+IV+Imp+SetB.Pl1:  choowa'aq     # que comamos
     wa'a+V+IV+Imp+SetB.Pl2:  chexwa'aq     # que coman ustedes
     wa'a+V+IV+Imp+SetB.Pl3:  che'wa'aq     # que coman ellos
     #NegatiV+IVe imperatiV+IVe
-    wa'a+V+IV+Neg.Imp+SetB.Sn1:  minwa'ak  # que no coma yo
-    wa'a+V+IV+Neg.Imp+SetB.Sn2:  matwa'ak  # que no comas tú
-    wa'a+V+IV+Neg.Imp+SetB.Sn3:  miwa'ak   # que no coma él
-    wa'a+V+IV+Neg.Imp+SetB.Pl1:  moowa'ak  # que no comamos
-    wa'a+V+IV+Neg.Imp+SetB.Pl2:  mexwa'ak  # que no coman ustedes
-    wa'a+V+IV+Neg.Imp+SetB.Pl2:  me'wa'ak  # que no coman ellos
+    wa'a+V+IV+NegImp+SetB.Sg1:  minwa'ak  # que no coma yo
+    wa'a+V+IV+NegImp+SetB.Sg2:  matwa'ak  # que no comas tú
+    wa'a+V+IV+NegImp+SetB.Sg3:  miwa'ak   # que no coma él
+    wa'a+V+IV+NegImp+SetB.Pl1:  moowa'ak  # que no comamos
+    wa'a+V+IV+NegImp+SetB.Pl2:  mexwa'ak  # que no coman ustedes
+    wa'a+V+IV+NegImp+SetB.Pl3:  me'wa'ak  # que no coman ellos
 
     

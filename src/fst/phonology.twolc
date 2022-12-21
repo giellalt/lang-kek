@@ -23,6 +23,7 @@ Alphabet
 %{K%}:k
 %{A%}:a
 %{FutA%}:0
+%{I%}:i
 
  ;
 
@@ -34,7 +35,7 @@ Sets
 !! ## Rules
 Rules
 
-!!Rules for present habitual conjugations
+!Rules for intransitive conjugations
 "Present habitual vowell harmony"
 %{A%}:Vx <=> n _ %{K%}: %< Vy ;
         where Vy in ( a e i o u %< )
@@ -46,6 +47,12 @@ Rules
 
 "Future irrealis 3rd person a elongation"
 %{FutA%}:aa <=> t _ %< %< ;
+
+"Imperative, narrative past, and negative imperative i"
+%{I%}:Vx <=> _ %< Vy ;
+        where Vy in ( a e i o u %< )
+              Vx in ( 0 0 0 0 0 i ) 
+        matched ;
 
 ! ! ### Rules for possessive and ergative prefixes
 
