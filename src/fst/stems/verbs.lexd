@@ -1,6 +1,10 @@
 LEXICON Intransitive_Stems
 wa'a
 
+LEXICON Stative_Verbs
+wan
+yoo
+
 LEXICON Set_B
 <SetB.Sg1>:in\<
 <SetB.Sg2>:at\<
@@ -25,3 +29,10 @@ PATTERN Intransitive_Verbs
 Intransitive_Stems [<V><IV><Inf>:] [:>k]
 
 Intransitive_Stems [<V><IV><Root>:]
+
+PATTERN Statives
+Stative_Verbs [:>k] :Set_B [<V><SV><Real>:] Set_B:
+Stative_Verbs [:>k] [<V><SV><Inf>:]
+Stative_Verbs [:>q] :Set_B [<V><SV><Irr>:] Set_B:
+Stative_Verbs [<V><SV><Root>:]
+Stative_Verbs [<V><SV><SetB.Sg3>:]
