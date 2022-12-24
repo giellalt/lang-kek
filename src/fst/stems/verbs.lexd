@@ -14,20 +14,11 @@ LEXICON Set_B
 <SetB.Pl3>:e'\<
 
 LEXICON Set_A
-#in/w
 <SetA.Sg1>:{SetA.Sg1}{SetA.Sg1}\<
-
-#aa/aaw
 <SetA.Sg2>:aa{SetA.Sg2}
-
-#r/x TODO look at nikinixsik' in transitive gt_desc yaml
 <SetA.Sg3>:{SetA.Sg3}
-
-#ee/eer
 <SetA.Pl2>:ee{SetA.Pl2}
-
-#e'x/e'r
-<SetA.Pl3:e'{SetA.Pl3}
+<SetA.Pl3>:e'{SetA.Pl3}
 
 PATTERN Intransitive_Verbs
 [:n{A}{K}\<] :Set_B Intransitive_Stems [<V><IV><Prs>:] Set_B: [:>k]
