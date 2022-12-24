@@ -43,3 +43,6 @@ Stative_Verbs [:>k] [<V><SV><Inf>:]
 Stative_Verbs [:>q] :Set_B [<V><SV><Irr>:] Set_B:
 Stative_Verbs [<V><SV><Root>:]
 Stative_Verbs [<V><SV><SetB.Sg3>:]
+
+PATTERN Transitive_Verbs
+[:n{A}k\<] :Set_B Set_A Intransitive_Stems [<V><TV><Prs>:] Set_B: Set_A:
