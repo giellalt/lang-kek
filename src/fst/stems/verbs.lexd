@@ -14,10 +14,19 @@ LEXICON Set_B
 <SetB.Pl3>:e'\<
 
 LEXICON Set_A
+#in/w
 <SetA.Sg1>:{SetA.Sg1}{SetA.Sg1}\<
+
+#aa/aaw
 <SetA.Sg2>:aa{SetA.Sg2}\<
+
+#x/r
 <SetA.Sg3>:{SetA.Sg3}\<
+
+#ee/eer
 <SetA.Pl2>:ee{SetA.Pl2}\<
+
+#e'/e'r
 <SetA.Pl3>:e'{SetA.Pl3}\<
 
 PATTERN Intransitive_Verbs
@@ -47,3 +56,12 @@ Stative_Verbs [<V><SV><SetB.Sg3>:]
 PATTERN Transitive_Verbs
 [:n{Prs}k\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Prs>:] Set_B: Set_A:
 
+[:x\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Pst>:] Set_B: Set_A:
+
+[:t{FutA}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Fut>:] Set_B: Set_A:
+
+[:k{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><NarPst>:] Set_B: Set_A:
+
+[:ch{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Imp>:] Set_B: Set_A:
+
+[:m{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><NegImp>:] Set_B: Set_A:
