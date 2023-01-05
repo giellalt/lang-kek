@@ -65,3 +65,4 @@ PATTERN Transitive_Verbs
 [:ch{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Imp>:] Set_B: Set_A:
 
 [:m{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><NegImp>:] Set_B: Set_A:
+
