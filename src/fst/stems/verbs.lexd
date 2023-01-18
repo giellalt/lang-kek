@@ -1,4 +1,4 @@
-LEXICON Intransitive_Stems
+LEXICON Verb_Stems
 wa'a
 
 LEXICON Stative_Verbs
@@ -30,21 +30,21 @@ LEXICON Set_A
 <SetA.Pl3>:e'{SetA.Pl3}\<
 
 PATTERN Intransitive_Verbs
-[:n{A}{K}\<] :Set_B Intransitive_Stems [<V><IV><Prs>:] Set_B: [:>k]
+[:n{A}{K}\<] :Set_B Verb_Stems [<V><IV><Prs>:] Set_B: [:>k]
 
-[:x\<] :Set_B Intransitive_Stems [<V><IV><Pst>:] Set_B: [:>k]
+[:x\<] :Set_B Verb_Stems [<V><IV><Pst>:] Set_B: [:>k]
 
-[:t{FutA}\<] :Set_B Intransitive_Stems [<V><IV><Fut>:] Set_B: [:>q]
+[:t{FutA}\<] :Set_B Verb_Stems [<V><IV><Fut>:] Set_B: [:>q]
 
-[:k{I}\<] :Set_B Intransitive_Stems [<V><IV><NarPst>:] Set_B: [:>k]
+[:k{I}\<] :Set_B Verb_Stems [<V><IV><NarPst>:] Set_B: [:>k]
 
-[:ch{I}\<] :Set_B Intransitive_Stems [<V><IV><Imp>:] Set_B: [:>q]
+[:ch{I}\<] :Set_B Verb_Stems [<V><IV><Imp>:] Set_B: [:>q]
 
-[:m{I}\<] :Set_B Intransitive_Stems [<V><IV><NegImp>:] Set_B: [:>k]
+[:m{I}\<] :Set_B Verb_Stems [<V><IV><NegImp>:] Set_B: [:>k]
 
-Intransitive_Stems [<V><IV><Inf>:] [:>k]
+Verb_Stems [<V><IV><Inf>:] [:>k]
 
-Intransitive_Stems [<V><IV><Root>:]
+Verb_Stems [<V><IV><Root>:]
 
 PATTERN Statives
 Stative_Verbs [:>k] :Set_B [<V><SV><Real>:] Set_B:
@@ -54,15 +54,15 @@ Stative_Verbs [<V><SV><Root>:]
 Stative_Verbs [<V><SV><SetB.Sg3>:]
 
 PATTERN Transitive_Verbs
-[:n{Prs}k\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Prs>:] Set_B: Set_A:
+[:n{Prs}k\<] :Set_B :Set_A Verb_Stems [<V><TV><Prs>:] Set_B: Set_A:
 
-[:x\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Pst>:] Set_B: Set_A:
+[:x\<] :Set_B :Set_A Verb_Stems [<V><TV><Pst>:] Set_B: Set_A:
 
-[:t{FutA}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Fut>:] Set_B: Set_A:
+[:t{FutA}\<] :Set_B :Set_A Verb_Stems [<V><TV><Fut>:] Set_B: Set_A:
 
-[:k{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><NarPst>:] Set_B: Set_A:
+[:k{I}\<] :Set_B :Set_A Verb_Stems [<V><TV><NarPst>:] Set_B: Set_A:
 
-[:ch{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><Imp>:] Set_B: Set_A:
+[:ch{I}\<] :Set_B :Set_A Verb_Stems [<V><TV><Imp>:] Set_B: Set_A:
 
-[:m{I}\<] :Set_B :Set_A Intransitive_Stems [<V><TV><NegImp>:] Set_B: Set_A:
+[:m{I}\<] :Set_B :Set_A Verb_Stems [<V><TV><NegImp>:] Set_B: Set_A:
 
