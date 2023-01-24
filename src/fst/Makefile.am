@@ -28,7 +28,10 @@ endif
 GT_LEXD_ROOT=$(srcdir)/root.lexd
 
 LEXD_FILES=\
-		stems/verbs.lexd
+		stems/verbs.lexd \
+		stems/nouns.lexd \
+		stems/pronouns.lexd \
+		affixes/pronouns.lexd
 
 lexicon.tmp.lexd: $(GT_LEXD_ROOT) $(LEXD_FILES)
 	$(AM_V_GEN)cat $^ > $@

@@ -1,6 +1,0 @@
-LEXICON POSS_suffix
-:eb' #;
-
-LEXICON PL_suffix
-+Sg:    #;
-+Pl:eb' #;

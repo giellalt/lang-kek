@@ -8,49 +8,32 @@ Config:
     App: lookup
 
 Tests:
-  Verb - transitive verb - ok : # Test for intransitive verb inflection vowel initial
-    #Present Tense
+  Verb - transitive verb - ok : # Test for intransitive verb inflection vowel initial pg. 32 Stewart
 
-    # Obj. = 1st person singular vowel initial
-    ab'i+V+TV+SetB.Sg1+SetA.Sg2: nikinaawab'i # me escuchas
-    ab'i+V+TV+SetB.Sg1+SetA.Sg3: nikinrab'i # me escucha él
-    ab'i+V+TV+SetB.Sg1+SetA.Pl2: nikineerab'i # me escuchan ustedes
-    ab'i+V+TV+SetB.Sg1+SetA.Pl3: nikine'rab'i # me escuchan ellos
-
-    # Obj. = 1st person plural vowel initial
-    ab'i+V+TV+SetB.Pl1+SetA.Sg2: nokohaawab'i # nos escuchas
-    ab'i+V+TV+SetB.Pl1+SetA.Sg3: nokorab'i # nos escucha él
-    ab'i+V+TV+SetB.Pl1+SetA.Pl2: nokoheerab'i # nos escuchan ustedes
-    ab'i+V+TV+SetB.Pl1+SetA.Pl3: nokohe'rab'i # nos escuchan ellos
-
-    # Obj. = 2nd person singular vowel initial
-    ab'i+V+TV+SetB.Sg2+SetA.Sg1: nakatwab'i # te escucho
-    ab'i+V+TV+SetB.Sg2+SetA.Sg3: nakatrab'i # él te escucha
-    ab'i+V+TV+SetB.Sg2+SetA.Pl1: nakatqab'i # te escuchamos
-    ab'i+V+TV+SetB.Sg2+SetA.Pl3: nakate'rab'i # ellos te escuchan
-
-    # Obj = 2nd person plural vowel initial
-    ab'i+V+TV+SetB.Pl2+SetA.Sg1: nekexwab'i # les escucho a ustedes
-    ab'i+V+TV+SetB.Pl2+SetA.Sg3: nekexrab'i # él les escucha a ustedes
-    ab'i+V+TV+SetB.Pl2+SetA.Pl1: nekexqab'i # les escuchamos a ustedes
-    ab'i+V+TV+SetB.Pl2+SetA.Pl3: nekexrab'iheb' # ellos les escuchan a ustedes
-
-    # Obj = 3rd persion singular vowel initial
-    ab'i+V+TV+SetB.Sg3+SetA.Sg1: nawab'i # lo escucho
-    ab'i+V+TV+SetB.Sg3+SetA.Sg2: nakawab'i # lo escuchas
-    ab'i+V+TV+SetB.Sg3+SetA.Sg3: narab'i # lo escucha él
-    ab'i+V+TV+SetB.Sg3+SetA.Pl1: naqab'i # lo escuchamos
-    ab'i+V+TV+SetB.Sg3+SetA.Pl2: nekerab'i # lo escuchan ustedes
-    ab'i+V+TV+SetB.Sg3+SetA.Pl3: neke'rab'i # lo escuchan ellos
-
-    # Obj. = 3rd person plural vowell initial
-    ab'i+V+TV+SetB.Pl3+SetA.Sg1: neke'wab'i # los escucho
-    ab'i+V+TV+SetB.Pl3+SetA.Sg1: nawab'iheb' # los escucho 
-    ab'i+V+TV+SetB.Pl3+SetA.Sg2: nakawab'iheb' # los escuchas 
-    ab'i+V+TV+SetB.Pl3+SetA.Sg3: narab'iheb' # él los escucha
-    ab'i+V+TV+SetB.Pl3+SetA.Pl1: neke'qab'i # los escuchamos
-    ab'i+V+TV+SetB.Pl3+SetA.Pl1: naqab'iheb' # los escuchamos
-    ab'i+V+TV+SetB.Pl3+SetA.Pl2: nekerab'iheb' # los escuchan ustedes 
-    ab'i+V+TV+SetB.Pl3+SetA.Pl3: neke'rab'iheb' # los escuchan ellos 
-
-    
+  il+V+TV+Pst+SetB.Sg1+SetA.Sg2: xinaawil # you saw me/ me viste
+  il+V+TV+Pst+SetB.Sg1+SetA.Sg3: xiniril # he saw me/ me vio
+  il+V+TV+Pst+SetB.Sg1+SetA.Pl2: xineeril # y'all saw me/ me vieron ustedes
+  il+V+TV+Pst+SetB.Sg1+SetA.Pl3: xine'ril # they saw me/ me vieron ellos
+  il+V+TV+Pst+SetB.Sg2+SetA.Sg1: xatwil # I saw you/ te vi
+  il+V+TV+Pst+SetB.Sg2+SetA.Sg3: xatril # he saw you/ te vio
+  il+V+TV+Pst+SetB.Sg2+SetA.Pl1: xatqil # we saw you/ te vimos
+  il+V+TV+Pst+SetB.Sg2+SetA.Pl3: xate'ril # they saw you/ te vieron ellos
+  il+V+TV+Pst+SetB.Sg3+SetA.Sg1: xwil # I saw him/ lo vi
+  il+V+TV+Pst+SetB.Sg3+SetA.Sg2: xawil # you saw him/ lo viste
+  il+V+TV+Pst+SetB.Sg3+SetA.Sg3: xril # he saw him/lo vio
+  il+V+TV+Pst+SetB.Sg3+SetA.Pl1: xqil # we saw him/lo vimos
+  il+V+TV+Pst+SetB.Sg3+SetA.Pl2: xeril # y'all saw him/lo vieron ustedes
+  il+V+TV+Pst+SetB.Sg3+SetA.Pl3: xe'ril # They saw him/lo viero ellos
+  il+V+TV+Pst+SetB.Pl1+SetA.Sg2: xohaawil # You saw us/nos viste
+  il+V+TV+Pst+SetB.Pl1+SetA.Sg3: xoril # he saw us/nos vio
+  il+V+TV+Pst+SetB.Pl1+SetA.Pl2: xoheeril # y'all saw us/nos vieron ustedes
+  il+V+TV+Pst+SetB.Pl1+SetA.Pl3: xohe'ril # they saw us/nos vieron ellos
+  il+V+TV+Pst+SetB.Pl2+SetA.Sg1: xexwil # I saw y'all/los vi a ustedes
+  il+V+TV+Pst+SetB.Pl2+SetA.Sg3: xexril # He saw y'all/ los vio a ustedes
+  il+V+TV+Pst+SetB.Pl2+SetA.Pl1: xexqil # We saw y'all/los vimos a ustedes
+  il+V+TV+Pst+SetB.Pl3+SetA.Sg1: xwileb' # I saw them/los vi a ellos
+  il+V+TV+Pst+SetB.Pl3+SetA.Sg2: xawileb' # You saw them/los viste a ellos
+  il+V+TV+Pst+SetB.Pl3+SetA.Sg3: xrileb' # He saw them/vio a ellos
+  il+V+TV+Pst+SetB.Pl3+SetA.Pl1: xqileb' # we saw them/los vimos a ellos
+  il+V+TV+Pst+SetB.Pl3+SetA.Pl2: xerileb' # Y'all saw them/los vieron ustedes
+  
