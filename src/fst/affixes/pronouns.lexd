@@ -21,3 +21,6 @@ LEXICON Set_A
 
 #e'/e'r
 <SetA.Pl3>:e'{SetA.Pl3}\<
+
+LEXICON Pluralizer
+<Pl>:eb'

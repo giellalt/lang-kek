@@ -1,4 +1,8 @@
-PATTERN Independent_Pronouns
-[laa'<Indep>:laa'] Set_B
-[a'an<Indep><Sn3>:a'an]
+LEXICON Independent_Prefix
+<Indep>:laa'\<
+
+PATTERN Independent_Pronouns #TODO they appear in the analyser but not in the generator, appears in hfst2text
+Independent_Prefix :Set_B Set_B:
+[<Indep><Sg3>:a'an]
+[<Indep><Pl3>:a'an] :Pluralizer
 

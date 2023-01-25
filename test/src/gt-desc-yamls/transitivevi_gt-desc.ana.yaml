@@ -8,32 +8,32 @@ Config:
     App: lookup
 
 Tests:
-  Verb - transitive verb - ok : # Test for intransitive verb inflection vowel initial pg. 32 Stewart
+  Verb - transitive verb vowell initial - ok : # Test for intransitive verb inflection vowel initial pg. 32 Stewart
 
-  il+V+TV+Pst+SetB.Sg1+SetA.Sg2: xinaawil # you saw me/ me viste
-  il+V+TV+Pst+SetB.Sg1+SetA.Sg3: xiniril # he saw me/ me vio
-  il+V+TV+Pst+SetB.Sg1+SetA.Pl2: xineeril # y'all saw me/ me vieron ustedes
-  il+V+TV+Pst+SetB.Sg1+SetA.Pl3: xine'ril # they saw me/ me vieron ellos
-  il+V+TV+Pst+SetB.Sg2+SetA.Sg1: xatwil # I saw you/ te vi
-  il+V+TV+Pst+SetB.Sg2+SetA.Sg3: xatril # he saw you/ te vio
-  il+V+TV+Pst+SetB.Sg2+SetA.Pl1: xatqil # we saw you/ te vimos
-  il+V+TV+Pst+SetB.Sg2+SetA.Pl3: xate'ril # they saw you/ te vieron ellos
-  il+V+TV+Pst+SetB.Sg3+SetA.Sg1: xwil # I saw him/ lo vi
-  il+V+TV+Pst+SetB.Sg3+SetA.Sg2: xawil # you saw him/ lo viste
-  il+V+TV+Pst+SetB.Sg3+SetA.Sg3: xril # he saw him/lo vio
-  il+V+TV+Pst+SetB.Sg3+SetA.Pl1: xqil # we saw him/lo vimos
-  il+V+TV+Pst+SetB.Sg3+SetA.Pl2: xeril # y'all saw him/lo vieron ustedes
-  il+V+TV+Pst+SetB.Sg3+SetA.Pl3: xe'ril # They saw him/lo viero ellos
-  il+V+TV+Pst+SetB.Pl1+SetA.Sg2: xohaawil # You saw us/nos viste
-  il+V+TV+Pst+SetB.Pl1+SetA.Sg3: xoril # he saw us/nos vio
-  il+V+TV+Pst+SetB.Pl1+SetA.Pl2: xoheeril # y'all saw us/nos vieron ustedes
-  il+V+TV+Pst+SetB.Pl1+SetA.Pl3: xohe'ril # they saw us/nos vieron ellos
-  il+V+TV+Pst+SetB.Pl2+SetA.Sg1: xexwil # I saw y'all/los vi a ustedes
-  il+V+TV+Pst+SetB.Pl2+SetA.Sg3: xexril # He saw y'all/ los vio a ustedes
-  il+V+TV+Pst+SetB.Pl2+SetA.Pl1: xexqil # We saw y'all/los vimos a ustedes
-  il+V+TV+Pst+SetB.Pl3+SetA.Sg1: xwileb' # I saw them/los vi a ellos
-  il+V+TV+Pst+SetB.Pl3+SetA.Sg2: xawileb' # You saw them/los viste a ellos
-  il+V+TV+Pst+SetB.Pl3+SetA.Sg3: xrileb' # He saw them/vio a ellos
-  il+V+TV+Pst+SetB.Pl3+SetA.Pl1: xqileb' # we saw them/los vimos a ellos
-  il+V+TV+Pst+SetB.Pl3+SetA.Pl2: xerileb' # Y'all saw them/los vieron ustedes
-  
+    il+V+TV+Pst+SetB.Sg1+SetA.Sg2: xinaawil # you saw me/ me viste
+    il+V+TV+Pst+SetB.Sg1+SetA.Sg3: xiniril # he saw me/ me vio
+    il+V+TV+Pst+SetB.Sg1+SetA.Pl2: xineeril # y'all saw me/ me vieron ustedes
+    il+V+TV+Pst+SetB.Sg1+SetA.Pl3: xine'ril # they saw me/ me vieron ellos
+    il+V+TV+Pst+SetB.Sg2+SetA.Sg1: xatwil # I saw you/ te vi
+    il+V+TV+Pst+SetB.Sg2+SetA.Sg3: xatril # he saw you/ te vio
+    il+V+TV+Pst+SetB.Sg2+SetA.Pl1: xatqil # we saw you/ te vimos
+    il+V+TV+Pst+SetB.Sg2+SetA.Pl3: xate'ril # they saw you/ te vieron ellos
+    il+V+TV+Pst+SetB.Sg3+SetA.Sg1: xwil # I saw him/ lo vi
+    il+V+TV+Pst+SetB.Sg3+SetA.Sg2: xawil # you saw him/ lo viste
+    il+V+TV+Pst+SetB.Sg3+SetA.Sg3: xril # he saw him/lo vio
+    il+V+TV+Pst+SetB.Sg3+SetA.Pl1: xqil # we saw him/lo vimos
+    il+V+TV+Pst+SetB.Sg3+SetA.Pl2: xeril # y'all saw him/lo vieron ustedes
+    il+V+TV+Pst+SetB.Sg3+SetA.Pl3: xe'ril # They saw him/lo viero ellos
+    il+V+TV+Pst+SetB.Pl1+SetA.Sg2: xohaawil # You saw us/nos viste
+    il+V+TV+Pst+SetB.Pl1+SetA.Sg3: xoril # he saw us/nos vio
+    il+V+TV+Pst+SetB.Pl1+SetA.Pl2: xoheeril # y'all saw us/nos vieron ustedes
+    il+V+TV+Pst+SetB.Pl1+SetA.Pl3: xohe'ril # they saw us/nos vieron ellos
+    il+V+TV+Pst+SetB.Pl2+SetA.Sg1: xexwil # I saw y'all/los vi a ustedes
+    il+V+TV+Pst+SetB.Pl2+SetA.Sg3: xexril # He saw y'all/ los vio a ustedes
+    il+V+TV+Pst+SetB.Pl2+SetA.Pl1: xexqil # We saw y'all/los vimos a ustedes
+    il+V+TV+Pst+SetB.Pl3+SetA.Sg1: xwileb' # I saw them/los vi a ellos
+    il+V+TV+Pst+SetB.Pl3+SetA.Sg2: xawileb' # You saw them/los viste a ellos
+    il+V+TV+Pst+SetB.Pl3+SetA.Sg3: xrileb' # He saw them/vio a ellos
+    il+V+TV+Pst+SetB.Pl3+SetA.Pl1: xqileb' # we saw them/los vimos a ellos
+    il+V+TV+Pst+SetB.Pl3+SetA.Pl2: xerileb' # Y'all saw them/los vieron ustedes
+
