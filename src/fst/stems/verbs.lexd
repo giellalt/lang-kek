@@ -1,28 +1,47 @@
-LEXICON Verb_Stems
-wa'a # eat/comer
-il # see/ver
+LEXICON AK_Verbs
+wa' # eat/comer
+
+LEXICON OK_Verbs
 b'oq # call/llamar
+il # see/ver
+
+LEXICON NK_Verbs
+ab'i # to hear/oir/escuchar
 
 LEXICON Stative_Verbs
 wan
 yoo
 
 PATTERN Intransitive_Verbs
-[:n{A}{K}\<] :Set_B Verb_Stems [<V><IV><Prs>:] Set_B: [:>k]
+#---------- AK Verbs ----------------
+[:n{A}{K}\<] :Set_B AK_Verbs [<V><IV><Prs>:] Set_B: [:>ak]
+[:x\<] :Set_B AK_Verbs [<V><IV><Pst>:] Set_B: [:>ak]
+[:t{FutA}\<] :Set_B AK_Verbs [<V><IV><Fut>:] Set_B: [:>aq]
+[:k{I}\<] :Set_B AK_Verbs [<V><IV><NarPst>:] Set_B: [:>ak]
+[:ch{I}\<] :Set_B AK_Verbs [<V><IV><Imp>:] Set_B: [:>aq]
+[:m{I}\<] :Set_B AK_Verbs [<V><IV><NegImp>:] Set_B: [:>ak]
+AK_Verbs [<V><IV><Inf>:] [:>ak]
+AK_Verbs [<V><IV><Root>:]
 
-[:x\<] :Set_B Verb_Stems [<V><IV><Pst>:] Set_B: [:>k]
+#---------- OK Verbs ----------------
+[:n{A}{K}\<] :Set_B OK_Verbs [<V><IV><Prs>:] Set_B: [:>ok]
+[:x\<] :Set_B OK_Verbs [<V><IV><Pst>:] Set_B: [:>ok]
+[:t{FutA}\<] :Set_B OK_Verbs [<V><IV><Fut>:] Set_B: [:>oq]
+[:k{I}\<] :Set_B OK_Verbs [<V><IV><NarPst>:] Set_B: [:>ok]
+[:ch{I}\<] :Set_B OK_Verbs [<V><IV><Imp>:] Set_B: [:>oq]
+[:m{I}\<] :Set_B OK_Verbs [<V><IV><NegImp>:] Set_B: [:>ok]
+OK_Verbs [<V><IV><Inf>:] [:>ok]
+OK_Verbs [<V><IV><Root>:]
 
-[:t{FutA}\<] :Set_B Verb_Stems [<V><IV><Fut>:] Set_B: [:>q]
-
-[:k{I}\<] :Set_B Verb_Stems [<V><IV><NarPst>:] Set_B: [:>k]
-
-[:ch{I}\<] :Set_B Verb_Stems [<V><IV><Imp>:] Set_B: [:>q]
-
-[:m{I}\<] :Set_B Verb_Stems [<V><IV><NegImp>:] Set_B: [:>k]
-
-Verb_Stems [<V><IV><Inf>:] [:>k]
-
-Verb_Stems [<V><IV><Root>:]
+#---------- NK Verbs ----------------
+[:n{A}{K}\<] :Set_B NK_Verbs [<V><IV><Prs>:] Set_B: [:>nk]
+[:x\<] :Set_B NK_Verbs [<V><IV><Pst>:] Set_B: [:>nk]
+[:t{FutA}\<] :Set_B NK_Verbs [<V><IV><Fut>:] Set_B: [:>nq]
+[:k{I}\<] :Set_B NK_Verbs [<V><IV><NarPst>:] Set_B: [:>nk]
+[:ch{I}\<] :Set_B NK_Verbs [<V><IV><Imp>:] Set_B: [:>nq]
+[:m{I}\<] :Set_B NK_Verbs [<V><IV><NegImp>:] Set_B: [:>nk]
+NK_Verbs [<V><IV><Inf>:] [:>nk]
+NK_Verbs [<V><IV><Root>:]
 
 PATTERN Statives
 Stative_Verbs [:>k] :Set_B [<V><SV><Real>:] Set_B:
@@ -32,15 +51,11 @@ Stative_Verbs [<V><SV><Root>:]
 Stative_Verbs [<V><SV><SetB.Sg3>:]
 
 PATTERN Transitive_Verbs
-[:n{Prs}k\<] :Set_B :Set_A Verb_Stems [<V><TV><Prs>:] Set_B: Set_A:
-
-[:x\<] :Set_B :Set_A Verb_Stems [<V><TV><Pst>:] Set_B: Set_A:
-
-[:t{FutA}\<] :Set_B :Set_A Verb_Stems [<V><TV><Fut>:] Set_B: Set_A:
-
-[:k{I}\<] :Set_B :Set_A Verb_Stems [<V><TV><NarPst>:] Set_B: Set_A:
-
-[:ch{I}\<] :Set_B :Set_A Verb_Stems [<V><TV><Imp>:] Set_B: Set_A:
-
-[:m{I}\<] :Set_B :Set_A Verb_Stems [<V><TV><NegImp>:] Set_B: Set_A:
+#---------- AK Verbs ----------------
+[:n{Prs}k\<] :Set_B :Set_A AK_Verbs [<V><TV><Prs>:] Set_B: Set_A:
+[:x\<] :Set_B :Set_A AK_Verbs [<V><TV><Pst>:] Set_B: Set_A:
+[:t{FutA}\<] :Set_B :Set_A AK_Verbs [<V><TV><Fut>:] Set_B: Set_A:
+[:k{I}\<] :Set_B :Set_A AK_Verbs [<V><TV><NarPst>:] Set_B: Set_A:
+[:ch{I}\<] :Set_B :Set_A AK_Verbs [<V><TV><Imp>:] Set_B: Set_A:
+[:m{I}\<] :Set_B :Set_A AK_Verbs [<V><TV><NegImp>:] Set_B: Set_A:
 
