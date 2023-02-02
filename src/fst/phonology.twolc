@@ -24,6 +24,7 @@ Alphabet
 %{A%}:a
 %{FutA%}:0
 %{I%}:i
+%<:0
 
  ;
 
@@ -46,7 +47,11 @@ Rules
 %{K%}:0 <=> %{A%}: _ %< [ i | %< ] ;
 
 "Future irrealis 3rd person a elongation"
-%{FutA%}:aa <=> t _ %< %< ;
+%{FutA%}:a <=> t _ %{FutA%}: %< %< ;
+
+"Future 3rd person a"
+%{FutA%}:a <=> t %{FutA%}: _ %< %< ;
+
 
 "Imperative, narrative past, and negative imperative i"
 %{I%}:Vx <=> _ %< Vy ;

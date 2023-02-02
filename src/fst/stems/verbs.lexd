@@ -16,7 +16,7 @@ PATTERN Intransitive_Verbs
 #---------- AK Verbs ----------------
 [:n{A}{K}\<] :Set_B AK_Verbs [<V><IV><Prs>:] Set_B: [:>ak]
 [:x\<] :Set_B AK_Verbs [<V><IV><Pst>:] Set_B: [:>ak]
-[:t{FutA}\<] :Set_B AK_Verbs [<V><IV><Fut>:] Set_B: [:>aq]
+[:t{FutA}{FutA}\<] :Set_B AK_Verbs [<V><IV><Fut>:] Set_B: [:>aq]
 [:k{I}\<] :Set_B AK_Verbs [<V><IV><NarPst>:] Set_B: [:>ak]
 [:ch{I}\<] :Set_B AK_Verbs [<V><IV><Imp>:] Set_B: [:>aq]
 [:m{I}\<] :Set_B AK_Verbs [<V><IV><NegImp>:] Set_B: [:>ak]
@@ -26,7 +26,7 @@ AK_Verbs [<V><IV><Root>:]
 #---------- OK Verbs ----------------
 [:n{A}{K}\<] :Set_B OK_Verbs [<V><IV><Prs>:] Set_B: [:>ok]
 [:x\<] :Set_B OK_Verbs [<V><IV><Pst>:] Set_B: [:>ok]
-[:t{FutA}\<] :Set_B OK_Verbs [<V><IV><Fut>:] Set_B: [:>oq]
+[:t{FutA}{FutA}\<] :Set_B OK_Verbs [<V><IV><Fut>:] Set_B: [:>oq]
 [:k{I}\<] :Set_B OK_Verbs [<V><IV><NarPst>:] Set_B: [:>ok]
 [:ch{I}\<] :Set_B OK_Verbs [<V><IV><Imp>:] Set_B: [:>oq]
 [:m{I}\<] :Set_B OK_Verbs [<V><IV><NegImp>:] Set_B: [:>ok]
@@ -36,7 +36,7 @@ OK_Verbs [<V><IV><Root>:]
 #---------- NK Verbs ----------------
 [:n{A}{K}\<] :Set_B NK_Verbs [<V><IV><Prs>:] Set_B: [:>nk]
 [:x\<] :Set_B NK_Verbs [<V><IV><Pst>:] Set_B: [:>nk]
-[:t{FutA}\<] :Set_B NK_Verbs [<V><IV><Fut>:] Set_B: [:>nq]
+[:t{FutA}{FutA}\<] :Set_B NK_Verbs [<V><IV><Fut>:] Set_B: [:>nq]
 [:k{I}\<] :Set_B NK_Verbs [<V><IV><NarPst>:] Set_B: [:>nk]
 [:ch{I}\<] :Set_B NK_Verbs [<V><IV><Imp>:] Set_B: [:>nq]
 [:m{I}\<] :Set_B NK_Verbs [<V><IV><NegImp>:] Set_B: [:>nk]
@@ -54,7 +54,7 @@ PATTERN Transitive_Verbs
 #---------- AK Verbs ----------------
 [:n{Prs}k\<] :Set_B :Set_A AK_Verbs [<V><TV><Prs>:] Set_B: Set_A:
 [:x\<] :Set_B :Set_A AK_Verbs [<V><TV><Pst>:] Set_B: Set_A:
-[:t{FutA}\<] :Set_B :Set_A AK_Verbs [<V><TV><Fut>:] Set_B: Set_A:
+[:t{FutA}{FutA}\<] :Set_B :Set_A AK_Verbs [<V><TV><Fut>:] Set_B: Set_A:
 [:k{I}\<] :Set_B :Set_A AK_Verbs [<V><TV><NarPst>:] Set_B: Set_A:
 [:ch{I}\<] :Set_B :Set_A AK_Verbs [<V><TV><Imp>:] Set_B: Set_A:
 [:m{I}\<] :Set_B :Set_A AK_Verbs [<V><TV><NegImp>:] Set_B: Set_A:
