@@ -11,45 +11,45 @@ Tests:
   Verb - transitive verb consonant initial - ok : # Test for intransitive verb inflection consonant initial
     #Present Tense
     # Obj. = 1st person singular consonant initial
-    sik'+V+TV+SetB.Sg1+SetA.Sg2: nikinaasik' # me buscas
-    sik'+V+TV+SetB.Sg1+SetA.Sg3: nikinixsik' # me busca él TODO what is going on here?
-    sik'+V+TV+SetB.Sg1+SetA.Pl2: nikineesik' # me buscan ustedes
-    sik'+V+TV+SetB.Sg1+SetA.Pl3: nikine'xsik' # me buscan ellos
+    sik'+V+TV+Prs+SetB.Sg1+SetA.Sg2: nikinaasik' # me buscas
+    sik'+V+TV+Prs+SetB.Sg1+SetA.Sg3: nikinixsik' # me busca él TODO what is going on here?
+    sik'+V+TV+Prs+SetB.Sg1+SetA.Pl2: nikineesik' # me buscan ustedes
+    sik'+V+TV+Prs+SetB.Sg1+SetA.Pl3: nikine'xsik' # me buscan ellos
 
     # Obj. = 1st person plural consonant initial
-    sik'+V+TV+SetB.Pl1+SetA.Sg2: nokohaasik' # nos buscas
-    sik'+V+TV+SetB.Pl1+SetA.Sg3: nokoxsik' # nos busca él
-    sik'+V+TV+SetB.Pl1+SetA.Pl2: nokoheesik' # nos buscan ustedes
-    sik'+V+TV+SetB.Pl1+SetA.Pl3: nokohe'xsik' # nos buscan ellos
+    sik'+V+TV+Prs+SetB.Pl1+SetA.Sg2: nokohaasik' # nos buscas
+    sik'+V+TV+Prs+SetB.Pl1+SetA.Sg3: nokoxsik' # nos busca él
+    sik'+V+TV+Prs+SetB.Pl1+SetA.Pl2: nokoheesik' # nos buscan ustedes
+    sik'+V+TV+Prs+SetB.Pl1+SetA.Pl3: nokohe'xsik' # nos buscan ellos
 
     # Obj. = 2nd person singular consonant initial
-    sik'+V+TV+SetB.Sg2+SetA.Sg1: nakatinsik' # te busco
-    sik'+V+TV+SetB.Sg2+SetA.Sg3: nakatxsik' # te busca él
-    sik'+V+TV+SetB.Sg2+SetA.Pl1: nakatqasik' # te buscamos
-    sik'+V+TV+SetB.Sg2+SetA.Pl3: nakate'xsik' # te buscan ellos
+    sik'+V+TV+Prs+SetB.Sg2+SetA.Sg1: nakatinsik' # te busco
+    sik'+V+TV+Prs+SetB.Sg2+SetA.Sg3: nakatxsik' # te busca él
+    sik'+V+TV+Prs+SetB.Sg2+SetA.Pl1: nakatqasik' # te buscamos
+    sik'+V+TV+Prs+SetB.Sg2+SetA.Pl3: nakate'xsik' # te buscan ellos
 
     # Obj = 2nd person plural consonant initial
-    sik'+V+TV+SetB.Pl2+SetA.Sg1: nekexinsik' # les busco a ustedes
-    sik'+V+TV+SetB.Pl2+SetA.Sg3: nekexxsik' # él les busca a ustedes
-    sik'+V+TV+SetB.Pl2+SetA.Pl1: nekexqasik' # les buscamos a ustedes
-    sik'+V+TV+SetB.Pl2+SetA.Pl3: nekexxsik'eb' # ellos les buscan a ustedes
+    sik'+V+TV+Prs+SetB.Pl2+SetA.Sg1: nekexinsik' # les busco a ustedes
+    sik'+V+TV+Prs+SetB.Pl2+SetA.Sg3: nekexxsik' # él les busca a ustedes
+    sik'+V+TV+Prs+SetB.Pl2+SetA.Pl1: nekexqasik' # les buscamos a ustedes
+    sik'+V+TV+Prs+SetB.Pl2+SetA.Pl3: nekexxsik'eb' # ellos les buscan a ustedes
 
     # Obj = 3rd person singular consonant initial
-    sik'+V+TV+SetB.Sg3+SetA.Sg1: ninsik' # lo busco
-    sik'+V+TV+SetB.Sg3+SetA.Sg2: nakasik' # lo buscas
-    sik'+V+TV+SetB.Sg3+SetA.Sg3: naxsik' # lo busca él
-    sik'+V+TV+SetB.Sg3+SetA.Pl1: naqasik' # lo buscamos
-    sik'+V+TV+SetB.Sg3+SetA.Pl2: nekesik' # lo buscan ustedes
-    sik'+V+TV+SetB.Sg3+SetA.Pl3: neke'xsik' # lo buscan ellos
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Sg1: ninsik' # lo busco
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Sg2: nakasik' # lo buscas
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Sg3: naxsik' # lo busca él
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Pl1: naqasik' # lo buscamos
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Pl2: nekesik' # lo buscan ustedes
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Pl3: neke'xsik' # lo buscan ellos
 
     # Obj. = 3rd person plural consonant initial
      # TODO look at what's going on here 
-     sik'+V+TV+SetB.Pl3+SetA.Sg1: nekeb'insik' # los busco a ellos 
-     sik'+V+TV+SetB.Pl3+SetA.Sg1: ninsik'eb' # los busco a ellos 
-     sik'+V+TV+SetB.Pl3+SetA.Sg2: nakasik'eb' # los buscas 
-     sik'+V+TV+SetB.Pl3+SetA.Sg3: naxsik'eb' # los busca él 
-     sik'+V+TV+SetB.Pl3+SetA.Pl1: neke'qasik' # los buscamos 
-     sik'+V+TV+SetB.Pl3+SetA.Pl1: naqasik'eb' # los buscamos
-     sik'+V+TV+SetB.Pl3+SetA.Pl2: nekesik'eb' # ustedes los buscan 
-     sik'+V+TV+SetB.Pl3+SetA.Pl2: neke'xsik'eb' # ellos los buscan a los otros
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Sg1: nekeb'insik' # los busco a ellos 
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Sg1: ninsik'eb' # los busco a ellos 
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Sg2: nakasik'eb' # los buscas 
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Sg3: naxsik'eb' # los busca él 
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Pl1: neke'qasik' # los buscamos 
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Pl1: naqasik'eb' # los buscamos
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Pl2: nekesik'eb' # ustedes los buscan 
+     sik'+V+TV+Prs+SetB.Pl3+SetA.Pl2: neke'xsik'eb' # ellos los buscan a los otros
     

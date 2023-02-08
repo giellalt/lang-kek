@@ -10,50 +10,50 @@ Config:
 Tests:
   Verb - intransitive verb - ok :     # Test for intransitive verb inflection
     #Infinitive
-    wa'a+V+IV+Root: wa'a # eat
-    wa'a+V+IV+Inf: wa'ak # to eat
+    wa'+V+IV+Root: wa' # eat
+    wa'+V+IV+Inf: wa'ak # to eat
     #Present Tense
     #n-in-wa'a-k
-    wa'a+V+IV+Prs+SetB.Sg1:  ninwa'ak    # yo como/I eat
-    wa'a+V+IV+Prs+SetB.Sg2:  nakatwa'ak  # tú comes/you(singular) eat
-    wa'a+V+IV+Prs+SetB.Sg3:  nawa'ak     # él come/he/she eats
-    wa'a+V+IV+Prs+SetB.Pl1:  nokoowa'ak   # comemos/we eat
-    wa'a+V+IV+Prs+SetB.Pl2:  nekexwa'ak  # ustedes comen/you(plural) eat
-    wa'a+V+IV+Prs+SetB.Pl3:  neke'wa'ak  # ellos comen/they eat
+    wa'+V+IV+Prs+SetB.Sg1:  ninwa'ak    # yo como/I eat
+    wa'+V+IV+Prs+SetB.Sg2:  nakatwa'ak  # tú comes/you(singular) eat
+    wa'+V+IV+Prs+SetB.Sg3:  nawa'ak     # él come/he/she eats
+    wa'+V+IV+Prs+SetB.Pl1:  nokoowa'ak   # comemos/we eat
+    wa'+V+IV+Prs+SetB.Pl2:  nekexwa'ak  # ustedes comen/you(plural) eat
+    wa'+V+IV+Prs+SetB.Pl3:  neke'wa'ak  # ellos comen/they eat
     #Future Tense
-    wa'a+V+IV+Fut+SetB.Sg1:  tinwa'aq      # yo comeré/I will eat
-    wa'a+V+IV+Fut+SetB.Sg2:  tatwa'aq      # tú comerás/you(singular) will eat
-    wa'a+V+IV+Fut+SetB.Sg3:  taawa'aq      # él comerá/he/she eats
-    wa'a+V+IV+Fut+SetB.Pl1:  toowa'aq      # comeremos/we will eat
-    wa'a+V+IV+Fut+SetB.Pl2:  texwa'aq      # ustedes comerán/you(plural) will eat
-    wa'a+V+IV+Fut+SetB.Pl3:  te'wa'aq      # ellos comerán/they will eat
+    wa'+V+IV+Fut+SetB.Sg1:  tinwa'aq      # yo comeré/I will eat
+    wa'+V+IV+Fut+SetB.Sg2:  tatwa'aq      # tú comerás/you(singular) will eat
+    wa'+V+IV+Fut+SetB.Sg3:  taawa'aq      # él comerá/he/she eats
+    wa'+V+IV+Fut+SetB.Pl1:  toowa'aq      # comeremos/we will eat
+    wa'+V+IV+Fut+SetB.Pl2:  texwa'aq      # ustedes comerán/you(plural) will eat
+    wa'+V+IV+Fut+SetB.Pl3:  te'wa'aq      # ellos comerán/they will eat
     #Past Tense
-    wa'a+V+IV+Pst+SetB.Sg1:  xinwa'ak      # yo comí/I ate
-    wa'a+V+IV+Pst+SetB.Sg2:  xatwa'ak      # tú comiste/you(singular) ate
-    wa'a+V+IV+Pst+SetB.Sg3:  xwa'ak        # él comió/he/she ate
-    wa'a+V+IV+Pst+SetB.Pl1:  xoowa'ak      # nosotros comimos/we ate
-    wa'a+V+IV+Pst+SetB.Pl2:  xexwa'ak      # ustedes comieron/you(plural) ate
-    wa'a+V+IV+Pst+SetB.Pl3:  xe'wa'ak      # ellos comieron/ they ate
+    wa'+V+IV+Pst+SetB.Sg1:  xinwa'ak      # yo comí/I ate
+    wa'+V+IV+Pst+SetB.Sg2:  xatwa'ak      # tú comiste/you(singular) ate
+    wa'+V+IV+Pst+SetB.Sg3:  xwa'ak        # él comió/he/she ate
+    wa'+V+IV+Pst+SetB.Pl1:  xoowa'ak      # nosotros comimos/we ate
+    wa'+V+IV+Pst+SetB.Pl2:  xexwa'ak      # ustedes comieron/you(plural) ate
+    wa'+V+IV+Pst+SetB.Pl3:  xe'wa'ak      # ellos comieron/ they ate
     #NarratiV+IVe Past tense
-    wa'a+V+IV+NarPst+SetB.Sg1: kinwa'ak    # yo comí/I ate
-    wa'a+V+IV+NarPst+SetB.Sg2: katwa'ak    # tú comiste/ you(singular) ate
-    wa'a+V+IV+NarPst+SetB.Sg3: kiwa'ak      # él comió/he/she ate
-    wa'a+V+IV+NarPst+SetB.Pl1: koowa'ak    # nosotros comimos/ we ate
-    wa'a+V+IV+NarPst+SetB.Pl2: kexwa'ak    # ustedes comieron/ you(plural) ate
-    wa'a+V+IV+NarPst+SetB.Pl3: ke'wa'ak    # ellos comieron/ they ate
+    wa'+V+IV+NarPst+SetB.Sg1: kinwa'ak    # yo comí/I ate
+    wa'+V+IV+NarPst+SetB.Sg2: katwa'ak    # tú comiste/ you(singular) ate
+    wa'+V+IV+NarPst+SetB.Sg3: kiwa'ak      # él comió/he/she ate
+    wa'+V+IV+NarPst+SetB.Pl1: koowa'ak    # nosotros comimos/ we ate
+    wa'+V+IV+NarPst+SetB.Pl2: kexwa'ak    # ustedes comieron/ you(plural) ate
+    wa'+V+IV+NarPst+SetB.Pl3: ke'wa'ak    # ellos comieron/ they ate
     #ImperatiV+IVe TODO figure out what's going on here
-    wa'a+V+IV+Imp+SetB.Sg1:  chinwa'aq      # que coma yo
-    wa'a+V+IV+Imp+SetB.Sg2:  chatwa'aq     # que comas tú
-    wa'a+V+IV+Imp+SetB.Sg3:  chiwa'aq      # que coma él
-    wa'a+V+IV+Imp+SetB.Pl1:  choowa'aq     # que comamos
-    wa'a+V+IV+Imp+SetB.Pl2:  chexwa'aq     # que coman ustedes
-    wa'a+V+IV+Imp+SetB.Pl3:  che'wa'aq     # que coman ellos
+    wa'+V+IV+Imp+SetB.Sg1:  chinwa'aq      # que coma yo
+    wa'+V+IV+Imp+SetB.Sg2:  chatwa'aq     # que comas tú
+    wa'+V+IV+Imp+SetB.Sg3:  chiwa'aq      # que coma él
+    wa'+V+IV+Imp+SetB.Pl1:  choowa'aq     # que comamos
+    wa'+V+IV+Imp+SetB.Pl2:  chexwa'aq     # que coman ustedes
+    wa'+V+IV+Imp+SetB.Pl3:  che'wa'aq     # que coman ellos
     #NegatiV+IVe imperatiV+IVe
-    wa'a+V+IV+NegImp+SetB.Sg1:  minwa'ak  # que no coma yo
-    wa'a+V+IV+NegImp+SetB.Sg2:  matwa'ak  # que no comas tú
-    wa'a+V+IV+NegImp+SetB.Sg3:  miwa'ak   # que no coma él
-    wa'a+V+IV+NegImp+SetB.Pl1:  moowa'ak  # que no comamos
-    wa'a+V+IV+NegImp+SetB.Pl2:  mexwa'ak  # que no coman ustedes
-    wa'a+V+IV+NegImp+SetB.Pl3:  me'wa'ak  # que no coman ellos
+    wa'+V+IV+NegImp+SetB.Sg1:  minwa'ak  # que no coma yo
+    wa'+V+IV+NegImp+SetB.Sg2:  matwa'ak  # que no comas tú
+    wa'+V+IV+NegImp+SetB.Sg3:  miwa'ak   # que no coma él
+    wa'+V+IV+NegImp+SetB.Pl1:  moowa'ak  # que no comamos
+    wa'+V+IV+NegImp+SetB.Pl2:  mexwa'ak  # que no coman ustedes
+    wa'+V+IV+NegImp+SetB.Pl3:  me'wa'ak  # que no coman ellos
 
     
