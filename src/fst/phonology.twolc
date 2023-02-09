@@ -17,6 +17,7 @@ Alphabet
 %{TrsK%}:k
 %{SetA.Sg1%}:0
 %{SetA.Sg2%}:0
+%{SetA.Sg3%}:0
 %<:0
 
  ;
@@ -51,6 +52,7 @@ Rules
               Vx in ( 0 0 0 0 0 i ) 
         matched ;
 
+! ! Rules for transitive conjugations
 "Transitive present habitual vowell harmony"
 %{TrsA%}:Vx <=> n _ %{TrsK%}: %< Vy ;
         where Vy in ( a e i o u %< )
@@ -77,3 +79,10 @@ Rules
 !Set A Second person singular
 "Set A second person singular pre-vocalic"
 %{SetA.Sg2%}:w <=> a a _ %< Vow ;
+
+!Set A third person singular
+"Set A second person singular pre-vocalic"
+%{SetA.Sg3%}:r <=> _ %< Vow ;
+
+"Set A second person singular pre-consonantal"
+%{SetA.Sg3%}:x <=> _ %< Cns ;
