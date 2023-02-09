@@ -15,6 +15,8 @@ Alphabet
 %{I%}:i
 %{TrsA%}:a
 %{TrsK%}:k
+%{SetA.Sg1%}:0
+%{SetA.Sg2%}:0
 %<:0
 
  ;
@@ -55,5 +57,23 @@ Rules
               Vx in ( a e i o u a ) 
         matched ;
 
-! "Transitive present habitual k deletion"
-! %{TrsK%}:0 <=> %{TrsA%}: _ %< [ i | %< ] ;
+!TODO
+"Transitive present habitual k deletion"
+%{TrsK%}:0 <=> %{TrsA%}: _ %< %< %{SetA.Sg1%}: %{SetA.Sg1%}: %> ;
+
+!Set A first Person singular
+"Set A first person pre-consonantal rule 1"
+%{SetA.Sg1%}:i <=> _ %{SetA.Sg1%}: %< Cns ; 
+
+"Set A first person pre-consonantal rule 2"
+%{SetA.Sg1%}:n <=> %{SetA.Sg1%}: _ %< Cns ;
+
+"Set A first person pre-vocalic rule 1"
+%{SetA.Sg1%}:0 <=> _ %{SetA.Sg1%}: %< Vow ; 
+
+"Set A first person pre-vocalic rule 2"
+%{SetA.Sg1%}:w <=> %{SetA.Sg1%}: _ %< Vow ;
+
+!Set A Second person singular
+"Set A second person singular pre-vocalic"
+%{SetA.Sg2%}:w <=> a a _ %< Vow ;
