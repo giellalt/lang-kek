@@ -23,7 +23,7 @@ Verbs(1) [<V><IV><Inf>:] [:>] :Verbs(2) [:k]
 Verbs(1) [<V><IV><Root>:]
 
 PATTERN Transitive_Verbs
-[:n{Prs}k\<] :Set_B :Set_A Verbs(1) [<V><TV><Prs>:] Set_B: Set_A:
+[:n{TrsA}{TrsK}\<] :Set_B :Set_A Verbs(1) [<V><TV><Prs>:] Set_B: Set_A:
 :Aspect(1) :Set_B :Set_A Verbs(1) [<V><TV>:] Aspect(1): Set_B: Set_A: [:>]
 
 PATTERN Statives

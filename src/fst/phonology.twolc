@@ -9,21 +9,12 @@ Alphabet
  a b c e h i j k l m n o p q r s t u w x y z '
  A B C E H I J K L M N O P Q R S T U W X Y Z '
 
-!  %{Poss.Sg1%}:0
-!  %{Poss.Sg2%}:0
-!  %{Poss.Sg3%}:0
-!  %{Poss.Pl1%}:0
-!  %{Poss.Pl2%}:0
-!  %{Poss.Pl3%}:0
-!  %{Erg.Pl3%}:0
-!  %{RECPST%}:0
-!  %{Fut%}:0
-!  %{HAB%}:0
-!  %{REMPST%}:0
 %{K%}:k
 %{A%}:a
 %{FutA%}:0
 %{I%}:i
+%{TrsA%}:a
+%{TrsK%}:k
 %<:0
 
  ;
@@ -36,7 +27,7 @@ Sets
 !! ## Rules
 Rules
 
-!Rules for intransitive conjugations
+! ! Rules for intransitive conjugations
 "Present habitual vowell harmony"
 %{A%}:Vx <=> n _ %{K%}: %< Vy ;
         where Vy in ( a e i o u %< )
@@ -49,9 +40,8 @@ Rules
 "Future irrealis 3rd person a elongation"
 %{FutA%}:a <=> t _ %{FutA%}: %< %< ;
 
-"Future 3rd person a"
+"Future irrealis 3rd person a elongation rule 2"
 %{FutA%}:a <=> t %{FutA%}: _ %< %< ;
-
 
 "Imperative, narrative past, and negative imperative i"
 %{I%}:Vx <=> _ %< Vy ;
@@ -59,134 +49,11 @@ Rules
               Vx in ( 0 0 0 0 0 i ) 
         matched ;
 
-! ! ### Rules for possessive and ergative prefixes
+"Transitive present habitual vowell harmony"
+%{TrsA%}:Vx <=> n _ %{TrsK%}: %< Vy ;
+        where Vy in ( a e i o u %< )
+              Vx in ( a e i o u a ) 
+        matched ;
 
-! "First Person possessive singular prevocalic form"
-! %{Poss.Sg1%}:w <=> _ %{Poss.Sg1%}: Vow ; 
-
-! "First person possessive singular preconsonantal form Rule 1"
-! %{Poss.Sg1%}:i <=> _ %{Poss.Sg1%}: Cns ;
-
-! "First person possessive singular preconsonantal form Rule 2"
-! %{Poss.Sg1%}:n <=> %{Poss.Sg1%}: _ Cns ;
-
-! "Second person possessive singular prevocalic form"
-! %{Poss.Sg2%}:w <=> a: a: _ Vow ;
-
-! "Third person possessive singular prevocalic form"
-! %{Poss.Sg3%}:r <=> _ Vow ;
-
-! "Third person possessive singular preconsonantal form"
-! %{Poss.Sg3%}:x <=> _ Cns ;
-
-! "First person possessive plural preconsonantal form"
-! %{Poss.Pl1%}:a <=> q: _ Cns ;
-
-! "Second person possessive plural prevocalic form"
-! %{Poss.Pl2%}:r <=> e: e: _ Vow ;
-
-! "Third person possessive plural prevocalic form"
-! %{Poss.Pl3%}:r <=> _ Vow ;
-
-! "Third person possessive plural preconsonantal form"
-! %{Poss.Pl3%}:x <=> _ Cns ;
-
-! "Third person ergative plural preconsonantal form"
-! %{Erg.Pl3%}:x <=> ': _ Cns ;
-
-! "Third person ergative plural prevocalic form"
-! %{Erg.Pl3%}:r <=> ': _ Vow ;
-
-! !Rules for Recent Past tense
-! "Recent past before Sg3 ergative preconsonantal prefix"
-! %{RECPST%}:i <=> x: _ %{Poss.Sg3%}: Cns ;
-
-! !Rules for future tense
-! "Future tense before Sg1 ergative prevocalic prefix Rule 1"
-! %{Fut%}:i <=> t: _ %{Fut%}: %{Poss.Sg1%}: %{Poss.Sg1%}: Vow ;
-
-! "Future tense before Sg1 ergative prevocalic prefix Rule 2"
-! %{Fut%}:n <=> %{Fut%}: _ %{Poss.Sg1%}: %{Poss.Sg1%}: Vow ;
-
-! "Future tense before Pl1 ergative prevocalic prefix Rule 1"
-! %{Fut%}:a <=> t: _ %{Fut%}: q: %{Poss.Pl1%}: Vow ;
-
-! "Future tense before Pl1 ergative prevocalic prefix Rule 2"
-! %{Fut%}:a <=> %{Fut%}: _ q: %{Poss.Pl1%}: Vow ;
-
-! "Future tense before Sg3 ergative prevocalic prefix Rule 1"
-! %{Fut%}:a <=> t: _ %{Fut%}: %{Poss.Sg3%}: Vow ;
-
-! "Future tense before Sg3 ergative prevocalic prefix Rule 2"
-! %{Fut%}:a <=> %{Fut%}: _ %{Poss.Sg3%}: Vow ;
-
-! "Future tense before Sg3 ergative preconsonantal prefix"
-! %{Fut%}:i <=> t: _ %{Fut%}: %{Poss.Sg3%}: Cns ;
-
-! "Future tense before Pl1 ergative preconsonantal prefix"
-! %{Fut%}:a <=> t: _ %{Fut%}: q: %{Poss.Pl1%}: Cns ;
-
-! "Future and nonfuture suffix"
-! %{K%}:q <=> .#. t: %{Fut%}: %{Fut%}: ?+ _ ;
-
-! !Rules for Present habitual tense
-! "Present habitual before Sg1 absolutive prefix"
-! a:0 <=> n: _ %{HAB%}: i: n: ;
-
-! "Present habitual before Sg1 ergative preconsonantal prefix"
-! a:0 <=> n: _ %{HAB%}: %{Poss.Sg1%}: %{Poss.Sg1%}: Cns ;
-
-! "Present habitual before Sg1 ergative prevocalic prefix Rule 1"
-! a:i <=> n: _ %{HAB%}: %{Poss.Sg1%}: %{Poss.Sg1%}: Vow ;
-
-! "Present habitual before Sg1 ergative prevocalic prefix Rule 2"
-! %{HAB%}:n <=> n: a:i _ %{Poss.Sg1%}: %{Poss.Sg1%}: Vow ;
-
-! "Present habitual before Sg2 absolutive prefix"
-! %{HAB%}:k <=> a: _ a: t: ;
-
-! "Present habitual before Sg2 ergative prefixes Rule 1"
-! %{HAB%}:k <=> a: _ a: a: %{Poss.Sg2%}: ;
-
-! "Present habitual before Sg2 ergative prefixes Rule 2"
-! a:0 <=> n: a: %{HAB%}: a: _ %{Poss.Sg2%}: ; 
-
-! "Present habitual before Pl1 absolutive prefix Rule 1"
-! a:o <=> n: _ %{HAB%}: o: o: ;
-
-! "Present habitual before Pl1 absolutive prefix Rule 2"
-! %{HAB%}:k <=> n: a:o _ o: o: ;
-
-! "Present habitual before Pl2 absolutive prefix Rule 1"
-! a:e <=> n: _ %{HAB%}: e: x: ;
-
-! "Present habitual before Pl2 absolutive prefix Rule 2"
-! %{HAB%}:k <=> n: a: _ e: x: ;
-
-! "Present habitual before Pl2 ergative prefix Rule 1"
-! a:e <=> n: _ %{HAB%}: e: e: ;
-
-! "Present habitual before Pl2 ergative prefix Rule 2"
-! %{HAB%}:k <=> n: a: _ e: e: ;
-
-! "Present habitual before Pl3 ergative and absolutive prefixes Rule 1"
-! a:e <=> n: _ %{HAB%}: e: ': ;
-
-! "Present habitual before Pl3 ergative prefixes Rule 2"
-! %{HAB%}:k <=> n: a: _ e: ': ;
-
-! !Rules for remote past tense
-! "Remote past before prefixes beginning in a consonant"
-! %{REMPST%}:i <=> k: _ Cns ;
-
-! "Remote past shorten aa to a in Sg2 ergative prefixes"
-! a:0 <=> k: %{REMPST%}: _ a: %{Poss.Sg2%}: ;
-
-! "Remote past shorten ee to e in Pl2 ergative prevocalic prefixes"
-! e:0 <=> k: %{REMPST%}: _ e: %{Poss.Pl2%}: Vow ;
-
-! "Remote past before Sg1 ergative prevocalic prefixes"
-! %{REMPST%}:i <=> k: _ %{Poss.Sg1%}: %{Poss.Sg1%}: Vow ;
-
-! "Remote past before Sg3 ergative prefixes"
-! %{REMPST%}:i <=> k: _ %{Poss.Sg3%}: ;
+! "Transitive present habitual k deletion"
+! %{TrsK%}:0 <=> %{TrsA%}: _ %< [ i | %< ] ;
