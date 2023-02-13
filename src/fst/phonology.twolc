@@ -18,6 +18,8 @@ Alphabet
 %{SetA.Sg1%}:0
 %{SetA.Sg2%}:0
 %{SetA.Sg3%}:0
+%{SetA.Pl2%}:0
+%{SetA.Pl3%}:0
 %<:0
 
  ;
@@ -86,3 +88,11 @@ Rules
 
 "Set A second person singular pre-consonantal"
 %{SetA.Sg3%}:x <=> _ %< Cns ;
+
+!Set A Second person plural
+"Set A second person plural pre-vocalic"
+%{SetA.Pl2%}:r <=> _ %< Vow ;
+
+!Set A third person plural
+"Set A third person plural pre-vocalic"
+%{SetA.Pl3%}:r <=> _ %< Vow ;
