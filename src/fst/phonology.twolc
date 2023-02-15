@@ -20,6 +20,7 @@ Alphabet
 %{SetA.Sg3%}:0
 %{SetA.Pl2%}:0
 %{SetA.Pl3%}:0
+%{SetA.Pl1%}:0
 %<:0
 
  ;
@@ -56,14 +57,19 @@ Rules
 
 ! ! Rules for transitive conjugations
 "Transitive present habitual vowell harmony"
-%{TrsA%}:Vx <=> n _ %{TrsK%}: %< Vy ;
-        where Vy in ( a e i o u %< )
-              Vx in ( a e i o u a ) 
+%{TrsA%}:Vx <=> .#. n _ %{TrsK%}: %< Vy ;
+        where Vy in ( a e i o u )
+              Vx in ( a e i o u ) 
         matched ;
 
 !TODO
 "Transitive present habitual k deletion"
-%{TrsK%}:0 <=> %{TrsA%}: _ %< %< %{SetA.Sg1%}: %{SetA.Sg1%}: %> ;
+%{TrsK%}:0 <=> .#. n %{TrsA%}: _ %< %< %{SetA.Sg1%}: %{SetA.Sg1%}: %< ;
+! sik'+V+TV+Prs+SetB.Sg3+SetA.Sg1 n{TrsA}{TrsK}<<{SetA.Sg1}{SetA.Sg1}<sik'
+!                                 n0      0    << i         n        <sik'
+
+"TrsA > 0 before SetB.Sg3 and SetA.Sg1"
+%{TrsA%}:0 <=> .#. n _ %{TrsK%}: %< %< %{SetA.Sg1%}: %{SetA.Sg1%}: %< Cns;
 
 !Set A first Person singular
 "Set A first person pre-consonantal rule 1"
@@ -96,3 +102,7 @@ Rules
 !Set A third person plural
 "Set A third person plural pre-vocalic"
 %{SetA.Pl3%}:r <=> _ %< Vow ;
+
+!Set A first person plural
+"Set A first person plural pre-consonantal"
+%{SetA.Pl1%}:a <=> _ %< Cns ;
