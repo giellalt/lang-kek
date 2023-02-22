@@ -27,6 +27,7 @@ Tests:
     sik'+V+TV+Prs+SetB.Sg2+SetA.Pl3: nakate'xsik' # te buscan ellos
     # Obj = 2nd person plural consonant initial
     sik'+V+TV+Prs+SetB.Pl2+SetA.Sg1: nekexinsik' # les busco a ustedes
+    # TODO take a look at how this is spelled
     sik'+V+TV+Prs+SetB.Pl2+SetA.Sg3: nekexxsik' # él les busca a ustedes
     sik'+V+TV+Prs+SetB.Pl2+SetA.Pl1: nekexqasik' # les buscamos a ustedes
     sik'+V+TV+Prs+SetB.Pl2+SetA.Pl3: nekexxsik'eb' # ellos les buscan a ustedes

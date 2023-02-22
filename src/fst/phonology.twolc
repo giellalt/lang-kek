@@ -17,10 +17,13 @@ Alphabet
 %{TrsK%}:k
 %{SetA.Sg1%}:0
 %{SetA.Sg2%}:0
-%{SetA.Sg3%}:0
+%{SetA.Sg2%}:w
+%{SetA.Sg3%}:r
+%{SetA.Sg3%}:x
 %{SetA.Pl2%}:0
 %{SetA.Pl3%}:0
 %{SetA.Pl1%}:0
+%{SetA.Pl1%}:a
 %<:0
 
  ;
@@ -64,45 +67,61 @@ Rules
 
 !TODO
 "Transitive present habitual k deletion"
-%{TrsK%}:0 <=> .#. n %{TrsA%}: _ %< %< %{SetA.Sg1%}: %{SetA.Sg1%}: %< ;
+%{TrsK%}:0 <=> .#. n %{TrsA%}: _ %<: %<: %{SetA.Sg1%}: %{SetA.Sg1%}: %<: ;
 ! sik'+V+TV+Prs+SetB.Sg3+SetA.Sg1 n{TrsA}{TrsK}<<{SetA.Sg1}{SetA.Sg1}<sik'
 !                                 n0      0    << i         n        <sik'
 
 "TrsA > 0 before SetB.Sg3 and SetA.Sg1"
-%{TrsA%}:0 <=> .#. n _ %{TrsK%}: %< %< %{SetA.Sg1%}: %{SetA.Sg1%}: %< Cns;
+%{TrsA%}:0 <=> .#. n _ %{TrsK%}: %<: %<: %{SetA.Sg1%}: %{SetA.Sg1%}: %<: Cns;
 
 !Set A first Person singular
 "Set A first person pre-consonantal rule 1"
-%{SetA.Sg1%}:i <=> _ %{SetA.Sg1%}: %< Cns ; 
+%{SetA.Sg1%}:i <=> _ %{SetA.Sg1%}: %<: Cns ; 
 
 "Set A first person pre-consonantal rule 2"
-%{SetA.Sg1%}:n <=> %{SetA.Sg1%}: _ %< Cns ;
+%{SetA.Sg1%}:n <=> %{SetA.Sg1%}: _ %<: Cns ;
 
 "Set A first person pre-vocalic rule 1"
-%{SetA.Sg1%}:0 <=> _ %{SetA.Sg1%}: %< Vow ; 
+%{SetA.Sg1%}:0 <=> _ %{SetA.Sg1%}: %<: Vow ; 
 
 "Set A first person pre-vocalic rule 2"
-%{SetA.Sg1%}:w <=> %{SetA.Sg1%}: _ %< Vow ;
+%{SetA.Sg1%}:w <=> %{SetA.Sg1%}: _ %<: Vow ;
 
 !Set A Second person singular
 "Set A second person singular pre-vocalic"
-%{SetA.Sg2%}:w <=> a a _ %< Vow ;
+%{SetA.Sg2%}:w <=> a a _ %<: Vow ;
+
+!Set A Second person singular preconsonantal
+"Set A second person singular pre-vocalic"
+%{SetA.Sg2%}:0 <=> a a _ %<: Cns ;
 
 !Set A third person singular
 "Set A second person singular pre-vocalic"
-%{SetA.Sg3%}:r <=> _ %< Vow ;
+%{SetA.Sg3%}:r <=> _ %<: Vow ;
 
 "Set A second person singular pre-consonantal"
-%{SetA.Sg3%}:x <=> _ %< Cns ;
+%{SetA.Sg3%}:x <=> _ %<: Cns ;
 
 !Set A Second person plural
 "Set A second person plural pre-vocalic"
-%{SetA.Pl2%}:r <=> _ %< Vow ;
+%{SetA.Pl2%}:r <=> _ %<: Vow ;
 
 !Set A third person plural
 "Set A third person plural pre-vocalic"
-%{SetA.Pl3%}:r <=> _ %< Vow ;
+%{SetA.Pl3%}:r <=> _ %<: Vow ;
+
+!Set A third person plural
+"Set A third person plural pre-consonantal"
+%{SetA.Pl3%}:x <=> _ %<: Cns ;
 
 !Set A first person plural
 "Set A first person plural pre-consonantal"
-%{SetA.Pl1%}:a <=> _ %< Cns ;
+%{SetA.Pl1%}:a <=> _ %<: Cns ;
+
+!Set A first person pre-vocalic
+"Set A first person plural pre-consonantal"
+%{SetA.Pl1%}:0 <=> _ %<: Vow ;
+
+!Intervocalic h
+"Intervocalic h"
+%<:h <=> :Vow _ :Vow ;
