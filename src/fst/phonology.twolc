@@ -12,11 +12,14 @@ Alphabet
 %{K%}:k
 %{A%}:a
 %{FutA%}:0
+%{FutA%}:a
 %{I%}:i
 %{TrsA%}:a
 %{TrsK%}:k
 %{SetA.Sg1%}:0
-%{SetA.Sg2%}:0
+%{SetA.Sg1%}:i
+%{SetA.Sg1%}:n
+%{SetA.Sg1%}:w
 %{SetA.Sg2%}:w
 %{SetA.Sg3%}:r
 %{SetA.Sg3%}:x
@@ -60,7 +63,7 @@ Rules
 
 ! ! Rules for transitive conjugations
 "Transitive present habitual vowell harmony"
-%{TrsA%}:Vx <=> .#. n _ %{TrsK%}: %< Vy ;
+%{TrsA%}:Vx <=> .#. n _ %{TrsK%}: %<: ( %<: ) Vy ;
         where Vy in ( a e i o u )
               Vx in ( a e i o u ) 
         matched ;
@@ -119,7 +122,7 @@ Rules
 %{SetA.Pl1%}:a <=> _ %<: Cns ;
 
 !Set A first person pre-vocalic
-"Set A first person plural pre-consonantal"
+"Set A first person plural pre-vocalic"
 %{SetA.Pl1%}:0 <=> _ %<: Vow ;
 
 !Intervocalic h

@@ -24,7 +24,9 @@ Verbs(1) [<V><IV><Root>:]
 
 PATTERN Transitive_Verbs
 [:n{TrsA}{TrsK}\<] :Set_B :Set_A Verbs(1) [<V><TV><Prs>:] Set_B: Set_A:
-:Aspect(1) :Set_B :Set_A Verbs(1) [<V><TV>:] Aspect(1): Set_B: Set_A: [:>]
+:Aspect(1) :Set_B :Set_A Verbs(1) [<V><TV>:] Aspect(1): Set_B: Set_A:
+[:n{TrsA}{TrsK}\<] :Set_B [:{SetA.Sg3}\<] Verbs(1) [:\>eb'] [<V><TV><Prs>:] Set_B: [<SetA.Sg3><Pl>:]
+:Aspect(1) :Set_B [:{SetA.Sg3}\<] Verbs(1) [:\>eb'] [<V><TV>:] Aspect(1): Set_B: [<SetA.Sg3><Pl>:]
 
 PATTERN Statives
 Stative_Verbs [:>k] :Set_B [<V><SV><Real>:] Set_B:
