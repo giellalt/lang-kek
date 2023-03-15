@@ -172,7 +172,7 @@ These were the set types.
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-kek/blob/main/src/cg3/functions.cg3)</small># The Qʼeqchiʼ morphophonological/twolc rules file 
 
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kek/blob/main/src/fst/phonology.twolc) 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kek/blob/main/src/fst/phonology.twolc)
 
 ## Alphabet, sets
 
