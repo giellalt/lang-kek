@@ -31,9 +31,9 @@ Tests:
     il+V+TV+Pst+SetB.Pl2+SetA.Sg1: xexwil # I saw y'all/los vi a ustedes
     il+V+TV+Pst+SetB.Pl2+SetA.Sg3: xexril # He saw y'all/ los vio a ustedes
     il+V+TV+Pst+SetB.Pl2+SetA.Pl1: xexqil # We saw y'all/los vimos a ustedes
-    il+V+TV+Pst+SetB.Pl3+SetA.Sg1: xwileb' # I saw them/los vi a ellos
-    il+V+TV+Pst+SetB.Pl3+SetA.Sg2: xawileb' # You saw them/los viste a ellos
-    il+V+TV+Pst+SetB.Pl3+SetA.Sg3: xrileb' # He saw them/vio a ellos
-    il+V+TV+Pst+SetB.Pl3+SetA.Pl1: xqileb' # we saw them/los vimos a ellos
-    il+V+TV+Pst+SetB.Pl3+SetA.Pl2: xerileb' # Y'all saw them/los vieron ustedes
+    il+V+TV+Pst+SetB.Sg3+SetA.Sg1+Pl: xwileb' # I saw them/los vi a ellos
+    il+V+TV+Pst+SetB.Sg3+SetA.Sg2+Pl: xawileb' # You saw them/los viste a ellos
+    il+V+TV+Pst+SetB.Sg3+SetA.Sg3+Pl: xrileb' # He saw them/vio a ellos
+    il+V+TV+Pst+SetB.Sg3+SetA.Pl1+Pl: xqileb' # we saw them/los vimos a ellos
+    il+V+TV+Pst+SetB.Sg3+SetA.Pl2+Pl: xerileb' # Y'all saw them/los vieron ustedes
 

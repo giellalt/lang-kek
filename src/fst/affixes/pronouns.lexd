@@ -14,7 +14,7 @@ LEXICON Set_A
 <SetA.Sg2>:aa{SetA.Sg2}\<
 
 #x/r
-<SetA.Sg3>:{SetA.Sg3}\<
+<SetA.Sg3>:{Sg3I}{SetA.Sg3}\<
 
 #ee/eer
 <SetA.Pl2>:ee{SetA.Pl2}\<
@@ -26,4 +26,4 @@ LEXICON Set_A
 <SetA.Pl1>:q{SetA.Pl1}\<
 
 LEXICON Pluralizer
-<Pl>:eb'
+<Pl>:\>eb'

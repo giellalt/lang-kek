@@ -30,7 +30,7 @@ Tests:
     # TODO take a look at how this is spelled
     sik'+V+TV+Prs+SetB.Pl2+SetA.Sg3: nekexxsik' # él les busca a ustedes
     sik'+V+TV+Prs+SetB.Pl2+SetA.Pl1: nekexqasik' # les buscamos a ustedes
-    sik'+V+TV+Prs+SetB.Pl2+SetA.Pl3: nekexxsik'eb' # ellos les buscan a ustedes
+    sik'+V+TV+Prs+SetB.Pl2+SetA.Sg3+Pl: nekexxsik'eb' # ellos les buscan a ustedes
     # Obj = 3rd person singular consonant initial
     sik'+V+TV+Prs+SetB.Sg3+SetA.Sg1: ninsik' # lo busco
     sik'+V+TV+Prs+SetB.Sg3+SetA.Sg2: nakasik' # lo buscas
@@ -39,13 +39,11 @@ Tests:
     sik'+V+TV+Prs+SetB.Sg3+SetA.Pl2: nekesik' # lo buscan ustedes
     sik'+V+TV+Prs+SetB.Sg3+SetA.Pl3: neke'xsik' # lo buscan ellos
     # Obj. = 3rd person plural consonant initial
-    # TODO look at what's going on here 
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Sg1: nekeb'insik' # los busco a ellos 
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Sg1: ninsik'eb' # los busco a ellos 
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Sg2: nakasik'eb' # los buscas 
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Sg3: naxsik'eb' # los busca él 
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Pl1: neke'qasik' # los buscamos 
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Pl1: naqasik'eb' # los buscamos
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Pl2: nekesik'eb' # ustedes los buscan 
-    sik'+V+TV+Prs+SetB.Pl3+SetA.Pl2: neke'xsik'eb' # ellos los buscan a los otros
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Sg1+Pl: ninsik'eb' # los busco a ellos 
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Sg2+Pl: nakasik'eb' # los buscas 
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Sg3+Pl: naxsik'eb' # los busca él 
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Pl1+Pl: neke'qasik' # los buscamos 
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Pl1+Pl: naqasik'eb' # los buscamos
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Pl2+Pl: nekesik'eb' # ustedes los buscan 
+    sik'+V+TV+Prs+SetB.Sg3+SetA.Pl3+Pl: neke'xsik'eb' # ellos los buscan a los otros
     

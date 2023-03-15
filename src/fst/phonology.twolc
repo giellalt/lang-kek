@@ -2,7 +2,7 @@
 !! # The Qʼeqchiʼ morphophonological/twolc rules file 
 !    =================================== !
 
-!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kek/blob/main/src/fst/phonology.twolc) 
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kek/blob/main/src/fst/phonology.twolc)
 
 !! ## Alphabet, sets
 Alphabet
@@ -27,6 +27,7 @@ Alphabet
 %{SetA.Pl3%}:0
 %{SetA.Pl1%}:0
 %{SetA.Pl1%}:a
+%{Sg3I%}:0
 %<:0
 
  ;
@@ -35,6 +36,9 @@ Sets
 
  Vow = a e i o u ;
  Cns = b c h j k l m n p q r s t w x y z ' ;
+
+ !Set A where k deletes in present tense transitives
+ SetA = %{SetA.Sg1%} %{SetA.Sg3%} %{SetA.Pl1%} %{Sg3I%} ;
 
 !! ## Rules
 Rules
@@ -63,19 +67,28 @@ Rules
 
 ! ! Rules for transitive conjugations
 "Transitive present habitual vowell harmony"
-%{TrsA%}:Vx <=> .#. n _ %{TrsK%}: %<: ( %<: ) Vy ;
+%{TrsA%}:Vx <=> .#. n _ %{TrsK%}: %<: ( %<: ) Vy: ;
         where Vy in ( a e i o u )
               Vx in ( a e i o u ) 
         matched ;
 
-!TODO
 "Transitive present habitual k deletion"
-%{TrsK%}:0 <=> .#. n %{TrsA%}: _ %<: %<: %{SetA.Sg1%}: %{SetA.Sg1%}: %<: ;
+%{TrsK%}:0 <=> .#. n %{TrsA%}: _ %<: %<: (q:) SetA: ;
 ! sik'+V+TV+Prs+SetB.Sg3+SetA.Sg1 n{TrsA}{TrsK}<<{SetA.Sg1}{SetA.Sg1}<sik'
-!                                 n0      0    << i         n        <sik'
+!                                 n 0      0    << i         n        <sik'
 
 "TrsA > 0 before SetB.Sg3 and SetA.Sg1"
 %{TrsA%}:0 <=> .#. n _ %{TrsK%}: %<: %<: %{SetA.Sg1%}: %{SetA.Sg1%}: %<: Cns;
+
+"TrsA > a before SetB.Sg3 and SetA.Sg3"
+%{TrsA%}:a <=> .#. n _ %{TrsK%}: %<: %<: %{Sg3I%}: %{SetA.Sg3%}: %<: Cns;
+! sik'+V+TV+Prs+SetB.Sg3+SetA.Sg3 n{TrsA}{TrsK}<<{Sg3I}{SetA.Sg3}<sik'
+!                                 n a     0    << 0      x        <sik' 
+
+"TrsA > a before SetB.Sg3 and SetA.Pl1"
+%{TrsA%}:a <=> .#. n _ %{TrsK%}: %<: %<: q: %{SetA.Pl1%}: %<: Cns;
+! sik'+V+TV+Prs+SetB.Sg3+SetA.Pl1 n{TrsA}{TrsK}<<q{SetA.Pl1}<sik'
+!                                 n a     0    <<q a        <sik' 
 
 !Set A first Person singular
 "Set A first person pre-consonantal rule 1"
@@ -99,11 +112,14 @@ Rules
 %{SetA.Sg2%}:0 <=> a a _ %<: Cns ;
 
 !Set A third person singular
-"Set A second person singular pre-vocalic"
+"Set A third person singular pre-vocalic"
 %{SetA.Sg3%}:r <=> _ %<: Vow ;
 
-"Set A second person singular pre-consonantal"
+"Set A third person singular pre-consonantal"
 %{SetA.Sg3%}:x <=> _ %<: Cns ;
+
+"i between Set B 1Sg and Set A third person singular"
+%{Sg3I%}:i <=> i: n: %<: _ %{SetA.Sg3%}: ;
 
 !Set A Second person plural
 "Set A second person plural pre-vocalic"
