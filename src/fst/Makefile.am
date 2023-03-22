@@ -32,7 +32,10 @@ LEXD_FILES=\
 		stems/nouns.lexd \
 		stems/pronouns.lexd \
 		affixes/pronouns.lexd \
-		affixes/verbs.lexd
+		affixes/verbs.lexd \
+		affixes/adjectives.lexd \
+		affixes/determiners.lexd \
+		affixes/nouns.lexd
 
 lexicon.tmp.lexd: $(GT_LEXD_ROOT) $(LEXD_FILES)
 	$(AM_V_GEN)cat $^ > $@

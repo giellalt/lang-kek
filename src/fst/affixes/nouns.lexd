@@ -1,0 +1,11 @@
+PATTERN Noun_Possession
+# Noun Class I
+Class_I [<N>:]
+
+# Noun Class II
+:Abreviated_Determiner :Set_A Class_II [<N>:] Abreviated_Determiner: Set_A:
+:Set_A Class_II [<N>:] Set_A:
+
+# Noun Class III
+:Set_A Class_III [<N>:] Set_A:
+Class_III [<N>:] [<Unposs>:b'ej]
