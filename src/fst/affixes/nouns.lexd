@@ -4,7 +4,11 @@ Class_I [<N>:]
 
 # Noun Class II
 :Abreviated_Determiner :Set_A Class_II [<N>:] Abreviated_Determiner: Set_A:
-:Set_A Class_II [<N>:] Set_A:
+:Set_A Class_II [<N><Sg>:] Set_A:
+:Set_A Class_II [<N>:] Set_A: Pluralizer
+:Abreviated_Determiner:Set_A Class_II [<N><Sn>:] Set_A: Pluralizer
+Class_II: [<N><Sg>:] :Class_II
+Class_II: [<N>:] :Class_II Pluralizer
 
 # Noun Class III
 :Set_A Class_III [<N>:] Set_A:

@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+  Noun - jolom - ok : # test for possessive forms of noun jolom
+    jolom+N+Sg: jolom
+    jolom+N+Pl: jolomeb'
+    jolom+N+Sg+SetA.Sg1: injolom
+    jolom+N+SetA.Sg1+Pl: injolomeb'
+    jolom+N+Sg+SetA.Sg2: aajolom
+    jolom+N+SetA.Sg2+Pl: aajolomeb'
+    jolom+N+Sg+SetA.Sg3: xjolom
+    jolom+N+SetA.Sg3+Pl: xjolomeb'
+    jolom+N+Sg+SetA.Pl1: qajolom
+    jolom+N+SetA.Pl1+Pl: qajolomeb'
+    jolom+N+Sg+SetA.Pl2: eejolom
+    jolom+N+SetA.Pl2+Pl: eejolomeb'
+    jolom+N+Art+Def+SetA.Sg1: linjolom
+    jolom+N+Sn+SetA.Sg1+Pl: linjolomeb'
+    jolom+N+Art+Def+SetA.Sg2: laajolom
+    jolom+N+Sn+SetA.Sg2+Pl: laajolomeb'
+    jolom+N+Art+Def+SetA.Pl2: leejolom
+    jolom+N+Sn+SetA.Pl2+Pl: leejolomeb'
+    

@@ -1,0 +1,6 @@
+# LEXICON Female_names
+# /[A-Z]([a-z])+/
+
+# PATTERN Female_names
+# Feminine_Classifier [\#] Female_names [<N><Prop>:]
+
