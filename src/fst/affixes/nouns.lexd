@@ -1,6 +1,7 @@
 PATTERN Noun_Possession
 # Noun Class I
 Class_I [<N>:]
+Class_I [<N>:] Pluralizer
 
 # Noun Class II
 :Abreviated_Determiner :Set_A Class_II [<N>:] Abreviated_Determiner: Set_A:
@@ -13,3 +14,11 @@ Class_II: [<N>:] :Class_II Pluralizer
 # Noun Class III
 :Set_A Class_III [<N>:] Set_A:
 Class_III [<N>:] [<Unposs>:b'ej]
+Class_III [<N>:]
+
+# Noun Class IV
+
+# Noun Class V
+
+# Noun Class VI
+
