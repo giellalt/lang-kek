@@ -1,6 +1,6 @@
 PATTERN Noun_Possession
 # Noun Class I
-Class_I [<N>:]
+Class_I [<N><Sg>:]
 Class_I [<N>:] Pluralizer
 
 # Noun Class II
@@ -13,8 +13,23 @@ Class_II: [<N>:] :Class_II Pluralizer
 
 # Noun Class III
 :Set_A Class_III [<N>:] Set_A:
-Class_III [<N>:] [<Unposs>:b'ej]
-Class_III [<N>:]
+Class_III [<N><Sg>:] [<Unposs>:b'ej]
+Class_III [<N>:] [<Unposs>:b'ej] Pluralizer
+Class_III [<N><Sg>:]
+Class_III [<N>:] Pluralizer
+
+# Noun Class IV
+:Set_A Class_IV [<N><Sg>:] Set_A: [<Hum.Poss>:el]
+Abreviated_Determiner :Set_A Class_IV [<N><Sg>:] Set_A: [<Hum.Poss>:el]
+:Set_A Class_IV [<N><Sg>:] Set_A: [<Hum.Poss>:el] Pluralizer
+Abreviated_Determiner :Set_A Class_IV [<N><Sg>:] Set_A: [<Hum.Poss>:el] Pluralizer
+Class_IV [<N><Sg>:] [<Hum.Poss>:el]
+Class_IV [<N>:] [<Hum.Poss>:el] Pluralizer
+:Set_A Class_IV [<N><Sg>:] Set_A:
+Abreviated_Determiner :Set_A Class_IV [<N><Sg>:] Set_A:
+:Set_A Class_IV [<N>:] Set_A: Pluralizer
+Abreviated_Determiner :Set_A Class_IV [<N>:] Set_A: Pluralizer
+Class_IV [<N>:] Pluralizer
 
 
 
