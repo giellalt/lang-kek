@@ -1,8 +1,20 @@
 LEXICON Independent_Prefix
 laa'<Indep>:laa'
 
-PATTERN Independent_Pronouns #TODO they appear in the generator but not in the analyser, appears in hfst2text
+LEXICON Pronouns
+a'in # this
+a'wanle' # that on (over there)
+la # you singular
+maajun # noone
+maa'ani # no one
+qe # ours
+yu'yu # something
+
+PATTERN Independent_Pronouns
 Independent_Prefix :Set_B Set_B:
 [a'an<Indep><Sg3>:a'an\<]
 [a'an<Indep><Pl3>:a'an\<] :Pluralizer
 
+PATTERN Complete_Pronouns
+Pronouns [<Pro>:]
+[a'in<Pro>:a'in] Pluralizer
