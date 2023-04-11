@@ -2,6 +2,12 @@ LEXICON Stative_Verbs
 wan
 yoo
 
+LEXICON Stative_Mood
+<Real>:{RealK}
+<Irr>:{IrrA}q
+<Fut.Opt>:kaq
+<Fut.Dou>:qaq # doubt
+
 LEXICON Aspect(2)
 <Pst>:x\< :k
 <NarPst>:k{I}\< :k
@@ -24,8 +30,13 @@ PATTERN Transitive_Verbs
 :Aspect(1) [:\<] :Set_A Verbs(1) [:\>eb'] [<V><TV>:] Aspect(1): [<SetB.Sg3>:] Set_A: [<Pl>:]
 
 PATTERN Statives
-Stative_Verbs [:>k] :Set_B [<V><SV><Real>:] Set_B:
+Stative_Verbs :Stative_Mood :Set_B [<V><SV>:] Stative_Mood: Set_B:
 Stative_Verbs [:>k] [<V><SV><Inf>:]
-Stative_Verbs [:>q] :Set_B [<V><SV><Irr>:] Set_B:
 Stative_Verbs [<V><SV><Root>:]
 Stative_Verbs [<V><SV><SetB.Sg3>:]
+Stative_Verbs [:>k] [<V><SV><SetB.Sg3>:]
+
+Adjectives :Stative_Mood :Set_B [<Adj><SV>:] Stative_Mood: Set_B:
+Adjectives [<Adj>:]
+Adjectives [<Adj><SetB.Sg3>:]
+

@@ -34,9 +34,9 @@ LEXD_FILES=\
 		affixes/pronouns.lexd \
 		stems/proper_nouns.lexd \
 		affixes/verbs.lexd \
-		affixes/adjectives.lexd \
 		affixes/determiners.lexd \
-		affixes/nouns.lexd 
+		affixes/nouns.lexd \
+		stems/adjectives.lexd
 		
 
 lexicon.tmp.lexd: $(GT_LEXD_ROOT) $(LEXD_FILES)

@@ -29,6 +29,8 @@ Alphabet
 %{SetA.Pl1%}:a
 %{Sg3I%}:0
 %<:0
+%{RealK%}:0
+%{IrrA%}:0
 
  ;
 
@@ -36,6 +38,7 @@ Sets
 
  Vow = a e i o u ;
  Cns = b c h j k l m n p q r s t w x y z ' ;
+ Obs = b c j k p q t ;
 
  !Set A where k deletes in present tense transitives
  SetA = %{SetA.Sg1%} %{SetA.Sg3%} %{SetA.Pl1%} %{Sg3I%} ;
@@ -144,3 +147,19 @@ Rules
 !Intervocalic h
 "Intervocalic h"
 %<:h <=> :Vow _ :Vow ;
+
+!k in statives after vowells
+"Stative K Rule 1"
+%{RealK%}:k <=> :Vow _ ;
+
+!k in statives after n
+"Stative K Rule 2"
+%{RealK%}:k <=> :n _ ;
+
+!aq in statives after consonants
+"Stative aq Rule 1"
+%{IrrA%}:a <=> :Obs _ ;
+
+!aq in statives after consonants
+"Stative aq Rule 2"
+%{IrrA%}:0 <=> :n _ ;
