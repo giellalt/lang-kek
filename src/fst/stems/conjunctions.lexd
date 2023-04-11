@@ -1,0 +1,15 @@
+LEXICON Conjunctions
+ab'an
+ab'anan
+b'i'
+chi
+malaj
+naq
+naq
+ut
+wan
+wi
+
+PATTERN Complete_Conjunctions
+Conjunctions [<Conj>:] 
+

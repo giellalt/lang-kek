@@ -36,7 +36,12 @@ LEXD_FILES=\
 		affixes/verbs.lexd \
 		affixes/determiners.lexd \
 		affixes/nouns.lexd \
-		stems/adjectives.lexd
+		stems/adjectives.lexd \
+		stems/conjunctions.lexd \
+		stems/particles.lexd \
+		stems/toponyms.lexd \
+		stems/prepositions.lexd \
+		stems/interrogatives.lexd
 		
 
 lexicon.tmp.lexd: $(GT_LEXD_ROOT) $(LEXD_FILES)
