@@ -51,7 +51,9 @@ Ö (->) Ø,
 я́ (->) я, # Russian long vowel, accept short
 ё (->) е, # Russian long vowel, accept je pro jo
 ы́ (->) ы, # Russian long vowel, accept short
-ю́ (->) ю ] # Russian long vowel, accept short
+ю́ (->) ю, # Russian long vowel, accept short
+' (->) ’,
+' (->) %` ]
 
 # Q'eqchi' spellrelax
 .o. [ a (->) 0 || _ a ] # long vowell accept short
@@ -63,6 +65,7 @@ Ö (->) Ø,
 .o. [ o (->) 0 || _ o ] # long vowell accept short
 
 .o. [ u (->) 0 || _ u ] # long vowell accept short
+
 ;
 
 # Explanation:
