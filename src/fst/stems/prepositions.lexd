@@ -1,7 +1,16 @@
 LEXICON Prepositions
 chi
+choq'
+cho'q
 rochb'een
 sa'
+ru
+re
+rik'in
 
 PATTERN Complete_Prepositions
 Prepositions [<Prep>:]
+[chi<Prep>:chi] [\#] :Set_A [ix<N>:ix] Set_A:
+[chi<Prep>:chi] [\#] :Set_A [u<N>:u] Set_A:
+[chan<Part>:chan] [\#] :Set_A [u<N>:u] Set_A:
+

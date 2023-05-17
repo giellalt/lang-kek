@@ -32,9 +32,11 @@ PATTERN Transitive_Verbs
 PATTERN Statives
 Stative_Verbs :Stative_Mood :Set_B [<V><SV>:] Stative_Mood: Set_B:
 Stative_Verbs [:>k] [<V><SV><Inf>:]
+Stative_Verbs [:>k] [<V><SV>:] Pluralizer
 Stative_Verbs [<V><SV><Root>:]
 Stative_Verbs [<V><SV><SetB.Sg3>:]
 Stative_Verbs [:>k] [<V><SV><SetB.Sg3>:]
+Stative_Verbs [:>k] [<V><SV><SetB.Sg3>:] Pluralizer
 
 Adjectives :Stative_Mood :Set_B [<Adj><SV>:] Stative_Mood: Set_B:
 Adjectives [<Adj>:]
