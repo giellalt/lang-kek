@@ -31,6 +31,8 @@ Alphabet
 %<:0
 %{RealK%}:0
 %{IrrA%}:0
+%{ArtI%}:i
+
 
  ;
 
@@ -163,3 +165,11 @@ Rules
 !aq in statives after consonants
 "Stative aq Rule 2"
 %{IrrA%}:0 <=> :n _ ;
+
+!i in abreviated definite article before consonants
+"preconsonantal i in definite article" 
+%{ArtI%}:i <=> :l _ %< Cns ;
+
+!i in abreviated definite article before consonants
+"remove i in prevocalic contexts" 
+%{ArtI%}:0 <=> :l _ %< Vow ;

@@ -1,5 +1,5 @@
 LEXICON Abreviated_Determiner
-<Art><Def>:l\<
+<Art><Def>:l{ArtI}\<
 
 LEXICON Determiner
 li<Art><Def>:li # Definite article
@@ -14,8 +14,11 @@ PATTERN Uninflected_Determiners
 Determiner
 
 PATTERN Possessive_Determiners
-:Abreviated_Determiner [ART<Def><SetA.Sg1>:in]
-:Abreviated_Determiner [<ART<Def>SetA.Sg2>:aa]
-[ART<Def>:li] [<SetA.Sg3>:x]
-:Abreviated_Determiner [ART<Def><SetA.Pl2>:ee]
-:Abreviated_Determiner [ART<Def><SetA.Pl3>:e'x]
+:Abreviated_Determiner [li:] Abreviated_Determiner: [<SetA.Sg1>:in] 
+:Abreviated_Determiner [li:] Abreviated_Determiner: [<SetA.Sg2>:aa]
+:Abreviated_Determiner [li:] Abreviated_Determiner: [<SetA.Sg3>:x]
+:Abreviated_Determiner [li:] Abreviated_Determiner: [<SetA.Pl2>:ee]
+:Abreviated_Determiner [li:] Abreviated_Determiner: [<SetA.Pl3>:e'x]
+
+PATTERN Gendered_Articles
+:Abreviated_Determiner Gender_Classifiers Abreviated_Determiner:
