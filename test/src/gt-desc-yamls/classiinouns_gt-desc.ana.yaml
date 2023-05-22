@@ -21,10 +21,10 @@ Tests:
     jolom+N+SetA.Pl1+Pl: qajolomeb'
     jolom+N+Sg+SetA.Pl2: eejolom
     jolom+N+SetA.Pl2+Pl: eejolomeb'
-    jolom+N+Art+Def+SetA.Sg1: linjolom
-    jolom+N+Sn+SetA.Sg1+Pl: linjolomeb'
-    jolom+N+Art+Def+SetA.Sg2: laajolom
-    jolom+N+Sn+SetA.Sg2+Pl: laajolomeb'
-    jolom+N+Art+Def+SetA.Pl2: leejolom
-    jolom+N+Sn+SetA.Pl2+Pl: leejolomeb'
+    jolom+N+Sg+Art+Def+SetA.Sg1: linjolom
+    jolom+N+Art+Def+SetA.Sg1+Pl: linjolomeb'
+    jolom+N+Sg+Art+Def+SetA.Sg2: laajolom
+    jolom+N+Art+Def+SetA.Sg2+Pl: laajolomeb'
+    jolom+N+Sg+Art+Def+SetA.Pl2: leejolom
+    jolom+N+Art+Def+SetA.Pl2+Pl: leejolomeb'
     

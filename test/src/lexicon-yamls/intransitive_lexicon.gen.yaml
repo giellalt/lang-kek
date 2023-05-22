@@ -10,8 +10,8 @@ Config:
 Tests:
   Verb - intransitive verb - ok :     # Test for intransitive verb inflection
     #Infinitive
-    wa'+V+IV+Root: wa' # eat
-    wa'+V+IV+Inf: wa'>ak # to eat
+    wa'+V+Root: wa' # eat
+    wa'+V+Inf: wa'>ak # to eat
     #Present Tense
     #n-in-wa'-k
     wa'+V+IV+Prs+SetB.Sg1:  n{A}{K}<in<wa'>ak    # yo como/I eat

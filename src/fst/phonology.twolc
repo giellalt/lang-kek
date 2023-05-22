@@ -172,4 +172,8 @@ Rules
 
 !i in abreviated definite article before consonants
 "remove i in prevocalic contexts" 
-%{ArtI%}:0 <=> :l _ %< Vow ;
+%{ArtI%}:0 <=> :l _ %< :Vow ;
+
+! !i in abreviated definite article before archiphonemes
+! "remove i before SetA 1Sg" 
+! %{ArtI%}:0 <=> :l _ %< %{SetA.Sg1%} %{SetA.Sg1%} %<: ;

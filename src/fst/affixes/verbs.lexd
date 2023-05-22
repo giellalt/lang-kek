@@ -18,8 +18,8 @@ PATTERN Intransitive_Verbs
 [:n{A}{K}\<] :Set_B Verbs(1) [<V><IV><Prs>:] Set_B: [:>] :Verbs(2) [:k]
 :Aspect(1) :Set_B Verbs(1) [<V><IV>:] Aspect(1): Set_B: [:>] :Verbs(2) :Aspect(2)
 [:t{FutA}{FutA}\<] :Set_B Verbs(1) [<V><IV><Fut>:] Set_B: [:>] :Verbs(2) [:q]
-Verbs(1) [<V><IV><Inf>:] [:>] :Verbs(2) [:k]
-Verbs(1) [<V><IV><Root>:]
+Verbs(1) [<V><Inf>:] [:>] :Verbs(2) [:k]
+Verbs(1) [<V><Root>:]
 
 PATTERN Transitive_Verbs
 [:n{TrsA}{TrsK}\<] :Set_B :Set_A Verbs(1) [<V><TV><Prs>:] Set_B: Set_A:
