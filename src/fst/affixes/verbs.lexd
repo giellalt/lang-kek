@@ -16,10 +16,19 @@ LEXICON Aspect(2)
 
 PATTERN Intransitive_Verbs
 [:n{A}{K}\<] :Set_B Verbs(1) [<V><IV><Prs>:] Set_B: [:>] :Verbs(2) [:k]
+[:n{A}{K}\<] :Set_B Verbs(1) [<V><IV><Prs>:] Set_B: [:>] :Verbs(2) 
 :Aspect(1) :Set_B Verbs(1) [<V><IV>:] Aspect(1): Set_B: [:>] :Verbs(2) :Aspect(2)
+:Aspect(1) :Set_B Verbs(1) [<V><IV>:] Aspect(1): Set_B: [:>] :Verbs(2)
 [:t{FutA}{FutA}\<] :Set_B Verbs(1) [<V><IV><Fut>:] Set_B: [:>] :Verbs(2) [:q]
 Verbs(1) [<V><Inf>:] [:>] :Verbs(2) [:k]
 Verbs(1) [<V><Root>:]
+
+PATTERN Ruuk
+[:na] [ru<V><IV><SetB.Sg3><Prs>:ru]
+[:ki] [ru<V><IV><SetB.Sg3><NarPst>:ru]
+# the verb is regular in the future tense
+[:chi] [ru<V><IV><SetB.Sg3><Imp>:ru]
+[:mi] [ru<V><IV><SetB.Sg3><NegImp>:ru]
 
 PATTERN Transitive_Verbs
 [:n{TrsA}{TrsK}\<] :Set_B :Set_A Verbs(1) [<V><TV><Prs>:] Set_B: Set_A:
