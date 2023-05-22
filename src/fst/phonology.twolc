@@ -31,8 +31,10 @@ Alphabet
 %<:0
 %{RealK%}:0
 %{IrrA%}:0
+%{ArtI%}:0
 %{ArtI%}:i
-
+%{H%}:0
+%{H%}:h
 
  ;
 
@@ -173,4 +175,9 @@ Rules
 !i in abreviated definite article before consonants
 "remove i in prevocalic contexts" 
 %{ArtI%}:0 <=> :l _ %< :Vow ;
+
+!h in yehok
+"h between ye and ok in infinitive to say"
+%{H%}:h <=> :e _ %> :o ;
+
 
