@@ -1,0 +1,72 @@
+LEXICON Cardinal_Numbers
+maajun
+jun
+wiib'
+oxib'
+kaahib'
+oob'
+waqib'
+wuqub'
+waqxaqib'
+b'eleeb'
+lajeeb'
+junlaju
+kab'laju
+oxlaju
+kaalaju
+o'laju
+waqlaju
+wuqlaju
+waqxaqlaju
+b'eleelaju
+
+
+LEXICON Distributive_Numbers
+junqjunq
+ka'kab'
+ox'ox'
+kaaka
+o'otq
+waqitq
+wuqutq
+wajxaqitq
+b'eleetq
+lajeetq
+junqtaqlaju
+kab'taqlaju
+oxtaqlaju
+kataqlaju
+o'taqlaju
+waqtaqlaju
+wuqtaqlaju
+wajxaqtaqlaju
+b'eletaqlaju
+junmaytq
+
+LEXICON Ordinal_Numbers
+xb'een
+xkab'
+rox
+xka
+ro'
+xwaq
+xwuq
+xwaqxaq
+xb'elee
+xlajee
+xjunlajuil
+xkab'lajuil
+roxlajuil
+xkaalajuil
+ro'lajuil
+xwaqlajuil
+xwuqlajuil
+xwajxaqlajuil
+xb'ele'lajuil
+xjunmayil
+
+PATTERN Numbers
+Cardinal_Numbers [<Card>:]
+Ordinal_Numbers [<Ord>:]
+Distributive_Numbers [<Distr>:]
+

@@ -42,7 +42,8 @@ LEXD_FILES=\
 		stems/toponyms.lexd \
 		stems/prepositions.lexd \
 		stems/interrogatives.lexd \
-		stems/adverbs.lexd
+		stems/adverbs.lexd \
+		stems/numbers.lexd
 		
 
 lexicon.tmp.lexd: $(GT_LEXD_ROOT) $(LEXD_FILES)
