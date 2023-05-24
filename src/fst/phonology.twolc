@@ -184,7 +184,7 @@ Rules
 
 !h in yehok
 "h between ye and ok in infinitive to say"
-%{H%}:h <=> :Vow _ %> :o ;
+%{H%}:h <=> :Vow %> _ :o ;
 
 !b'ej suffix b' deletion after fricatives
 "first B deletion in after fricative"

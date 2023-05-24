@@ -20,6 +20,8 @@ wuqlaju
 waqxaqlaju
 b'eleelaju
 
+LEXICON Arabic_Numerals
+/(([,.])?([0-9])+)+/
 
 LEXICON Distributive_Numbers
 junqjunq
@@ -69,4 +71,5 @@ PATTERN Numbers
 Cardinal_Numbers [<Card>:]
 Ordinal_Numbers [<Ord>:]
 Distributive_Numbers [<Distr>:]
+Arabic_Numerals [<Num>:]
 

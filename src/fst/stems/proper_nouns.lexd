@@ -1382,6 +1382,9 @@ Yos
 Yubal
 Yéser
 
+# LEXICON Female_names
+# /x[A-ZÁÉÍÓÚ]([a-záéíóú])+/
+
 PATTERN Complete_Proper_Nouns
 Proper_Nouns [<PN>:]
-
+# Female_names [<Fem><PN>:]

@@ -23,6 +23,14 @@ PATTERN Intransitive_Verbs
 Verbs(1) [<V><Inf>:] [:>] :Verbs(2) [:k]
 Verbs(1) [<V><Root>:]
 
+[:n{A}{K}\<] :Set_B Short_Stems [<V><IV><Prs>:] Set_B: [:>] [:k]
+[:n{A}{K}\<] :Set_B Short_Stems [<V><IV><Prs>:] Set_B:
+:Aspect(1) :Set_B Short_Stems [<V><IV>:] Aspect(1): Set_B: [:>] :Aspect(2)
+:Aspect(1) :Set_B Short_Stems [<V><IV>:] Aspect(1): Set_B:
+[:t{FutA}{FutA}\<] Short_Stems [<V><IV><Fut>:] Set_B: [:>] [:q]
+Short_Stems [<V><Inf>:] [:>] [:k]
+Short_Stems [<V><Root>:]
+
 PATTERN Ruuk
 [:na] [ru<V><IV><SetB.Sg3><Prs>:ru]
 [:ki] [ru<V><IV><SetB.Sg3><NarPst>:ru]
@@ -50,4 +58,5 @@ Stative_Verbs [:>k] [<V><SV><SetB.Sg3>:] Pluralizer
 Adjectives :Stative_Mood :Set_B [<Adj><SV>:] Stative_Mood: Set_B:
 Adjectives [<Adj>:]
 Adjectives [<Adj><SetB.Sg3>:]
+
 
