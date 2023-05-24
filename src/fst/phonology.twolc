@@ -35,6 +35,9 @@ Alphabet
 %{ArtI%}:i
 %{H%}:0
 %{H%}:h
+%{B%}:0
+%{B%}:b
+%{B%}:'
 
  ;
 
@@ -42,7 +45,10 @@ Sets
 
  Vow = a e i o u ;
  Cns = b c h j k l m n p q r s t w x y z ' ;
- Obs = b c j k p q t ;
+ AqCns = b c j k p q t ' ;
+ Plo = b c k p q t ' ;
+ Fri = h j l m n r s z x ;
+
 
  !Set A where k deletes in present tense transitives
  SetA = %{SetA.Sg1%} %{SetA.Sg3%} %{SetA.Pl1%} %{Sg3I%} ;
@@ -162,7 +168,7 @@ Rules
 
 !aq in statives after consonants
 "Stative aq Rule 1"
-%{IrrA%}:a <=> :Obs _ ;
+%{IrrA%}:a <=> :AqCns _ ;
 
 !aq in statives after consonants
 "Stative aq Rule 2"
@@ -178,6 +184,19 @@ Rules
 
 !h in yehok
 "h between ye and ok in infinitive to say"
-%{H%}:h <=> :e _ %> :o ;
+%{H%}:h <=> :Vow _ %> :o ;
+
+!b'ej suffix b' deletion after fricatives
+"first B deletion in after fricative"
+%{B%}:0 <=> :Fri _ %{B%}: :e :j ;
+
+"second B deletion in after fricative"
+%{B%}:0 <=> :Fri %{B%}: _ :e :j ;
+
+"B becomes b after plosive"
+%{B%}:b <=> :Plo _ %{B%}: :e :j ;
+
+"second B becomes ' after plosive"
+%{B%}:' <=> :Plo %{B%}: _ :e :j ;
 
 
