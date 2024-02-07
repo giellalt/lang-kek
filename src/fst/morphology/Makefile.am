@@ -62,6 +62,10 @@ lexicon.tmp.hfst: lexicon.tmp.att
 lexicon.hfst: lexicon.tmp.hfst
 	$(AM_V_CP)cp $< $@
 
+# temp hack for some lexc bugs
+GENERATED_LEXC_SRCS=generated_files/mul-$(GLANG)-punctuation.lexc \
+					generated_files/mul-$(GLANG)-symbols.lexc
+
 # change handling of shared lexical data here:
 if HAVE_SHARED_COMMON
 .generated/url.tmp.lexc: $(gt_SHARED_common)/src/fst/url.lexc
