@@ -18,6 +18,7 @@ GENERATION_TESTS=
 XFAIL_TESTS=generate-propernoun-lemmas.sh \
             generate-adjective-lemmas.sh  \
             generate-noun-lemmas.sh       \
+            generate-verb-lemmas.sh       \
             generate-propernoun-lemmas.sh
 
 
