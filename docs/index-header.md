@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-kek)](https://github.com/giellalt/lang-kek/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-kek)](https://github.com/giellalt/lang-kek/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-kek?label=CI)](https://builds.giellalt.org/pipelines/lang-kek/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **Kekchí language model**. 
 
