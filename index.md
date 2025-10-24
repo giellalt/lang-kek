@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-kek%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-kek)](https://github.com/giellalt/lang-kek/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-kek)](https://github.com/giellalt/lang-kek/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-kek/main/badge.svg)](https://github.com/giellalt/lang-kek/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-kek?label=CI)](https://builds.giellalt.org/pipelines/lang-kek/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/kekc1242)
 
 This page documents the work on the **Kekchí language model**. 
 
