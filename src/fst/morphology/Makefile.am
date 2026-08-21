@@ -49,20 +49,20 @@ LEXD_FILES=\
 		stems/numbers.lexd
 		
 
-lexicon.tmp.lexd: $(GT_LEXD_ROOT) $(LEXD_FILES)
-	$(AM_V_GEN)cat $^ > $@
+.generated/lexicon.tmp.lexd: $(GENDIR) $(GT_LEXD_ROOT) $(LEXD_FILES)
+	$(AM_V_GEN)cat $(GT_LEXD_ROOT) $(LEXD_FILES) > $@
 
-lexicon.tmp.att: lexicon.tmp.lexd
+.generated/lexicon.tmp.att: .generated/lexicon.tmp.lexd
 	$(AM_V_LEXD)$(LEXD) $< $@
 
-lexicon.tmp.hfst: lexicon.tmp.att
+.generated/lexicon.tmp.hfst: .generated/lexicon.tmp.att
 	$(AM_V_GEN)cat $< \
 		| sed -E 's/\t<(@[A-Z]\.LEX\.[A-Za-z0-9]+@)>\t/\t\1\t/g' \
 		| sed -E 's/\t<([^\t]+)>\t/\t+\1\t/g' \
 		| $(HFST_TXT2FST) $(HFST_FORMAT) -o $@
 # first sed is <X> → +X
 
-lexicon.hfst: lexicon.tmp.hfst
+.generated/lexicon.hfst: .generated/lexicon.tmp.hfst
 	$(AM_V_CP)cp $< $@
 
 # temp hack for some lexc bugs
