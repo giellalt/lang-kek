@@ -28,9 +28,9 @@ endif
 
 ####### Morphology source file defs: ########
 
-GT_LEXD_ROOT=$(srcdir)/root.lexd
+GT_LEXD_ROOT=root.lexd
 
-LEXD_FILES=\
+GT_LEXD_SRCS=\
 		stems/verbs.lexd \
 		stems/nouns.lexd \
 		stems/pronouns.lexd \
@@ -49,25 +49,6 @@ LEXD_FILES=\
 		stems/numbers.lexd
 		
 
-.generated/lexicon.tmp.lexd: $(GENDIR) $(GT_LEXD_ROOT) $(LEXD_FILES)
-	$(AM_V_GEN)cat $(GT_LEXD_ROOT) $(LEXD_FILES) > $@
-
-.generated/lexicon.tmp.att: .generated/lexicon.tmp.lexd
-	$(AM_V_LEXD)$(LEXD) $< $@
-
-.generated/lexicon.tmp.hfst: .generated/lexicon.tmp.att
-	$(AM_V_GEN)cat $< \
-		| sed -E 's/\t<(@[A-Z]\.LEX\.[A-Za-z0-9]+@)>\t/\t\1\t/g' \
-		| sed -E 's/\t<([^\t]+)>\t/\t+\1\t/g' \
-		| $(HFST_TXT2FST) $(HFST_FORMAT) -o $@
-# first sed is <X> → +X
-
-.generated/lexicon.hfst: .generated/lexicon.tmp.hfst
-	$(AM_V_CP)cp $< $@
-
-# temp hack for some lexc bugs
-GENERATED_LEXC_SRCS=generated_files/mul-$(GLANG)-punctuation.lexc \
-					generated_files/mul-$(GLANG)-symbols.lexc
 
 # change handling of shared lexical data here:
 if HAVE_SHARED_COMMON
@@ -121,6 +102,7 @@ GIELLA_LOCAL_TARGETS=
 include $(srcdir)/Makefile.modifications-local.am
 include $(srcdir)/Makefile.modifications-phon.am
 include $(top_srcdir)/../giella-core/am-shared/src-morphology-dir-include.am
+include $(top_srcdir)/../giella-core/am-shared/lexd-include.am
 
 # vim: set ft=automake:
 include $(top_srcdir)/../giella-core/am-shared/devtest-include.am
